@@ -1,0 +1,14 @@
+{
+  "name": "blameyourbrother.com",
+  "version": "0.0.0",
+  "description": "Public Web site of Blame Your Brother",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blameyourbrother/blameyourbrother.github.io.git"
+  },
+  "author": "Chris Mendis <chris.mendis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blameyourbrother/blameyourbrother.github.io/issues"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "blameyourbrother.com",
+  "version": "0.0.0",
+  "homepage": "https://github.com/blameyourbrother/blameyourbrother.github.io",
+  "authors": [
+    "Chris Mendis <chris.mendis@gmail.com>"
+  ],
+  "description": "Public Web site of Blame Your Brother",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
