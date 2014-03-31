@@ -4,11 +4,12 @@ var rename = require('gulp-rename');
 var stylus = require('gulp-stylus');
 var build = require('gulp-build');
 var plumber = require('gulp-plumber');
+var connect = require('gulp-connect');
 var path = require('path');
 var fs = require('fs');
 var partialsConfig = [];
 
-gulp.task('default', ['clean', 'styles', 'buildPartialsConfig', 'html'], function () {
+gulp.task('default', ['clean', 'styles', 'buildPartialsConfig', 'html', 'server'], function () {
   gulp.watch('./src/styles/**/*.styl', ['styles']);
   gulp.watch('./src/partials/*.hbs', ['buildPartialsConfig', 'html']);
   gulp.watch('./src/templates/**/*.hbs', ['html']);
@@ -28,7 +29,8 @@ gulp.task('styles', function () {
       paths: [path.resolve(__dirname, 'bower_components'), path.resolve(__dirname, 'node_modules')],
       set: ['compress', 'linenos']
     }))
-    .pipe(gulp.dest('./assets/css'));
+    .pipe(gulp.dest('./assets/css'))
+    .pipe(connect.reload());
 });
 
 gulp.task('html', function () {
@@ -56,3 +58,13 @@ gulp.task('buildPartialsConfig', function () {
     });
   }
 });
+
+gulp.task('server', connect.server({
+  root: [__dirname],
+  port: 1337,
+  livereload: true,
+  open: {
+    file: 'index.html',
+    browser: 'Google Chrome'
+  }
+}));
