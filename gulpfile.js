@@ -8,10 +8,11 @@ var connect = require('gulp-connect');
 var path = require('path');
 var fs = require('fs');
 var partialsConfig = [];
+var layouts = {};
 
 gulp.task('default', ['clean', 'styles', 'buildPartialsConfig', 'html', 'server'], function () {
   gulp.watch('./src/styles/**/*.styl', ['styles']);
-  gulp.watch('./src/partials/*.hbs', ['buildPartialsConfig', 'html']);
+  gulp.watch(['./src/partials/*.hbs', '.src/layouts/*.hbs'], ['buildPartialsConfig', 'html']);
   gulp.watch('./src/templates/**/*.hbs', ['html']);
 });
 
@@ -36,7 +37,8 @@ gulp.task('styles', function () {
 gulp.task('html', function () {
   var data = require('./src/data.json');
   var options = {
-    partials: partialsConfig
+    partials: partialsConfig,
+    layout: fs.readFileSync(path.join(__dirname, 'src/layouts/default.hbs'), {encoding: 'utf8'})
   };
 
   gulp.src('./src/templates/**/*.hbs')
