@@ -47,7 +47,8 @@ gulp.task('html', function () {
     .pipe(rename({
       extname: '.html'
     }))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./'))
+    .pipe(connect.reload());
 });
 
 gulp.task('buildPartialsConfig', function () {
