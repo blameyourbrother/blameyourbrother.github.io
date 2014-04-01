@@ -1,0 +1,79 @@
+#footer {
+  @media $media-min-tablet {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid #c0c2c7;
+    clearfix();
+
+    .footer-item {
+      float: left;
+      height: 40px;
+      padding-right: 30px;
+      padding-left: 30px;
+      border-right: 1px solid #c2c4c9;
+      font-size: 12px;
+      text-transform: uppercase;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+
+    .contact-info, .address {
+      padding-top: 5px;
+    }
+
+    .social-links {
+      list-style: none;
+      margin: 0;
+      padding: 8px 30px 10px 0;
+    }
+
+    li {
+      display: inline-block;
+      width: 27px;
+      height: 27px;
+      margin: 0 3px 0 0;
+      line-height: 44px;
+
+      a {
+        display: block;
+        height: 27px;
+        overflow: hidden;
+        text-indent: -1000px;
+      }
+
+      &.facebook {
+        width: 28px;
+
+        a {
+          background: url('/assets/images/footer-facebook.png')
+        }
+      }
+
+      &.twitter {
+        a {
+          background: url('/assets/images/footer-twitter.png')
+        }
+      }
+
+      &.vimeo {
+        a {
+          background: url('/assets/images/footer-vimeo.png')
+        }
+      }
+
+      &.instagram {
+        width: 28px;
+
+        a {
+          background: url('/assets/images/footer-instagram.png')
+        }
+      }
+    }
+  }
+
+  @media $media-min-desktop {
+    padding: 25px 0;
+  }
+}
