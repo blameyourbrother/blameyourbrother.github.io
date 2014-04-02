@@ -14,6 +14,7 @@ gulp.task('default', ['clean', 'styles', 'buildPartialsConfig', 'html', 'server'
   gulp.watch('./src/styles/**/*.styl', ['styles']);
   gulp.watch(['./src/partials/*.hbs', '.src/layouts/*.hbs'], ['buildPartialsConfig', 'html']);
   gulp.watch('./src/templates/**/*.hbs', ['html']);
+  gulp.watch('./src/data.json', ['html']);
 });
 
 gulp.task('clean', function () {
