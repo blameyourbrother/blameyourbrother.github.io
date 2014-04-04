@@ -71,5 +71,12 @@
         }
       ]
     }
+  },
+  "reel": {
+    "hero": {
+      "embed": "<iframe src='//player.vimeo.com/video/90578341' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
+    },
+    "title": "Our Reel",
+    "description": "<p>Sit back, relax, and enjoy the show!</p>"
   }
 }

@@ -1,0 +1,17 @@
+<div id="reel">
+  {{> header}}
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-9 col-sm-9 left-col">
+        {{{ reel.hero.embed }}}
+      </div>
+      <div class="col-md-3 col-sm-3 right-col">
+        <h2>{{ reel.title }}</h2>
+        <div class="description">
+          {{{ reel.description }}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
