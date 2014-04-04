@@ -1,0 +1,58 @@
+#about {
+  .team-members {
+    margin-top: -30px;
+  }
+}
+
+.team-member {
+  @media $media-min-tablet {
+    position: relative;
+    margin-top: 30px;
+  }
+}
+
+.team-member-photo {
+  width: 100%;
+}
+
+.team-member-info {
+  @media $media-min-tablet {
+    position: absolute;
+    right: 17px;
+    bottom: 0;
+    left: 15px;
+    padding: 5px 0;
+    text-align: center;
+    background: rgba(#010d21, 0.6);
+  }
+}
+
+.team-member-name, .team-member-role, .team-member-title {
+  @media $media-min-tablet {
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+}
+
+.team-member-role, .team-member-title {
+  @media $media-min-tablet {
+    color: #d2d247;
+  }
+}
+
+.team-member-title {
+  @media $media-min-tablet {
+    font-size: 11px;
+    font-style: italic;
+
+    &:before, &:after {
+      content: "-";
+      display: inline;
+      padding: 0 5px;
+      font-style: italic;
+    }
+  }
+}

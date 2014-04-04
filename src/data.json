@@ -8,5 +8,68 @@
     },
     "title": "Let's Work Together",
     "description": "<p>Blame Your Brother is a boutique design and story - driven animation studio. We focus on 2D classical and 2D/3D digital animation, and illustrative design for commercial, short-format broadcast projects. We're a dedicated group of friends who like to push boundaries, tell stories, and entertain with great care.</p><p>Or swing on by and join us for a coffee. We look forward to meeting you.</p>"
+  },
+  "about": {
+    "heroImage": {
+      "src": "/assets/images/office.jpg",
+      "width": 612,
+      "height": 345,
+      "alt": "A view of the office of Blame Your Brother."
+    },
+    "title": "This is BYB",
+    "description": "<p>Blame Your Brother is a boutique design and story - driven animation studio. We focus on 2D classical and 2D/3D digital animation, and illustrative design for commercial, short-format broadcast projects. We're a dedicated group of friends who like to push boundaries, tell stories, and entertain with great care.</p><p>We love to bring our clients' stories to life in a fresh, compelling way.</p>",
+    "team": {
+      "title": "Our Team",
+      "members": [
+        {
+          "image": {
+            "src": "/assets/images/team-sample.jpg",
+            "width": 290,
+            "height": 290,
+            "alt": "Darren Donavan"
+          },
+          "name": "Darren Donavan",
+          "role": "Creative Director",
+          "title": "Partner",
+          "bio": "<p>Darren has worked in the animation industry for 15 years. His award-winning animation career began in the feature animated film world as an FX Artist/Animator at DreamWorks Feature Animation and Universal.</p>"
+        },
+        {
+          "image": {
+            "src": "/assets/images/team-sample.jpg",
+            "width": 290,
+            "height": 290,
+            "alt": "Geoff Donavan"
+          },
+          "name": "Geoff Donavan",
+          "role": "Creative Director",
+          "title": "Partner",
+          "bio": "<p>Darren has worked in the animation industry for 15 years. His award-winning animation career began in the feature animated film world as an FX Artist/Animator at DreamWorks Feature Animation and Universal.</p>"
+        },
+        {
+          "image": {
+            "src": "/assets/images/team-sample.jpg",
+            "width": 290,
+            "height": 290,
+            "alt": "Jason Boyer"
+          },
+          "name": "Jason Boyer",
+          "role": "Producer",
+          "title": "Partner",
+          "bio": "<p>Darren has worked in the animation industry for 15 years. His award-winning animation career began in the feature animated film world as an FX Artist/Animator at DreamWorks Feature Animation and Universal.</p>"
+        },
+        {
+          "image": {
+            "src": "/assets/images/team-sample.jpg",
+            "width": 290,
+            "height": 290,
+            "alt": "Gerry Duchemin"
+          },
+          "name": "Gerry Duchemin",
+          "role": "Animation Lead",
+          "title": "Talented Dude",
+          "bio": "<p>Darren has worked in the animation industry for 15 years. His award-winning animation career began in the feature animated film world as an FX Artist/Animator at DreamWorks Feature Animation and Universal.</p>"
+        }
+      ]
+    }
   }
 }
