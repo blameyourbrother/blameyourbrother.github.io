@@ -7,12 +7,13 @@ var plumber = require('gulp-plumber');
 var connect = require('gulp-connect');
 var path = require('path');
 var fs = require('fs');
+var hbsHelpers = require('./lib/hbs-helpers');
 var partialsConfig = [];
 var layouts = {};
 
 gulp.task('default', ['clean', 'styles', 'buildPartialsConfig', 'html', 'server'], function () {
   gulp.watch('./src/styles/**/*.styl', ['styles']);
-  gulp.watch(['./src/partials/*.hbs', '.src/layouts/*.hbs'], ['buildPartialsConfig', 'html']);
+  gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', '.src/layouts/*.hbs'], ['buildPartialsConfig', 'html']);
   gulp.watch('./src/templates/**/*.hbs', ['html']);
   gulp.watch('./src/data.json', ['html']);
 });
