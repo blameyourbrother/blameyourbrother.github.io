@@ -15,7 +15,7 @@ gulp.task('default', ['clean', 'styles', 'buildPartialsConfig', 'html', 'server'
   gulp.watch('./src/styles/**/*.styl', ['styles']);
   gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', '.src/layouts/*.hbs'], ['buildPartialsConfig', 'html']);
   gulp.watch('./src/templates/**/*.hbs', ['html']);
-  gulp.watch('./src/data.json', ['html']);
+  gulp.watch('./src/data/data.json', ['html']);
 });
 
 gulp.task('clean', function () {
@@ -37,7 +37,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('html', function () {
-  var data = require('./src/data.json');
+  var data = JSON.parse(fs.readFileSync('./src/data/data.json'));
   var options = {
     partials: partialsConfig,
     layout: fs.readFileSync(path.join(__dirname, 'src/layouts/default.hbs'), {encoding: 'utf8'})
