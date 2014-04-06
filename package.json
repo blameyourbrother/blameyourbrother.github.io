@@ -20,6 +20,9 @@
     "gulp-clean": "~0.2.4",
     "gulp-rename": "~1.2.0",
     "gulp-build": "~0.5.2",
-    "gulp-connect": "~1.0.10"
+    "gulp-connect": "~1.0.10",
+    "underscore": "~1.6.0",
+    "through2": "~0.4.1",
+    "handlebars": "~2.0.0-alpha.2"
   }
 }
