@@ -56,8 +56,7 @@ gulp.task('workHTML', function () {
       .pipe(plumber())
       .pipe(build(data, options))
       .pipe(rename({
-        basename: 'work',
-        suffix: '-' + workDatum.slug,
+        basename: workDatum.slug,
         extname: '.html'
       }))
       .pipe(gulp.dest('./work/'));
