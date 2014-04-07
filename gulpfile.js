@@ -7,6 +7,7 @@ var plumber = require('gulp-plumber');
 var connect = require('gulp-connect');
 var path = require('path');
 var fs = require('fs');
+var _ = require('lodash');
 var hbsHelpers = require('./lib/hbs-helpers');
 var partialsConfig = [];
 var layouts = {};
@@ -15,13 +16,13 @@ gulp.task('default', ['clean', 'styles', 'buildPartialsConfig', 'html', 'server'
   gulp.watch('./src/styles/**/*.styl', ['styles']);
   gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', '.src/layouts/*.hbs'], ['buildPartialsConfig', 'html']);
   gulp.watch('./src/templates/**/*.hbs', ['html']);
-  gulp.watch('./src/data/data.json', ['html']);
+  gulp.watch('./src/data/*.json', ['html']);
 });
 
 gulp.task('clean', function () {
   gulp.src('./assets/css', {read: false})
     .pipe(clean());
-  gulp.src(['./**/*.html', '!/assets/**/*.html', '!/src/**/*.html', '!/bower_components/**/*.html', '!/node_modules/**/*.html'])
+  gulp.src(['./*.html', './work/*.html'], {read: false})
     .pipe(clean());
 });
 
@@ -36,21 +37,48 @@ gulp.task('styles', function () {
     .pipe(connect.reload());
 });
 
-gulp.task('html', function () {
+gulp.task('html', ['workHTML', 'otherHTML'], function () {
+  connect.reload();
+});
+
+gulp.task('workHTML', function () {
   var data = JSON.parse(fs.readFileSync('./src/data/data.json'));
+  var workData = JSON.parse(fs.readFileSync('./src/data/work.json'));
   var options = {
+    helpers: hbsHelpers,
     partials: partialsConfig,
     layout: fs.readFileSync(path.join(__dirname, 'src/layouts/default.hbs'), {encoding: 'utf8'})
   };
 
-  gulp.src('./src/templates/**/*.hbs')
+  _.each(workData, function (workDatum, index) {
+    data.work = workDatum;
+    gulp.src('./src/templates/work.hbs')
+      .pipe(plumber())
+      .pipe(build(data, options))
+      .pipe(rename({
+        basename: 'work',
+        suffix: '-' + workDatum.slug,
+        extname: '.html'
+      }))
+      .pipe(gulp.dest('./work/'));
+  });
+});
+
+gulp.task('otherHTML', function () {
+  var data = JSON.parse(fs.readFileSync('./src/data/data.json'));
+  var options = {
+    helpers: hbsHelpers,
+    partials: partialsConfig,
+    layout: fs.readFileSync(path.join(__dirname, 'src/layouts/default.hbs'), {encoding: 'utf8'})
+  };
+
+  gulp.src(['./src/templates/**/*.hbs', '!./src/templates/work.hbs'])
     .pipe(plumber())
     .pipe(build(data, options))
     .pipe(rename({
       extname: '.html'
     }))
-    .pipe(gulp.dest('./'))
-    .pipe(connect.reload());
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('buildPartialsConfig', function () {

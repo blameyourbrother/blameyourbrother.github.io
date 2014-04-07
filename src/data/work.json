@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "crea",
+    "title": "CREA",
+    "subtitle": "How Commercial Realtors Help",
+    "type": "Animation",
+    "gridImage": {
+      "src": "/assets/images/work/sample/gridImage.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Sample image"
+    },
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+  }
+]
