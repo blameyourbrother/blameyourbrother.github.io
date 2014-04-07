@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width">
     <title>{{ page.title }}</title>
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+    {{#ifEqual __context.templateName 'work'}}
+    <link rel="stylesheet" href="../assets/css/main.css" type="text/css" charset="utf-8">
+    {{else}}
     <link rel="stylesheet" href="/assets/css/main.css" type="text/css" charset="utf-8">
+    {{/ifEqual}}
   </head>
 
   <body>
