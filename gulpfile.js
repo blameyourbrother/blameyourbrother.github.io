@@ -14,9 +14,9 @@ var layouts = {};
 
 gulp.task('default', ['clean', 'styles', 'buildPartialsConfig', 'html', 'server'], function () {
   gulp.watch('./src/styles/**/*.styl', ['styles']);
-  gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', '.src/layouts/*.hbs'], ['buildPartialsConfig', 'html']);
-  gulp.watch('./src/templates/**/*.hbs', ['html']);
-  gulp.watch('./src/data/*.json', ['html']);
+  gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', '.src/layouts/*.hbs'], ['buildPartialsConfig', 'rehtml']);
+  gulp.watch('./src/templates/**/*.hbs', ['rehtml']);
+  gulp.watch('./src/data/*.json', ['rehtml']);
 });
 
 gulp.task('clean', function () {
@@ -37,9 +37,12 @@ gulp.task('styles', function () {
     .pipe(connect.reload());
 });
 
-gulp.task('html', ['workHTML', 'otherHTML'], function () {
-  connect.reload();
+gulp.task('rehtml', ['workHTML', 'otherHTML'], function () {
+  gulp.src(['./*.html', './work/*.html'])
+    .pipe(connect.reload());
 });
+
+gulp.task('html', ['workHTML', 'otherHTML']);
 
 gulp.task('workHTML', function () {
   var data = JSON.parse(fs.readFileSync('./src/data/data.json'));
