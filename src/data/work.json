@@ -1,11 +1,115 @@
 [
   {
-    "slug": "crea",
+    "slug": "crea1",
     "title": "CREA",
     "subtitle": "How Commercial Realtors Help",
     "type": "Animation",
     "gridImage": {
-      "src": "/assets/images/work/sample/gridImage.jpg",
+      "src": "/assets/images/work/sample/grid.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Sample image"
+    },
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+  },
+  {
+    "slug": "crea2",
+    "title": "CREA",
+    "subtitle": "How Commercial Realtors Help",
+    "type": "Animation",
+    "gridImage": {
+      "src": "/assets/images/work/sample/grid.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Sample image"
+    },
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+  },
+  {
+    "slug": "crea3",
+    "title": "CREA",
+    "subtitle": "How Commercial Realtors Help",
+    "type": "Animation",
+    "gridImage": {
+      "src": "/assets/images/work/sample/grid.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Sample image"
+    },
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+  },
+  {
+    "slug": "crea4",
+    "title": "CREA",
+    "subtitle": "How Commercial Realtors Help",
+    "type": "Animation",
+    "gridImage": {
+      "src": "/assets/images/work/sample/grid.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Sample image"
+    },
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+  },
+  {
+    "slug": "crea5",
+    "title": "CREA",
+    "subtitle": "How Commercial Realtors Help",
+    "type": "Animation",
+    "gridImage": {
+      "src": "/assets/images/work/sample/grid.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Sample image"
+    },
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+  },
+  {
+    "slug": "crea6",
+    "title": "CREA",
+    "subtitle": "How Commercial Realtors Help",
+    "type": "Animation",
+    "gridImage": {
+      "src": "/assets/images/work/sample/grid.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Sample image"
+    },
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+  },
+  {
+    "slug": "crea7",
+    "title": "CREA",
+    "subtitle": "How Commercial Realtors Help",
+    "type": "Animation",
+    "gridImage": {
+      "src": "/assets/images/work/sample/grid.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Sample image"
+    },
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+  },
+  {
+    "slug": "crea8",
+    "title": "CREA",
+    "subtitle": "How Commercial Realtors Help",
+    "type": "Animation",
+    "gridImage": {
+      "src": "/assets/images/work/sample/grid.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Sample image"
+    },
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+  },
+  {
+    "slug": "crea9",
+    "title": "CREA",
+    "subtitle": "How Commercial Realtors Help",
+    "type": "Animation",
+    "gridImage": {
+      "src": "/assets/images/work/sample/grid.jpg",
       "width": 279,
       "height": 279,
       "alt": "Sample image"
