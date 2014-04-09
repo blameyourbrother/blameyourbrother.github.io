@@ -10,6 +10,17 @@
         {{#ifEqual work.hero.type 'image'}}
         <img class="hero-image" src="{{ work.hero.src }}" alt="{{ work.hero.alt }}" style="max-width:{{ work.hero.width }}px">
         {{/ifEqual}}
+        <div class="work-gallery">
+          <div class="row">
+            {{#each work.gallery}}
+            <div class="work-gallery-item {{#ifEqual gridSize 1}}col-md-6 col-sm-6{{/ifEqual}}{{#ifEqual gridSize 2}}col-md-12{{/ifEqual}}">
+              <a href="#{{@index}}" class="gallery-cta">
+                <img src="{{grid}}">
+              </a>
+            </div>
+            {{/each}}
+          </div>
+        </div>
       </div>
       <div class="col-md-3 col-sm-3 right-col">
         <h2>{{ work.title }}</h2>
