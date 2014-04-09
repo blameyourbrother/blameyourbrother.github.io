@@ -23,7 +23,7 @@
           {{#each about.team.members}}
             <div class="col-md-6 col-sm-6 team-member">
               <img class="team-member-photo" src="{{ image.src }}" style="max-width: {{ image.width }}px;" alt="{{ image.alt }}">
-              <div class="team-member-info">
+              <div class="team-member-info" style="max-width: {{ image.width }}px;">
                 <h3 class="team-member-name">{{ name }}</h3>
                 <p class="team-member-role">{{ role }}</p>
                 <p class="team-member-title">{{ title }}</p>
