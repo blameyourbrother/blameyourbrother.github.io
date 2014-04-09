@@ -1,5 +1,50 @@
 <div class="work">
   {{> header}}
 
-  <h1>{{work.title}}</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-9 col-sm-9 left-col">
+        {{#ifEqual work.hero.type 'iframe'}}
+        <iframe src="{{ work.hero.src }}" frameborder="0" height=" {{ work.hero.height }}" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        {{/ifEqual}}
+        {{#ifEqual work.hero.type 'image'}}
+        <img class="hero-image" src="{{ work.hero.src }}" alt="{{ work.hero.alt }}" style="max-width:{{ work.hero.width }}px">
+        {{/ifEqual}}
+      </div>
+      <div class="col-md-3 col-sm-3 right-col">
+        <h2>{{ work.title }}</h2>
+        <h3>{{ work.subtitle }}</h3>
+        <div class="description">
+          {{{ work.description }}}
+        </div>
+        <h4>Share is Nice</h4>
+        <ul class="work-share">
+          <li class="work-email">
+            <a href="#">Share via email</a>
+          </li>
+          <li class="work-twitter">
+            <a href="#">Share via Twitter</a>
+          </li>
+          <li class="work-facebook">
+            <a href="#">Share via Facebook</a>
+          </li>
+          <li class="work-pinterest">
+            <a href="#">Share via Pinterest</a>
+          </li>
+        </ul>
+        <div class="work-credits">
+          <span class="work-credits-toggle"></span>
+          <h4>Credits</h4>
+          <ul>
+            {{#each work.credits}}
+            <li>
+              <h5>{{ role }}</h5>
+              <p>{{ name }}</p>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

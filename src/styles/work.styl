@@ -1,0 +1,138 @@
+.work {
+  @media $media-min-tablet {
+    h2 {
+      padding: 0;
+      color: #d2d247;
+      border: none;
+    }
+
+    h3 {
+      padding: 0 20px 10px 0;
+      font-weight: bold;
+      border-bottom: 1px solid #c0c2c7;
+    }
+
+    h4 {
+      margin: 0;
+      font-size: 15px;
+      line-height: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .description {
+      p {
+        padding: 0;
+      }
+    }
+
+    .work-share {
+      margin: 0;
+      padding: 10px 0 15px;
+      border-bottom: 1px solid #c0c2c7;
+
+      li {
+        display: inline-block;
+        margin: 0 3px 0 0;
+        width: 27px;
+        height: 27px;
+
+        &.work-email {
+          a {
+            background: url(/assets/images/work-email.png) left top no-repeat;
+            background-size: contain;
+          }
+        }
+
+        &.work-twitter {
+          a {
+            background: url(/assets/images/footer-twitter.png) left top no-repeat;
+            background-size: contain;
+          }
+        }
+
+        &.work-facebook {
+          a {
+            background: url(/assets/images/footer-facebook.png) left top no-repeat;
+            background-size: contain;
+          }
+        }
+
+        &.work-pinterest {
+          a {
+            background: url(/assets/images/work-pin.png) left top no-repeat;
+            background-size: contain;
+          }
+        }
+      }
+
+      a {
+        display: block;
+        width: 27px;
+        height: 27px;
+        overflow: hidden;
+        text-indent: -1000px;
+      }
+    }
+
+    .work-credits {
+      position: relative;
+      padding: 0 0 5px;
+      border-bottom: 1px solid #c0c2c7;
+
+      &.open {
+        .work-credits-toggle:after {
+          display: none;
+        }
+
+        ul {
+          display: block;
+        }
+      }
+
+      h4 {
+        line-height: 40px;
+      }
+
+      ul {
+        display: none;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      h5 {
+        margin: 15px 0 5px;
+        font-weight: bold;
+      }
+    }
+
+    .work-credits-toggle {
+      position: absolute;
+      right 0;
+      top: 9px;
+      width: 23px;
+      height: 23px;
+      cursor: pointer;
+
+      &:before {
+        content: "";
+        position: relative;
+        top: 50%;
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: #020d1f;
+      }
+
+      &:after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 100%;
+        margin: 0 auto;
+        background: #020d1f;
+      }
+    }
+  }
+}

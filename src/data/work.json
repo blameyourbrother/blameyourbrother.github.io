@@ -10,7 +10,38 @@
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "hero": {
+      "type": "iframe",
+      "src": "//player.vimeo.com/video/76452402",
+      "height": 345
+    },
+    "credits": [
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "crea_office_1",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      },
+      {
+        "slug": "crea_office_2",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      }
+    ]
   },
   {
     "slug": "crea2",
@@ -23,7 +54,38 @@
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "hero": {
+      "type": "iframe",
+      "src": "//player.vimeo.com/video/76452402",
+      "height": 345
+    },
+    "credits": [
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "crea_office_1",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      },
+      {
+        "slug": "crea_office_2",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      }
+    ]
   },
   {
     "slug": "crea3",
@@ -36,7 +98,38 @@
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "hero": {
+      "type": "iframe",
+      "src": "//player.vimeo.com/video/76452402",
+      "height": 345
+    },
+    "credits": [
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "crea_office_1",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      },
+      {
+        "slug": "crea_office_2",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      }
+    ]
   },
   {
     "slug": "crea4",
@@ -49,7 +142,38 @@
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "hero": {
+      "type": "iframe",
+      "src": "//player.vimeo.com/video/76452402",
+      "height": 345
+    },
+    "credits": [
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "crea_office_1",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      },
+      {
+        "slug": "crea_office_2",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      }
+    ]
   },
   {
     "slug": "crea5",
@@ -62,7 +186,38 @@
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "hero": {
+      "type": "iframe",
+      "src": "//player.vimeo.com/video/76452402",
+      "height": 345
+    },
+    "credits": [
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "crea_office_1",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      },
+      {
+        "slug": "crea_office_2",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      }
+    ]
   },
   {
     "slug": "crea6",
@@ -75,7 +230,38 @@
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "hero": {
+      "type": "iframe",
+      "src": "//player.vimeo.com/video/76452402",
+      "height": 345
+    },
+    "credits": [
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "crea_office_1",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      },
+      {
+        "slug": "crea_office_2",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      }
+    ]
   },
   {
     "slug": "crea7",
@@ -88,7 +274,38 @@
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "hero": {
+      "type": "iframe",
+      "src": "//player.vimeo.com/video/76452402",
+      "height": 345
+    },
+    "credits": [
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "crea_office_1",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      },
+      {
+        "slug": "crea_office_2",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      }
+    ]
   },
   {
     "slug": "crea8",
@@ -101,7 +318,38 @@
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "hero": {
+      "type": "iframe",
+      "src": "//player.vimeo.com/video/76452402",
+      "height": 345
+    },
+    "credits": [
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "crea_office_1",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      },
+      {
+        "slug": "crea_office_2",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      }
+    ]
   },
   {
     "slug": "crea9",
@@ -114,6 +362,37 @@
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>"
+    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "hero": {
+      "type": "iframe",
+      "src": "//player.vimeo.com/video/76452402",
+      "height": 345
+    },
+    "credits": [
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      },
+      {
+        "name": "John Doe",
+        "role": "Best Boy"
+      }
+    ],
+    "gallery": [
+      {
+        "slug": "crea_office_1",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      },
+      {
+        "slug": "crea_office_2",
+        "grid": "/assets/images/work/sample/gallery-grid.jpg",
+        "full": "/assets/images/work/sample/gallery-full.jpg"
+      }
+    ]
   }
 ]
