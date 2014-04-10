@@ -12,17 +12,27 @@ var hbsHelpers = require('./lib/hbs-helpers');
 var partialsConfig = [];
 var layouts = {};
 
-gulp.task('default', ['clean', 'styles', 'buildPartialsConfig', 'html', 'server'], function () {
+vendorFiles = [
+  './bower_components/slick-carousel/slick/fonts/*',
+  './bower_components/slick-carousel/slick/slick.css',
+  './bower_components/slick-carousel/slick/slick.min.js',
+  './bower_components/jquery/dist/jquery.min.js'
+];
+
+gulp.task('default', ['clean', 'styles', 'buildPartialsConfig', 'html', 'vendor', 'server'], function () {
   gulp.watch('./src/styles/**/*.styl', ['styles']);
   gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', '.src/layouts/*.hbs'], ['buildPartialsConfig', 'rehtml']);
   gulp.watch('./src/templates/**/*.hbs', ['rehtml']);
   gulp.watch('./src/data/*.json', ['rehtml']);
 });
 
+gulp.task('vendor', function () {
+  gulp.src(vendorFiles, {base: 'bower_components'})
+    .pipe(gulp.dest('./assets/vendor'))
+});
+
 gulp.task('clean', function () {
-  gulp.src('./assets/css', {read: false})
-    .pipe(clean());
-  gulp.src(['./*.html', './work/*.html'], {read: false})
+  gulp.src(['./assets/css', './*.html', './work/*.html', './assets/vendor'], {read: false})
     .pipe(clean());
 });
 
