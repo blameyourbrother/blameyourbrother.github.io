@@ -8,6 +8,7 @@
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
     {{#ifEqual __context.templateName 'work'}}
     <link rel="stylesheet" href="../assets/css/main.css" type="text/css" charset="utf-8">
+    <link rel="stylesheet" href="../assets/vendor/slick-carousel/slick/slick.css" type="text/css" media="screen" charset="utf-8">
     {{else}}
     <link rel="stylesheet" href="/assets/css/main.css" type="text/css" charset="utf-8">
     {{/ifEqual}}
@@ -18,6 +19,12 @@
       {{> body}}
       {{> footer}}
     </div>
+
+  {{#ifEqual __context.templateName 'work'}}
+  <script type="text/javascript" charset="utf-8" src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="../assets/vendor/slick-carousel/slick/slick.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="../assets/javascript/work.js"></script>
+  {{/ifEqual}}
   </body>
 
 </html>

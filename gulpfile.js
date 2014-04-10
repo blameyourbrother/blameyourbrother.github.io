@@ -16,6 +16,7 @@ vendorFiles = [
   './bower_components/slick-carousel/slick/fonts/*',
   './bower_components/slick-carousel/slick/slick.css',
   './bower_components/slick-carousel/slick/slick.min.js',
+  './bower_components/slick-carousel/slick/ajax-loader.gif',
   './bower_components/jquery/dist/jquery.min.js'
 ];
 
