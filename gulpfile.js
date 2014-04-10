@@ -25,6 +25,11 @@ gulp.task('default', ['clean', 'styles', 'buildPartialsConfig', 'html', 'vendor'
   gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', '.src/layouts/*.hbs'], ['buildPartialsConfig', 'rehtml']);
   gulp.watch('./src/templates/**/*.hbs', ['rehtml']);
   gulp.watch('./src/data/*.json', ['rehtml']);
+  gulp.watch('./assets/javascript/**/*.js', function (ev) {
+    if (ev.type === 'changed') {
+      gulp.src(ev.path).pipe(connect.reload());
+    }
+  });
 });
 
 gulp.task('vendor', function () {
