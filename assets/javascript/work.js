@@ -21,4 +21,8 @@ $(document).ready(function () {
     $target.hide().css('opacity', 0);
     $('.work-slideshow').unslick();
   });
+
+  $('.work-credits-toggle').on('click', function (ev) {
+    $(ev.target).closest('.work-credits').toggleClass('open');
+  });
 });
