@@ -35,8 +35,10 @@ gulp.task('dev', function (cb) {
 // can reload the specific files that have changed.
 gulp.task('watch', function (cb) {
   gulp.watch('./src/styles/**/*.styl', ['styles']);
-  gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', '.src/layouts/*.hbs'], ['buildPartialsConfig', 'rehtml']);
-  gulp.watch(['.src/layouts/*.hbs', './src/templates/**/*.hbs', './src/data/*.json'], ['rehtml']);
+  gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', './src/layouts/*.hbs'], function (ev) {
+    runSequence('buildPartialsConfig', 'rehtml');
+  });
+  gulp.watch(['./src/templates/**/*.hbs', './src/data/*.json'], ['rehtml']);
   gulp.watch('./assets/javascript/**/*.js', function (ev) {
     if (ev.type === 'changed') {
       gulp.src(ev.path).pipe(connect.reload());
