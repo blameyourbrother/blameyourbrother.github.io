@@ -25,5 +25,9 @@
     "through2": "~0.4.1",
     "handlebars": "~2.0.0-alpha.2",
     "lodash": "~2.4.1"
+  },
+  "dependencies": {
+    "run-sequence": "~0.3.6",
+    "event-stream": "~3.1.1"
   }
 }

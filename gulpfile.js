@@ -4,6 +4,8 @@ var rename = require('gulp-rename');
 var stylus = require('gulp-stylus');
 var build = require('./lib/gulp-build');
 var plumber = require('gulp-plumber');
+var runSequence = require('run-sequence');
+var eventStream = require('event-stream');
 var connect = require('gulp-connect');
 var path = require('path');
 var fs = require('fs');
@@ -20,30 +22,52 @@ vendorFiles = [
   './bower_components/jquery/dist/jquery.min.js'
 ];
 
-gulp.task('default', ['clean', 'styles', 'buildPartialsConfig', 'html', 'vendor', 'server'], function () {
+gulp.task('dev', function (cb) {
+  runSequence(
+    'build',
+    'watch',
+    'server',
+    cb
+  );
+});
+
+// TODO: Use run-sequence to run tasks from within watch callbacks, so that we
+// can reload the specific files that have changed.
+gulp.task('watch', function (cb) {
   gulp.watch('./src/styles/**/*.styl', ['styles']);
   gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', '.src/layouts/*.hbs'], ['buildPartialsConfig', 'rehtml']);
-  gulp.watch('./src/templates/**/*.hbs', ['rehtml']);
-  gulp.watch('./src/data/*.json', ['rehtml']);
+  gulp.watch(['.src/layouts/*.hbs', './src/templates/**/*.hbs', './src/data/*.json'], ['rehtml']);
   gulp.watch('./assets/javascript/**/*.js', function (ev) {
     if (ev.type === 'changed') {
       gulp.src(ev.path).pipe(connect.reload());
     }
   });
+  cb();
+});
+
+// TODO: Use gulp-changed or gulp-newer in the tasks themselves to only
+// process files that need to be processed.
+gulp.task('build', function (cb) {
+  runSequence(
+    'clean',
+    ['styles', 'buildPartialsConfig'],
+    ['html', 'vendor'],
+    cb
+  );
 });
 
 gulp.task('vendor', function () {
-  gulp.src(vendorFiles, {base: 'bower_components'})
+  return gulp.src(vendorFiles, {base: 'bower_components'})
     .pipe(gulp.dest('./assets/vendor'))
 });
 
 gulp.task('clean', function () {
-  gulp.src(['./assets/css', './*.html', './work/*.html', './assets/vendor'], {read: false})
+  return gulp.src(['./assets/css', './*.html', './work/*.html', './assets/vendor'], {read: false})
     .pipe(clean());
 });
 
 gulp.task('styles', function () {
-  gulp.src('./src/styles/main.styl')
+  return gulp.src('./src/styles/main.styl')
     .pipe(plumber())
     .pipe(stylus({
       paths: [path.resolve(__dirname, 'bower_components'), path.resolve(__dirname, 'node_modules')],
@@ -53,12 +77,17 @@ gulp.task('styles', function () {
     .pipe(connect.reload());
 });
 
-gulp.task('rehtml', ['workHTML', 'otherHTML'], function () {
-  gulp.src(['./*.html', './work/*.html'])
+gulp.task('rehtml', ['html'], function () {
+  return gulp.src(['./*.html', './work/*.html'])
     .pipe(connect.reload());
 });
 
-gulp.task('html', ['workHTML', 'otherHTML']);
+gulp.task('html', function (cb) {
+  runSequence(
+    ['workHTML', 'otherHTML'],
+    cb
+  );
+});
 
 gulp.task('workHTML', function () {
   var data = JSON.parse(fs.readFileSync('./src/data/data.json'));
@@ -69,17 +98,20 @@ gulp.task('workHTML', function () {
     layout: fs.readFileSync(path.join(__dirname, 'src/layouts/default.hbs'), {encoding: 'utf8'})
   };
 
-  _.each(workData, function (workDatum, index) {
-    data.work = workDatum;
-    gulp.src('./src/templates/work.hbs')
+  var workTasks = workData.map(function (workDatum, index) {
+    var _data = _.cloneDeep(data)
+    _data.work = workDatum;
+    return gulp.src('./src/templates/work.hbs')
       .pipe(plumber())
-      .pipe(build(data, options))
+      .pipe(build(_data, options))
       .pipe(rename({
         basename: workDatum.slug,
         extname: '.html'
       }))
       .pipe(gulp.dest('./work/'));
   });
+
+  return eventStream.merge.apply(null, workTasks);
 });
 
 gulp.task('otherHTML', function () {
@@ -92,7 +124,7 @@ gulp.task('otherHTML', function () {
     layout: fs.readFileSync(path.join(__dirname, 'src/layouts/default.hbs'), {encoding: 'utf8'})
   };
 
-  gulp.src(['./src/templates/**/*.hbs', '!./src/templates/work.hbs'])
+  return gulp.src(['./src/templates/**/*.hbs', '!./src/templates/work.hbs'])
     .pipe(plumber())
     .pipe(build(data, options))
     .pipe(rename({
@@ -101,7 +133,7 @@ gulp.task('otherHTML', function () {
     .pipe(gulp.dest('./'));
 });
 
-gulp.task('buildPartialsConfig', function () {
+gulp.task('buildPartialsConfig', function (cb) {
   var partialsList = fs.readdirSync(path.resolve(__dirname, 'src/partials'));
   for (var i = 0, j = partialsList.length; i < j; i++) {
     var filename = partialsList[i];
@@ -110,6 +142,7 @@ gulp.task('buildPartialsConfig', function () {
       tpl: fs.readFileSync(path.join(__dirname, 'src/partials', filename), {encoding: 'utf8'})
     });
   }
+  cb();
 });
 
 gulp.task('server', connect.server({
@@ -121,3 +154,9 @@ gulp.task('server', connect.server({
     browser: 'Google Chrome'
   }
 }));
+
+gulp.task('default', ['build'], function () {
+  console.log("You're changes have been compiled!");
+  console.log("You can now run `git commit` to commit your changes.");
+  console.log("After commiting, run `git push` to deploy your changes to the Web.");
+});
