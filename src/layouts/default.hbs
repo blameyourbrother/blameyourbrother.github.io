@@ -4,7 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-    <title>{{ page.title }}</title>
+    {{#ifEqual __context.templateName 'index'}}
+    <title>Blame Your Brother</title>
+    {{else}}
+      {{#ifEqual __context.templateName 'work'}}
+      <title>Blame Your Brother: {{ work.title }}</title>
+      {{else}}
+      <title>Blame Your Brother: {{metaForPage __context.templateName 'windowTitle'}}</title>
+      {{/ifEqual}}
+    {{/ifEqual}}
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
     {{#ifEqual __context.templateName 'work'}}
     <link rel="stylesheet" href="../assets/css/main.css" type="text/css" charset="utf-8">

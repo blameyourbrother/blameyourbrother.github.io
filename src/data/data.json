@@ -1,5 +1,8 @@
 {
   "contact": {
+    "meta": {
+      "windowTitle": "Contact Us"
+    },
     "heroImage": {
       "src": "/assets/images/map.jpg",
       "width": 612,
@@ -10,6 +13,9 @@
     "description": "<p>Blame Your Brother is a boutique design and story - driven animation studio. We focus on 2D classical and 2D/3D digital animation, and illustrative design for commercial, short-format broadcast projects. We're a dedicated group of friends who like to push boundaries, tell stories, and entertain with great care.</p><p>Or swing on by and join us for a coffee. We look forward to meeting you.</p>"
   },
   "about": {
+    "meta": {
+      "windowTitle": "About Us"
+    },
     "heroImage": {
       "src": "/assets/images/office.jpg",
       "width": 612,
@@ -73,6 +79,9 @@
     }
   },
   "reel": {
+    "meta": {
+      "windowTitle": "Our Reel"
+    },
     "hero": {
       "embed": "<iframe src='//player.vimeo.com/video/90578341' frameborder='0' height='345' webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>"
     },
