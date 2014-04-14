@@ -158,7 +158,7 @@ gulp.task('server', connect.server({
 }));
 
 gulp.task('default', ['build'], function () {
-  console.log("You're changes have been compiled!");
+  console.log("Your changes have been compiled!");
   console.log("You can now run `git commit` to commit your changes.");
   console.log("After commiting, run `git push` to deploy your changes to the Web.");
 });
