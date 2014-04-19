@@ -37,9 +37,11 @@ gulp.task('dev', function (cb) {
 gulp.task('watch', function (cb) {
   gulp.watch('./src/styles/**/*.styl', ['styles']);
   gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', './src/layouts/*.hbs'], function (ev) {
-    runSequence('buildPartialsConfig', 'rehtml');
+    runSequence('buildPartialsConfig', 'html', 'reloadAllHtml');
   });
-  gulp.watch(['./src/templates/**/*.hbs', './src/data/*.json'], ['rehtml']);
+  gulp.watch(['./src/templates/**/*.hbs', './src/data/*.json'], function (ev) {
+    runSequence('html', 'reloadAllHtml');
+  });
   gulp.watch('./assets/javascript/**/*.js', function (ev) {
     if (ev.type === 'changed') {
       gulp.src(ev.path).pipe(connect.reload());
@@ -80,7 +82,7 @@ gulp.task('styles', function () {
     .pipe(connect.reload());
 });
 
-gulp.task('rehtml', ['html'], function () {
+gulp.task('reloadAllHtml', function () {
   return gulp.src(['./*.html', './work/*.html'])
     .pipe(connect.reload());
 });
