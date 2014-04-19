@@ -3717,7 +3717,7 @@ h3{margin:0;font-family:'Futura';font-size:15px;line-height:24px;letter-spacing:
 /* line 138 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
 
 /* line 139 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
-#contact #header .contact a{color:#d2d247}
+.contact #header .contact a{color:#d2d247}
 /* line 146 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
 
 /* line 147 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
@@ -3725,7 +3725,7 @@ h3{margin:0;font-family:'Futura';font-size:15px;line-height:24px;letter-spacing:
 /* line 148 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
 
 /* line 149 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
-#home #header .work a{color:#d2d247}
+.index #header .work a{color:#d2d247}
 /* line 156 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
 
 /* line 157 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
@@ -3733,7 +3733,7 @@ h3{margin:0;font-family:'Futura';font-size:15px;line-height:24px;letter-spacing:
 /* line 158 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
 
 /* line 159 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
-#about #header .about a{color:#d2d247}
+.about #header .about a{color:#d2d247}
 /* line 166 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
 
 /* line 167 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
@@ -3741,7 +3741,7 @@ h3{margin:0;font-family:'Futura';font-size:15px;line-height:24px;letter-spacing:
 /* line 168 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
 
 /* line 169 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
-#reel #header .reel a{color:#d2d247}
+.reel #header .reel a{color:#d2d247}
 /* line 175 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/header.styl */
 
 /* line 175 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/footer.styl */

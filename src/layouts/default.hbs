@@ -20,8 +20,9 @@
     {{/ifEqual}}
   </head>
 
-  <body>
+  <body class="{{ __context.templateName }}">
     <div id="site-col">
+      {{> header}}
       {{> body}}
       {{> footer}}
     </div>
