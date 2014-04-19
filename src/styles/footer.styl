@@ -4,6 +4,7 @@
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
+  letter-spacing: 0.13em;
 
   .social-links {
     list-style: none;
@@ -67,11 +68,12 @@
     .footer-item {
       float: left;
       height: 40px;
-      padding-right: 30px;
-      padding-left: 30px;
+      padding-right: 15px;
+      padding-left: 15px;
       border-right: 1px solid #c2c4c9;
 
       &:last-child {
+        padding-right: 0;
         border-right: none;
       }
     }
@@ -89,5 +91,10 @@
 
   @media $media-min-desktop {
     padding: 25px 0;
+
+    .footer-item {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
   }
 }
