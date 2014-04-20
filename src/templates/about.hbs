@@ -17,6 +17,9 @@
     <div class="row">
       <div class="col-md-9 col-sm-9 left-col">
         <div class="row">
+          <div class="col-xs-12 visible-xs">
+            <h2>{{ about.team.title }}</h2>
+          </div>
           <div class="team-members">
           {{#each about.team.members}}
             <div class="col-md-6 col-sm-6 team-member">
@@ -24,14 +27,14 @@
               <div class="team-member-info" style="max-width: {{ image.width }}px;">
                 <h3 class="team-member-name">{{ name }}</h3>
                 <p class="team-member-role">{{ role }}</p>
-                <p class="team-member-title">{{ title }}</p>
+                <p class="team-member-title hidden-xs">{{ title }}</p>
               </div>
             </div>
           {{/each}}
           </div>
         </div>
       </div>
-      <div class="col-md-3 col-sm-3 right-col">
+      <div class="col-md-3 col-sm-3 right-col hidden-xs">
         <h2>{{ about.team.title }}</h2>
         <div class="description">
           {{{ about.team.members.0.bio }}}
