@@ -1,5 +1,6 @@
 #header {
 
+  margin-bottom: 20px;
   text-align: center;
 
   &.open {
@@ -13,7 +14,7 @@
   }
 
   .logo {
-    margin: 0 0 20px;
+    margin: 0;
     padding-top: 20px;
     padding-bottom: 25px;
     border-bottom: 1px solid #d9d9d9;
@@ -68,10 +69,11 @@
   }
 
   @media $media-min-tablet {
-    text-align: left;
+    margin-bottom: 0;
     padding-top: 30px;
     padding-bottom: 27px;
     border-bottom: 1px solid #c0c2c7;
+    text-align: left;
 
     &.open {
       ul {
