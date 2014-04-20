@@ -9,14 +9,30 @@ body {
 #site-col {
   width: 100%;
 
+  > main {
+    img {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
   @media $media-min-tablet {
     width: 90%;
     margin: 0 auto;
+
+    > main {
+      img {
+        display: inline;
+        margin: inherit;
+      }
+    }
   }
 
   @media $media-min-desktop {
     width: 900px;
   }
+
 }
 
 .line-break {
