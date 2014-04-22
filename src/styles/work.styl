@@ -44,8 +44,8 @@
     border-top: 1px solid #c0c2c7;
 
     &.open {
-      .work-credits-toggle:after {
-        display: none;
+      .work-credits-toggle {
+        rotate(45deg);
       }
 
       ul {
@@ -77,15 +77,16 @@
     width: 23px;
     height: 23px;
     cursor: pointer;
+    transition: transform 0.3s;
 
     &:before {
+      absolute: top 0 left 50%;
       content: "";
-      position: relative;
-      top: 50%;
       display: block;
-      width: 100%;
-      height: 1px;
-      background: #020d1f;
+      width: 1px;
+      height: 100%;
+      border-left: 1px solid #020d1f;
+      translate(-50%, 0);
     }
 
     &:after {
@@ -94,7 +95,8 @@
       width: 1px;
       height: 100%;
       margin: 0 auto;
-      background: #020d1f;
+      border-left: 1px solid #020d1f;
+      rotate(90deg);
     }
   }
 
@@ -123,6 +125,14 @@
       margin-top: 0;
       border-top: none;
       border-bottom: 1px solid #c0c2c7;
+
+      &.open {
+        border-bottom: none;
+      }
+
+      ul {
+        border-bottom: 1px solid #c0c2c7;
+      }
     }
 
     .work-gallery {

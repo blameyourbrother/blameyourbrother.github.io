@@ -3925,7 +3925,7 @@ h3{margin:0;font-family:'Futura';font-size:15px;line-height:24px;letter-spacing:
 /* line 46 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 
 /* line 47 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
-.work .work-credits.open .work-credits-toggle:after{display:none}
+.work .work-credits.open .work-credits-toggle{-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}
 /* line 51 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work .work-credits.open ul{display:block}
 /* line 56 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
@@ -3935,62 +3935,66 @@ h3{margin:0;font-family:'Futura';font-size:15px;line-height:24px;letter-spacing:
 /* line 67 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work .work-credits h5{margin:15px 0 5px;font-weight:bold}
 /* line 73 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
-.work .work-credits-toggle{position:absolute;right:0;top:8px;width:23px;height:23px;cursor:pointer;}
-/* line 81 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
-.work .work-credits-toggle:before{content:"";position:relative;top:50%;display:block;width:100%;height:1px;background:#020d1f}
-/* line 91 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
-.work .work-credits-toggle:after{content:"";display:block;width:1px;height:100%;margin:0 auto;background:#020d1f}@media (min-width:768px){
-/* line 102 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+.work .work-credits-toggle{position:absolute;right:0;top:8px;width:23px;height:23px;cursor:pointer;-webkit-transition:-webkit-transform 0.3s;-moz-transition:-moz-transform 0.3s;-o-transition:-o-transform 0.3s;-ms-transition:-ms-transform 0.3s;transition:transform 0.3s;}
+/* line 82 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+.work .work-credits-toggle:before{position:absolute;top:0;left:50%;content:"";display:block;width:1px;height:100%;border-left:1px solid #020d1f;-webkit-transform:translate(-50%, 0);-ms-transform:translate(-50%, 0);-webkit-transform:translate(-50%, 0);-moz-transform:translate(-50%, 0);-o-transform:translate(-50%, 0);-ms-transform:translate(-50%, 0);transform:translate(-50%, 0)}
+/* line 92 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+.work .work-credits-toggle:after{content:"";display:block;width:1px;height:100%;margin:0 auto;border-left:1px solid #020d1f;-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-o-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}@media (min-width:768px){
+/* line 104 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work h2{display:block;font-size:24px;line-height:31px}
-/* line 108 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 110 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work h3{display:block;padding:0 20px 10px 0;font-weight:bold;border-bottom:1px solid #c0c2c7}
-/* line 115 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
-.work .description{padding-bottom:0;}
 /* line 117 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+.work .description{padding-bottom:0;}
+/* line 119 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work .description p{padding:0}
-/* line 122 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
-.work .work-credits{margin-top:0;border-top:none;border-bottom:1px solid #c0c2c7}
-/* line 128 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
-.work .work-gallery{margin:25px 0 0;border-top:1px solid #c0c2c7}
+/* line 124 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+.work .work-credits{margin-top:0;border-top:none;border-bottom:1px solid #c0c2c7;}
+/* line 129 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+.work .work-credits.open{border-bottom:none}
 /* line 133 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+.work .work-credits ul{border-bottom:1px solid #c0c2c7}
+/* line 138 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+.work .work-gallery{margin:25px 0 0;border-top:1px solid #c0c2c7}
+/* line 143 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work .work-gallery-item{margin:30px 0 0;}
-/* line 136 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 146 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work .work-gallery-item img{max-width:100%}
-/* line 141 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 151 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work .work-slideshow-backdrop{display:none;opacity:0;filter:alpha(opacity=0);position:fixed;top:0;left:0;position:fixed;bottom:0;right:0;z-index:1;margin-left:0;margin-right:0;padding:0;background:rgba(1,13,33,0.85)}
-/* line 153 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
-.work .work-slideshow{position:absolute;top:50%;left:50%;width:90%;max-width:613px;margin-left:0;margin-right:0;-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);-moz-transform:translate(-50%, -50%);-o-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%);}
 /* line 163 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+.work .work-slideshow{position:absolute;top:50%;left:50%;width:90%;max-width:613px;margin-left:0;margin-right:0;-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);-webkit-transform:translate(-50%, -50%);-moz-transform:translate(-50%, -50%);-o-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%);}
+/* line 173 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work .work-slideshow button{width:35px;height:35px;}
-/* line 166 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
-.work .work-slideshow button:before{color:#010d21;font-size:35px}
-/* line 172 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
-.work .work-slideshow .slick-prev{left:25px}
 /* line 176 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+.work .work-slideshow button:before{color:#010d21;font-size:35px}
+/* line 182 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+.work .work-slideshow .slick-prev{left:25px}
+/* line 186 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work .work-slideshow .slick-next{right:25px}
-/* line 181 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 191 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work .work-slide{margin:0;padding:0}}
-/* line 188 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 198 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work-share{margin:17px 0 0;padding:15px 0 9px;border-top:1px solid #c0c2c7;border-bottom:1px solid #c0c2c7;}
-/* line 194 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 204 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work-share li{display:inline-block;margin:0 3px 0 0;width:27px;height:27px;}
-/* line 200 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 210 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 
-/* line 201 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 211 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work-share li.work-email a{background:url("/assets/images/work-email.png") left top no-repeat;-webkit-background-size:contain;-moz-background-size:contain;background-size:contain}
-/* line 207 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 217 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 
-/* line 208 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 218 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work-share li.work-twitter a{background:url("/assets/images/footer-twitter.png") left top no-repeat;-webkit-background-size:contain;-moz-background-size:contain;background-size:contain}
-/* line 214 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 224 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 
-/* line 215 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 225 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work-share li.work-facebook a{background:url("/assets/images/footer-facebook.png") left top no-repeat;-webkit-background-size:contain;-moz-background-size:contain;background-size:contain}
-/* line 221 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 231 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 
-/* line 222 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 232 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work-share li.work-pinterest a{background:url("/assets/images/work-pin.png") left top no-repeat;-webkit-background-size:contain;-moz-background-size:contain;background-size:contain}
-/* line 229 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 239 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work-share a{display:block;width:27px;height:27px;overflow:hidden;text-indent:-1000px}@media (min-width:768px){
-/* line 237 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
+/* line 247 : /Users/chrismendis/Development/blameyourbrother.github.io/src/styles/work.styl */
 .work-share{margin:0;padding:10px 0 15px;border-top:none}}
