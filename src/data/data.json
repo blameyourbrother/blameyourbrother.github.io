@@ -9,8 +9,8 @@
       "height": 345,
       "alt": "Find yourself the way to Blame Your Brother."
     },
-    "title": "Let's Work Together",
-    "description": "<p>Blame Your Brother is a boutique design and story - driven animation studio. We focus on 2D classical and 2D/3D digital animation, and illustrative design for commercial, short-format broadcast projects. We're a dedicated group of friends who like to push boundaries, tell stories, and entertain with great care.</p><p>Or swing on by and join us for a coffee. We look forward to meeting you.</p>"
+    "title": "Let's Chat.",
+    "description": "<p>We like to be where inspiration is readily available. It's why we've set up shop in the heart of Toronto's vibrant design district. It helps us stay connected to the creative community that's around every corner.</p><p>And with that in mind, we're always excited to meet new and like-minded individuals. So if you're close by, drop in for a coffee and a chat. It'll be cool.</p>"
   },
   "about": {
     "meta": {
@@ -22,10 +22,11 @@
       "height": 345,
       "alt": "A view of the office of Blame Your Brother."
     },
-    "title": "This is BYB",
-    "description": "<p>Blame Your Brother is a boutique design and story - driven animation studio. We focus on 2D classical and 2D/3D digital animation, and illustrative design for commercial, short-format broadcast projects. We're a dedicated group of friends who like to push boundaries, tell stories, and entertain with great care.</p><p>We love to bring our clients' stories to life in a fresh, compelling way.</p>",
+    "title": "Our Story.",
+    "description": "<p>Blame Your Brother Creative Workshop is a boutique animation and design studio. Based in Toronto, Ontario, we specialize in 2D classical and 2D/3D digital animation along with developing intellectual property for commercial and broadcast clients.</p><p>Our goal is to create compelling and entertaining work by combining the power of design with a story-driven message. Since we're an artist-owned shop, we also bring a personal touch to every project that walks through our door.</p><p>Though we're a locally-based shop, we've been lucky to build contacts that have a global reach. They're contacts that have been developed through years of working in the animation and advertising communities.</p>",
     "team": {
       "title": "Our Team",
+      "description": "<p>First thing's first. Yes, we're all friends. But friends that are in complete collaboration with each other. And though we have different skill sets – whether it's art direction, production or animation – we all believe in creating design and story-driven content. So we all push each other to do great work that's done with great care.</p>",
       "members": [
         {
           "image": {
@@ -36,8 +37,7 @@
           },
           "name": "Darren Donavan",
           "role": "Creative Director",
-          "title": "Partner",
-          "bio": "<p>Darren has worked in the animation industry for 15 years. His award-winning animation career began in the feature animated film world as an FX Artist/Animator at DreamWorks Feature Animation and Universal.</p>"
+          "title": "Partner"
         },
         {
           "image": {
@@ -48,8 +48,7 @@
           },
           "name": "Geoff Donavan",
           "role": "Creative Director",
-          "title": "Partner",
-          "bio": "<p>Darren has worked in the animation industry for 15 years. His award-winning animation career began in the feature animated film world as an FX Artist/Animator at DreamWorks Feature Animation and Universal.</p>"
+          "title": "Partner"
         },
         {
           "image": {
@@ -60,8 +59,7 @@
           },
           "name": "Jason Boyer",
           "role": "Producer",
-          "title": "Partner",
-          "bio": "<p>Darren has worked in the animation industry for 15 years. His award-winning animation career began in the feature animated film world as an FX Artist/Animator at DreamWorks Feature Animation and Universal.</p>"
+          "title": "Partner"
         },
         {
           "image": {
@@ -72,8 +70,7 @@
           },
           "name": "Gerry Duchemin",
           "role": "Animation Lead",
-          "title": "Talented Dude",
-          "bio": "<p>Darren has worked in the animation industry for 15 years. His award-winning animation career began in the feature animated film world as an FX Artist/Animator at DreamWorks Feature Animation and Universal.</p>"
+          "title": "Talented Dude"
         }
       ]
     }
