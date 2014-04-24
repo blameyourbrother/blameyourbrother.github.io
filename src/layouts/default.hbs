@@ -4,20 +4,29 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
+    <meta property="og:site_name" content="Blame Your Brother Creative Workshop">
     {{#ifEqual __context.templateName 'index'}}
     <title>Blame Your Brother</title>
+    <meta property="og:title" content="Blame Your Brother">
     {{else}}
       {{#ifEqual __context.templateName 'work'}}
       <title>Blame Your Brother: {{ work.title }}</title>
+      <meta property="og:title" content="Blame Your Brother: {{ work.title }}">
       {{else}}
       <title>Blame Your Brother: {{metaForPage __context.templateName 'windowTitle'}}</title>
+      <meta property="og:title" content="Blame Your Brother: {{metaForPage __context.templateName 'windowTitle'}}">
       {{/ifEqual}}
     {{/ifEqual}}
-    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
     <link rel="stylesheet" href="/assets/css/main.css" type="text/css" charset="utf-8">
     {{#ifEqual __context.templateName 'work'}}
     <link rel="stylesheet" href="/assets/vendor/slick-carousel/slick/slick.css" type="text/css" media="screen" charset="utf-8">
+    <meta property="og:url" content="http://blameyourbrother.github.io/work/{{work.slug}}.html">
+    <link rel="canonical" href="http://blameyourbrother.github.io/work/{{work.slug}}.html">
+    {{else}}
+    <meta property="og:url" content="http://blameyourbrother.github.io/{{__context.templateName}}.html">
+    <link rel="canonical" href="http://blameyourbrother.github.io/{{__context.templateName}}.html">
     {{/ifEqual}}
+    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
   </head>
 
   <body class="{{ __context.templateName }}">
@@ -34,6 +43,15 @@
   {{#ifEqual __context.templateName 'work'}}
   <script type="text/javascript" charset="utf-8" src="/assets/vendor/slick-carousel/slick/slick.min.js"></script>
   <script type="text/javascript" charset="utf-8" src="/assets/javascript/work.js"></script>
+  <script type="text/javascript">
+  (function(d){
+      var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+      p.type = 'text/javascript';
+      p.async = true;
+      p.src = '//assets.pinterest.com/js/pinit.js';
+      f.parentNode.insertBefore(p, f);
+  }(document));
+  </script>
   {{/ifEqual}}
   </body>
 

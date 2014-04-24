@@ -1,11 +1,11 @@
 [
   {
-    "slug": "crea1",
+    "slug": "crea",
     "title": "CREA",
     "subtitle": "How Commercial Realtors Help",
     "type": "Animation",
     "gridImage": {
-      "src": "/assets/images/work/sample/grid.jpg",
+      "src": "http://i.imgur.com/q5qhbo4.jpg",
       "width": 279,
       "height": 279,
       "alt": "Sample image"
@@ -18,224 +18,432 @@
     },
     "credits": [
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "BYB - Geoff Donovan, Darren Donovan",
+        "role": "Directed by"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Geoff Donovan",
+        "role": "Color Design"
+      },
+      {
+        "name": "Chad Hicks",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Jamie Mason",
+        "role": "Concept Layouts"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "James Walsh",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Michelle Trip, Chris Land, Jim Bryson, Mateusz Garbulinski",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "2D FX Animation"
+      },
+      {
+        "name": "Rune Entertainment",
+        "role": "Compositing/3D Animation"
+      },
+      {
+        "name": "RMW Music",
+        "role": "Sound Design + Mix"
+      },
+      {
+        "name": "UNION Creative",
+        "role": "Agency"
       }
     ],
     "gallery": [
       {
-        "slug": "crea_office_1",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-1.jpg",
+        "grid": "http://i.imgur.com/XIAliKa.jpg",
+        "full": "http://i.imgur.com/2un5U37.jpg",
         "gridSize": 1
       },
       {
-        "slug": "crea_office_2",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-2.jpg",
+        "grid": "http://i.imgur.com/h47U1wL.jpg",
+        "full": "http://i.imgur.com/HlIf5hk.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/g4eug9f.jpg",
+        "full": "http://i.imgur.com/6YeJ3qb.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/1iJxu5D.jpg",
+        "full": "http://i.imgur.com/XMtbSfe.jpg",
         "gridSize": 1
       }
     ]
   },
   {
-    "slug": "crea2",
-    "title": "CREA",
-    "subtitle": "How Commercial Realtors Help",
+    "slug": "ciniplex-holiday",
+    "title": "Ciniplex",
+    "subtitle": "Holiday",
     "type": "Animation",
     "gridImage": {
-      "src": "/assets/images/work/sample/grid.jpg",
+      "src": "http://i.imgur.com/3sGBpkR.jpg",
       "width": 279,
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "description": "<p>We recently had the chance to collaborate with the talented folks over at Rune Entertainment on a Cineplex Holiday spot. Have a happy and safe holiday season!</p>",
     "hero": {
       "type": "iframe",
-      "src": "//player.vimeo.com/video/76452402",
+      "src": "//player.vimeo.com/video/82563176",
       "height": 345
     },
     "credits": [
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Paul Wollenzien",
+        "role": "Director / Editor / Sr. Compositor"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Nancy Nor",
+        "role": "Producer"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Peter Nalli",
+        "role": "Art Director / Story Board Artist / Compositor"
+      },
+      {
+        "name": "Fraeya Pinto",
+        "role": "Sr. Designer"
+      },
+      {
+        "name": "Zane Kozak",
+        "role": "Sr. CG Artist"
+      },
+      {
+        "name": "Jon Lam",
+        "role": "Background Painter"
+      },
+      {
+        "name": "Chris Charlton",
+        "role": "Compositor"
+      },
+      {
+        "name": "Roman Volodin",
+        "role": "Compositor"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Character Animation Lead / Sr. FX Animator"
+      },
+      {
+        "name": "Geoffrey Donovan",
+        "role": "Character Colour"
+      },
+      {
+        "name": "Gerry Duchemin",
+        "role": "Sr. Character Animator"
+      },
+      {
+        "name": "Michelle Tripp",
+        "role": "Character Animator"
+      },
+      {
+        "name": "Mark Krupka, Ben Dover, Marla Kishimoto",
+        "role": "Original Music Composition, Sound Design & Final Mix"
       }
     ],
     "gallery": [
       {
-        "slug": "crea_office_1",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-1.jpg",
+        "grid": "http://i.imgur.com/98RBaAh.jpg",
+        "full": "http://i.imgur.com/qMpQIic.jpg",
         "gridSize": 1
       },
       {
-        "slug": "crea_office_2",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-2.jpg",
+        "grid": "http://i.imgur.com/AqCw8Y2.jpg",
+        "full": "http://i.imgur.com/4V7vgSr.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/G8OVbbY.jpg",
+        "full": "http://i.imgur.com/x5IdoEh.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/qtsI1eE.jpg",
+        "full": "http://i.imgur.com/wYYxYVa.jpg",
         "gridSize": 1
       }
     ]
   },
   {
-    "slug": "crea3",
-    "title": "CREA",
-    "subtitle": "How Commercial Realtors Help",
+    "slug": "morning-coffee",
+    "title": "BYB",
+    "subtitle": "Morning Coffee",
     "type": "Animation",
     "gridImage": {
-      "src": "/assets/images/work/sample/grid.jpg",
+      "src": "http://i.imgur.com/fAcZj7k.jpg",
       "width": 279,
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "description": "<p>A little BYB brand spot featuring a bit of our morning routine. We all wish we could have a never ending cup of coffee.</p>",
     "hero": {
       "type": "iframe",
-      "src": "//player.vimeo.com/video/76452402",
+      "src": "//player.vimeo.com/video/90578341",
       "height": 345
     },
     "credits": [
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "BYB",
+        "role": "Client"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "BYB - Geoff Donovan, Darren Donovan",
+        "role": "Directed by"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Darren Donovan, Geoff Donovan",
+        "role": "Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Darren Donovan, Gerry Duchemin",
+        "role": "Animation"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Color Design"
+      },
+      {
+        "name": "Antenna",
+        "role": "AEFX Composite"
+      },
+      {
+        "name": "Sebastian Breton",
+        "role": "Sound Design + Mix"
       }
     ],
     "gallery": [
       {
-        "slug": "crea_office_1",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-1.jpg",
+        "grid": "http://i.imgur.com/ThyyQLh.jpg",
+        "full": "http://i.imgur.com/TusFHUB.jpg",
         "gridSize": 1
       },
       {
-        "slug": "crea_office_2",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-2.jpg",
+        "grid": "http://i.imgur.com/fO5rsPM.jpg",
+        "full": "http://i.imgur.com/gCjKeab.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/iDpIsdw.jpg",
+        "full": "http://i.imgur.com/XusTDER.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/ouJpZxi.jpg",
+        "full": "http://i.imgur.com/tvmu1cs.jpg",
         "gridSize": 1
       }
     ]
   },
   {
-    "slug": "crea4",
-    "title": "CREA",
-    "subtitle": "How Commercial Realtors Help",
+    "slug": "gogos",
+    "title": "Gogo's",
+    "subtitle": "Crazy Bones Animated TV Spot",
     "type": "Animation",
     "gridImage": {
-      "src": "/assets/images/work/sample/grid.jpg",
+      "src": "http://i.imgur.com/lQZgW1i.jpg",
       "width": 279,
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "description": "<p>We had a ton of fun co-producing an international toy commercial for \"Gogo's Crazy Bones\" with our friends at Data Armada. BYB directed and created the animation while Data Armada shot and directed the live action portions of the spot. Having only less than one month to deliver a 30 and 15 second spot, we quickly put together our talented crew and went to work.</p><p>This post is a BYB directors cut only, featuring the animation, and not the final version of the aired commercial.</p>",
     "hero": {
       "type": "iframe",
-      "src": "//player.vimeo.com/video/76452402",
+      "src": "//player.vimeo.com/video/25429738",
       "height": 345
     },
     "credits": [
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "BYB - Geoff Donovan, Darren Donovan",
+        "role": "Directed by"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Jason Boyer",
+        "role": "Animation Producer"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Darren Donovan, James Walsh",
+        "role": "Design"
+      },
+      {
+        "name": "Chad Hicks",
+        "role": "Storyboard"
+      },
+      {
+        "name": "James Walsh",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Gerry Duchemin",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Layout"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "BG Painting"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "Sound Design + Mix"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Leica Editor"
+      },
+      {
+        "name": "Miles Davren",
+        "role": "Picture Edit"
       }
     ],
     "gallery": [
       {
-        "slug": "crea_office_1",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-1.jpg",
+        "grid": "http://i.imgur.com/sladeMF.jpg",
+        "full": "http://i.imgur.com/zUir8Ih.jpg",
         "gridSize": 1
       },
       {
-        "slug": "crea_office_2",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-2.jpg",
+        "grid": "http://i.imgur.com/GBMrya4.jpg",
+        "full": "http://i.imgur.com/28PvWTl.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/OvsAbYW.jpg",
+        "full": "http://i.imgur.com/L3totDz.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/m96vEFH.jpg",
+        "full": "http://i.imgur.com/QAKMElr.jpg",
         "gridSize": 1
       }
     ]
   },
   {
-    "slug": "crea5",
-    "title": "CREA",
-    "subtitle": "How Commercial Realtors Help",
+    "slug": "barber",
+    "title": "The Barber",
+    "subtitle": "Animated Short",
     "type": "Animation",
     "gridImage": {
-      "src": "/assets/images/work/sample/grid.jpg",
+      "src": "http://i.imgur.com/xxHcKy6.jpg",
       "width": 279,
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "description": "<p>In the spring of 2009, we had the honour of being selected to direct a short for the Teletoon animated TV pilot \"Dunce Bucket\". The ask was to choose a brief comedic VO &mdash; we selected from a list of 10 &mdash; and create a story and visual treatment based on what we heard.</p>",
     "hero": {
       "type": "iframe",
-      "src": "//player.vimeo.com/video/76452402",
+      "src": "//player.vimeo.com/video/22243743",
       "height": 345
     },
     "credits": [
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Teletoon",
+        "role": "Client"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "BYB - Geoff Donovan, Darren Donovan",
+        "role": "Directed by"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Darren Donovan + Amy Tepperman",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction / Background Design"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Colin Kelday",
+        "role": "Music"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "Sound Design + Mix"
+      },
+      {
+        "name": "Miles Davren",
+        "role": "Picture Edit"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Leica Editor"
+      },
+      {
+        "name": "KBSP",
+        "role": "Agency"
       }
     ],
     "gallery": [
       {
-        "slug": "crea_office_1",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-1.jpg",
+        "grid": "http://i.imgur.com/82YDUkV.jpg",
+        "full": "http://i.imgur.com/VrDK7Xx.jpg",
         "gridSize": 1
       },
       {
-        "slug": "crea_office_2",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-2.jpg",
+        "grid": "http://i.imgur.com/uhQQ615.jpg",
+        "full": "http://i.imgur.com/733evVq.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/niZjYrJ.jpg",
+        "full": "http://i.imgur.com/vmyFxcX.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/hwMDtdD.jpg",
+        "full": "http://i.imgur.com/eOXSUje.jpg",
         "gridSize": 1
       }
     ]
   },
   {
-    "slug": "crea6",
-    "title": "CREA",
-    "subtitle": "How Commercial Realtors Help",
+    "slug": "water-psa",
+    "title": "PSA",
+    "subtitle": "Water",
     "type": "Animation",
     "gridImage": {
-      "src": "/assets/images/work/sample/grid.jpg",
+      "src": "http://i.imgur.com/ThbdEpG.jpg",
       "width": 279,
       "height": 279,
       "alt": "Sample image"
@@ -243,50 +451,94 @@
     "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
     "hero": {
       "type": "iframe",
-      "src": "//player.vimeo.com/video/76452402",
+      "src": "//player.vimeo.com/video/34635186",
       "height": 345
     },
     "credits": [
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Ministry of Environment",
+        "role": "Client"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "BYB - Geoff Donovan, Darren Donovan",
+        "role": "Directed by"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Jason Boyer",
+        "role": "Animation Producer"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Paul Watling",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Darren Donovan, James Walsh",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Gerry Duchemin",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Layout Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "BG Painting"
+      },
+      {
+        "name": "Wanted! Sound + Picture",
+        "role": "Sound Design + Mix"
       }
     ],
     "gallery": [
       {
-        "slug": "crea_office_1",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-1.jpg",
+        "grid": "http://i.imgur.com/u8UdnAj.jpg",
+        "full": "http://i.imgur.com/XWGc4fO.jpg",
         "gridSize": 1
       },
       {
-        "slug": "crea_office_2",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-2.jpg",
+        "grid": "http://i.imgur.com/dXWd3H2.jpg",
+        "full": "http://i.imgur.com/UL1s11X.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/kEpayIk.jpg",
+        "full": "http://i.imgur.com/1s3hDx4.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/msiFAKs.jpg",
+        "full": "http://i.imgur.com/H43JnU3.jpg",
         "gridSize": 1
       }
     ]
   },
   {
-    "slug": "crea7",
-    "title": "CREA",
-    "subtitle": "How Commercial Realtors Help",
-    "type": "Animation",
+    "slug": "niagara-winery-tour",
+    "title": "Niagara",
+    "subtitle": "Winery Tour",
+    "type": "Illustration",
     "gridImage": {
-      "src": "/assets/images/work/sample/grid.jpg",
+      "src": "http://i.imgur.com/avMDp1U.jpg",
       "width": 279,
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "description": "<p>We helped out our lovely friends over at Narrative PR with a fun little map, illustrating a selection of wineries and vineyards to hit-up while bombing around Niagara-on-the-Lake.</p>",
     "hero": {
       "type": "iframe",
       "src": "//player.vimeo.com/video/76452402",
@@ -294,45 +546,37 @@
     },
     "credits": [
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Jackson - Triggs",
+        "role": "Client"
+      },
+      {
+        "name": "BYB",
+        "role": "Art Direction"
       },
       {
         "name": "John Doe",
-        "role": "Best Boy"
+        "role": "Illustration/Design"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Narrative PR",
+        "role": "Agency"
       }
     ],
     "gallery": [
-      {
-        "slug": "crea_office_1",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-1.jpg",
-        "gridSize": 1
-      },
-      {
-        "slug": "crea_office_2",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-2.jpg",
-        "gridSize": 1
-      }
     ]
   },
   {
-    "slug": "crea8",
-    "title": "CREA",
-    "subtitle": "How Commercial Realtors Help",
-    "type": "Animation",
+    "slug": "attack-of-the-b-movies",
+    "title": "Screenprint",
+    "subtitle": "Attack of the B-Movies",
+    "type": "Illustration",
     "gridImage": {
-      "src": "/assets/images/work/sample/grid.jpg",
+      "src": "http://i.imgur.com/nlz9C1e.jpg",
       "width": 279,
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "description": "<p>We had the pleasure of being asked to participate in a Toronto animation artists' group show called Attack of the B-Movies. The piece we created was a mash-up of a 1983 movie by the name of Spring Break and a 1985 horror movie called The Stuff (two of our favorites as kids). We asked ourselves, What would happen if the iconic Bellyflop Contest in Spring Break was sponsored by The Stuff? In our minds, It would go something like this. Each poster is 18x24, 7 color hand-pulled silkscreen print in an edition of 20.</p>",
     "hero": {
       "type": "iframe",
       "src": "//player.vimeo.com/video/76452402",
@@ -340,75 +584,95 @@
     },
     "credits": [
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "BYB",
+        "role": "Art Direction"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "BYB",
+        "role": "Illustration/Design"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Geoff Donovan, Darren Donovan, Mark Byk",
+        "role": "Hand-pulled By"
       }
     ],
     "gallery": [
-      {
-        "slug": "crea_office_1",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-1.jpg",
-        "gridSize": 1
-      },
-      {
-        "slug": "crea_office_2",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-2.jpg",
-        "gridSize": 1
-      }
     ]
   },
   {
-    "slug": "crea9",
-    "title": "CREA",
-    "subtitle": "How Commercial Realtors Help",
+    "slug": "ta2-sound-shape",
+    "title": "TA2",
+    "subtitle": "Brand ID Sound + Shape",
     "type": "Animation",
     "gridImage": {
-      "src": "/assets/images/work/sample/grid.jpg",
+      "src": "http://i.imgur.com/dl7ctX3.jpg",
       "width": 279,
       "height": 279,
       "alt": "Sample image"
     },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
+    "description": "<p>We were approached by the fine people over at TA2 Sound + Music to create an animated Brand ID. The concept? Exploration of story through sound and shape.</p>",
     "hero": {
       "type": "iframe",
-      "src": "//player.vimeo.com/video/76452402",
+      "src": "//player.vimeo.com/video/45327888",
       "height": 345
     },
     "credits": [
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "TA2 Sound + Music",
+        "role": "Client"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "BYB - Geoff Donovan, Darren Donovan",
+        "role": "Directed by"
       },
       {
-        "name": "John Doe",
-        "role": "Best Boy"
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Darren + Geoff",
+        "role": "Design"
+      },
+      {
+        "name": "Darren + Geoff",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Color Design"
+      },
+      {
+        "name": "Jamie Kaiser",
+        "role": "AEFX Composite"
+      },
+      {
+        "name": "TA2 Sound + Music",
+        "role": "Sound Design + Mix"
       }
     ],
     "gallery": [
       {
-        "slug": "crea_office_1",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-1.jpg",
+        "grid": "http://i.imgur.com/69ph7Jg.jpg",
+        "full": "http://i.imgur.com/DwA8Ga1.jpg",
         "gridSize": 1
       },
       {
-        "slug": "crea_office_2",
-        "grid": "/assets/images/work/sample/gallery-grid.jpg",
-        "full": "/assets/images/work/sample/gallery-full-2.jpg",
+        "grid": "http://i.imgur.com/IkG7KHW.jpg",
+        "full": "http://i.imgur.com/aZr6pyu.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/CNDbnmD.jpg",
+        "full": "http://i.imgur.com/HUbtRmA.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/KJbj5c6.jpg",
+        "full": "http://i.imgur.com/c7GHNAr.jpg",
         "gridSize": 1
       }
     ]

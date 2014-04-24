@@ -12,24 +12,32 @@
     border-top: 1px solid #c0c2c7;
   }
 
+  a {
+    color: #333;
+    text-decoration: none;
+
+    &[href^=tel] {
+      color: inherit;
+    }
+  }
+
   li {
     display: inline-block;
-    width: 27px;
-    height: 27px;
+    width: 29px;
+    height: 29px;
     margin: 0 3px 0 0;
     line-height: 44px;
 
     a {
       display: block;
-      height: 27px;
+      width: 29px;
+      height: 29px;
       overflow: hidden;
       text-indent: -1000px;
       background-repeat: no-repeat;
     }
 
     &.facebook {
-      width: 28px;
-
       a {
         background-image: url('/assets/images/footer-facebook.png')
       }
@@ -48,8 +56,6 @@
     }
 
     &.instagram {
-      width: 28px;
-
       a {
         background-image: url('/assets/images/footer-instagram.png')
       }

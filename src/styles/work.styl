@@ -60,13 +60,19 @@
     ul {
       display: none;
       margin: 0;
-      padding: 0;
+      padding: 0 0 10px;
       list-style: none;
     }
 
+    h5, p {
+      display: inline;
+      font: 12px/20px normal 'Gotham Book';
+    }
+
     h5 {
-      margin: 15px 0 5px;
-      font-weight: bold;
+      &:after {
+        content: ':';
+      }
     }
   }
 
@@ -170,6 +176,12 @@
       margin-right: 0;
       translate(-50%, -50%);
 
+      &:hover {
+        .slick-prev, .slick-next {
+          opacity: 1;
+        }
+      }
+
       button {
         width: 35px;
         height: 35px;
@@ -177,6 +189,11 @@
           color: #010d21;
           font-size: 35px;
         }
+      }
+
+      .slick-prev, .slick-next {
+        opacity: 0;
+        transition: opacity 0.5s;
       }
 
       .slick-prev {
@@ -204,8 +221,8 @@
   li {
     display: inline-block;
     margin: 0 3px 0 0;
-    width: 27px;
-    height: 27px;
+    width: 29px;
+    height: 29px;
 
     &.work-email {
       a {
@@ -230,7 +247,9 @@
 
     &.work-pinterest {
       a {
-        background: url(/assets/images/work-pin.png) left top no-repeat;
+        width: 29px !important;
+        height: 29px !important;
+        background: url(/assets/images/work-pin.png) left top no-repeat !important;
         background-size: contain;
       }
     }
@@ -238,8 +257,8 @@
 
   a {
     display: block;
-    width: 27px;
-    height: 27px;
+    width: 29px;
+    height: 29px;
     overflow: hidden;
     text-indent: -1000px;
   }

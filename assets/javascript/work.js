@@ -1,15 +1,25 @@
 $(document).ready(function () {
   $('.work-gallery').on('click', '.gallery-cta', function (ev) {
     ev.stopPropagation();
+    ev.preventDefault();
 
+    var galleryIndex = $(ev.currentTarget).data('gallery-index');
     var backdrop = $('.work-slideshow-backdrop').show();
-    $('.work-slideshow').slick({
-      onInit: function () {
-        backdrop.css('opacity', 1);
-      },
-      onReInit: function () {
-        backdrop.css('opacity', 1);
-      }
+    var $slideshow = $('.work-slideshow');
+    var init = function () {
+      backdrop.css('opacity', 1);
+      var attemptSlickGoTo = window.setInterval(function () {
+        try {
+          $slideshow.slickGoTo(galleryIndex);
+          window.clearInterval(attemptSlickGoTo);
+        } catch (e) {
+          // ignore error
+        }
+      }, 200);
+    };
+    $slideshow.slick({
+      onInit: init,
+      onReInit: init
     });
   });
 
