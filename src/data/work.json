@@ -540,9 +540,11 @@
     },
     "description": "<p>We helped out our lovely friends over at Narrative PR with a fun little map, illustrating a selection of wineries and vineyards to hit-up while bombing around Niagara-on-the-Lake.</p>",
     "hero": {
-      "type": "iframe",
-      "src": "//player.vimeo.com/video/76452402",
-      "height": 345
+      "type": "image",
+      "src": "/assets/images/work/niagara-winery-tour.jpg",
+      "width": 614,
+      "height": 787,
+      "alt": "An illustrated map of Niagara wineries."
     },
     "credits": [
       {
