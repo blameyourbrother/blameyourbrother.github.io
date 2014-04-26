@@ -20,7 +20,8 @@ vendorFiles = [
   './bower_components/slick-carousel/slick/slick.min.js',
   './bower_components/slick-carousel/slick/ajax-loader.gif',
   './bower_components/jquery/dist/jquery.min.js',
-  './bower_components/jquery/dist/jquery.min.map'
+  './bower_components/jquery/dist/jquery.min.map',
+  './bower_components/fastclick/lib/fastclick.js'
 ];
 
 gulp.task('dev', function (cb) {
