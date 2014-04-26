@@ -8,6 +8,7 @@
         {{#ifEqual work.hero.type 'image'}}
         <img class="hero-image" src="{{ work.hero.src }}" alt="{{ work.hero.alt }}" style="max-width:{{ work.hero.width }}px">
         {{/ifEqual}}
+        {{#if work.gallery}}
         <div class="work-gallery hidden-xs">
           <div class="row">
             {{#each work.gallery}}
@@ -19,6 +20,7 @@
             {{/each}}
           </div>
         </div>
+        {{/if}}
       </div>
       <div class="col-md-3 col-sm-3 right-col">
         <h2>{{ work.title }}</h2>
@@ -26,16 +28,16 @@
         <div class="work-sharing visible-xs">
           <ul class="work-share">
             <li class="work-email">
-              <a href="#">Share via email</a>
+              <a href="mailto:?subject={{encodeURLParam 'Check out this cool stuff from Blame Your Brother'}}&body={{encodeWorkPage work.slug}}" target="_blank">Share via email</a>
             </li>
             <li class="work-twitter">
-              <a href="#">Share via Twitter</a>
+              <a href="https://twitter.com/intent/tweet/?url={{encodeWorkPage work.slug}}&via=BlameYourBro&text={{encodeURLParam 'Check out this cool stuff!'}}" target="_blank">Share via Twitter</a>
             </li>
             <li class="work-facebook">
-              <a href="#">Share via Facebook</a>
+              <a href="http://www.facebook.com/sharer.php?u={{encodeWorkPage work.slug}}" target="_blank">Share via Facebook</a>
             </li>
             <li class="work-pinterest">
-              <a href="#">Share via Pinterest</a>
+              <a href="http://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark">Share via Pinterest</a>
             </li>
           </ul>
         </div>

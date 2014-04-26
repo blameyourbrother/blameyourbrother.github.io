@@ -28,14 +28,17 @@
     text-transform: uppercase;
   }
 
-  .description {
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #c0c2c7;
-  }
-
   .work-slide {
     margin: 5px 0 0;
+
+    &:first-child {
+      margin: 0;
+
+      img {
+        padding-top: 25px;
+        border-top: 1px solid #c0c2c7;
+      }
+    }
   }
 
   .work-credits {
@@ -121,7 +124,9 @@
     }
 
     .description {
-      padding-bottom: 0;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #c0c2c7;
+
       p {
         padding: 0;
       }
@@ -174,6 +179,9 @@
       max-width: 613px;
       margin-left: 0;
       margin-right: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      border-top: none;
       translate(-50%, -50%);
 
       &:hover {
@@ -208,6 +216,13 @@
     .work-slide {
       margin: 0;
       padding: 0;
+
+      &:first-child {
+        img {
+          padding-top: 0;
+          border-top: none;
+        }
+      }
     }
   }
 }
