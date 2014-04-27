@@ -6,19 +6,20 @@
     "heroImage": {
       "src": "/assets/images/map.jpg",
       "width": 612,
-      "height": 345,
+      "height": 361,
       "alt": "Find yourself the way to Blame Your Brother."
     },
     "title": "Let's Chat.",
-    "description": "<p>We like to be where inspiration is readily available. It's why we've set up shop in the heart of Toronto's vibrant design district. It helps us stay connected to the creative community that's around every corner.</p><p>And with that in mind, we're always excited to meet new and like-minded individuals. So if you're close by, drop in for a coffee and a chat. It'll be cool.</p>"
+    "description": "<p>We like to be where inspiration is readily available. It's why we've set up shop in the heart of Toronto's vibrant design district. It helps us stay connected to the creative community that's around every corner.</p><p>And with that in mind, we're always excited to meet new and like-minded individuals. So if you're close by, drop in for a coffee and a chat. It'll be cool.</p>",
+    "googlemap": "https://www.google.com/maps/place/96+Spadina+Ave/@43.646364,-79.395491,17z/data=!4m2!3m1!1s0x882b34dbc23fe02d:0xf5de5bbdbe4fa21"
   },
   "about": {
     "meta": {
       "windowTitle": "About Us"
     },
     "heroImage": {
-      "src": "/assets/images/office.jpg",
-      "width": 612,
+      "src": "http://i.imgur.com/0g6llPH.jpg",
+      "width": 613,
       "height": 345,
       "alt": "A view of the office of Blame Your Brother."
     },
@@ -30,9 +31,9 @@
       "members": [
         {
           "image": {
-            "src": "/assets/images/team-sample.jpg",
-            "width": 290,
-            "height": 290,
+            "src": "http://i.imgur.com/S0AcCIL.jpg",
+            "width": 289,
+            "height": 289,
             "alt": "Darren Donavan"
           },
           "name": "Darren Donavan",
@@ -41,9 +42,9 @@
         },
         {
           "image": {
-            "src": "/assets/images/team-sample.jpg",
-            "width": 290,
-            "height": 290,
+            "src": "http://i.imgur.com/v5F6xQ7.jpg",
+            "width": 289,
+            "height": 289,
             "alt": "Geoff Donavan"
           },
           "name": "Geoff Donavan",
@@ -52,9 +53,9 @@
         },
         {
           "image": {
-            "src": "/assets/images/team-sample.jpg",
-            "width": 290,
-            "height": 290,
+            "src": "http://i.imgur.com/dqufNJ5.jpg",
+            "width": 289,
+            "height": 289,
             "alt": "Jason Boyer"
           },
           "name": "Jason Boyer",
@@ -63,9 +64,9 @@
         },
         {
           "image": {
-            "src": "/assets/images/team-sample.jpg",
-            "width": 290,
-            "height": 290,
+            "src": "http://i.imgur.com/3h5CRC5.jpg",
+            "width": 289,
+            "height": 289,
             "alt": "Gerry Duchemin"
           },
           "name": "Gerry Duchemin",

@@ -573,16 +573,18 @@
     "subtitle": "Attack of the B-Movies",
     "type": "Illustration",
     "gridImage": {
-      "src": "http://i.imgur.com/nlz9C1e.jpg",
+      "src": "http://i.imgur.com/eMkEOTv.jpg",
       "width": 279,
-      "height": 279,
+      "height": 280,
       "alt": "Sample image"
     },
     "description": "<p>We had the pleasure of being asked to participate in a Toronto animation artists' group show called Attack of the B-Movies. The piece we created was a mash-up of a 1983 movie by the name of Spring Break and a 1985 horror movie called The Stuff (two of our favorites as kids). We asked ourselves, What would happen if the iconic Bellyflop Contest in Spring Break was sponsored by The Stuff? In our minds, It would go something like this. Each poster is 18x24, 7 color hand-pulled silkscreen print in an edition of 20.</p>",
     "hero": {
-      "type": "iframe",
-      "src": "//player.vimeo.com/video/76452402",
-      "height": 345
+      "type": "image",
+      "src": "/assets/images/work/attack-b-movies.png",
+      "width": 614,
+      "height": 820,
+      "alt": "The 'Attack of the B-Movies' poster by Blame Your Brother."
     },
     "credits": [
       {
