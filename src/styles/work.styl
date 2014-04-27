@@ -1,4 +1,8 @@
 .work-details {
+  .back-to-work {
+    display: none;
+  }
+
   h2, h3 {
     font-size: 15px;
     font-weight: 700;
@@ -110,8 +114,21 @@
   }
 
   @media $media-min-tablet {
+    .back-to-work {
+      display: block;
+      float: right;
+      width: 20px;
+      height: 19px;
+      overflow: hidden;
+      margin: 4px 0 0;
+      text-indent: -1000px;
+      background: url(/assets/images/back-to-grid@2x.png) left top no-repeat;
+      background-size: contain;
+    }
+
     h2 {
       display: block;
+      padding: 0 35px 0 0;
       font-size: 24px;
       line-height: 31px;
     }
