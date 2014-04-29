@@ -32,7 +32,7 @@ $(document).ready(function () {
     $('.work-slideshow').unslick();
   });
 
-  $('.work-credits-toggle').on('click', function (ev) {
+  $('.work-credits-toggle, .work-credits h4').on('click', function (ev) {
     $(ev.target).closest('.work-credits').toggleClass('open');
   });
 });

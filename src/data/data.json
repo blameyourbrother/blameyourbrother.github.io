@@ -81,6 +81,16 @@
           },
           "name": "Drew Frohmann",
           "role": "Writer"
+        },
+        {
+          "image": {
+            "src": "http://i.imgur.com/BNMlyzw.jpg",
+            "width": 289,
+            "height": 289,
+            "alt": "Lorimar"
+          },
+          "name": "Lorimar",
+          "role": "Intern"
         }
       ]
     }
