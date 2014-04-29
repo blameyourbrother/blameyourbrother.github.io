@@ -27,7 +27,9 @@
               <div class="team-member-info" style="max-width: {{ image.width }}px;">
                 <h3 class="team-member-name">{{ name }}</h3>
                 <p class="team-member-role">{{ role }}</p>
+                {{#if title}}
                 <p class="team-member-title hidden-xs">{{ title }}</p>
+                {{/if}}
               </div>
             </div>
           {{/each}}

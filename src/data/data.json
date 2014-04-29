@@ -9,7 +9,7 @@
       "height": 361,
       "alt": "Find yourself the way to Blame Your Brother."
     },
-    "title": "Let's Chat.",
+    "title": "Let's Chat",
     "description": "<p>We like to be where inspiration is readily available. It's why we've set up shop in the heart of Toronto's vibrant design district. It helps us stay connected to the creative community that's around every corner.</p><p>And with that in mind, we're always excited to meet new and like-minded individuals. So if you're close by, drop in for a coffee and a chat. It'll be cool.</p>",
     "googlemap": "https://www.google.com/maps/place/96+Spadina+Ave/@43.646364,-79.395491,17z/data=!4m2!3m1!1s0x882b34dbc23fe02d:0xf5de5bbdbe4fa21"
   },
@@ -23,7 +23,7 @@
       "height": 345,
       "alt": "A view of the office of Blame Your Brother."
     },
-    "title": "Our Story.",
+    "title": "Our Story",
     "description": "<p>Blame Your Brother is a boutique animation and design shop. Based in Toronto, Ontario, we specialize in 2D classical and 2D/3D digital animation along with developing intellectual property for commercial and broadcast clients.</p><p>Our goal is to create compelling and entertaining work by combining the power of design with a story-driven message. Since we're an artist-owned shop, we also bring a personal touch to every project that walks through our door.</p>",
     "team": {
       "title": "Our Team",
@@ -70,8 +70,17 @@
             "alt": "Gerry Duchemin"
           },
           "name": "Gerry Duchemin",
-          "role": "Animation Lead",
-          "title": "Talented Dude"
+          "role": "Animation Lead"
+        },
+        {
+          "image": {
+            "src": "http://i.imgur.com/6txiSVM.jpg",
+            "width": 289,
+            "height": 289,
+            "alt": "Drew Frohmann"
+          },
+          "name": "Drew Frohmann",
+          "role": "Writer"
         }
       ]
     }
