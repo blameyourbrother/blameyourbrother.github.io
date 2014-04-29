@@ -166,7 +166,14 @@ h2 {
 
   .right-col {
     float: right;
-    width: 267px;
+    max-width: none;
+    width: 282px;
     padding-left: 0;
+
+    p {
+      &:last-child {
+        margin: 0;
+      }
+    }
   }
 }
