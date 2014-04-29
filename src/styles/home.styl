@@ -2,10 +2,6 @@
 
   text-align: center;
 
-  > .container-fluid {
-    padding: 0;
-  }
-
   .work-item {
     margin-bottom: 17px;
   }
@@ -40,6 +36,11 @@
 
   @media $media-min-tablet {
     text-align: left;
+
+    > .container-fluid {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
 
     .work-item {
       position: relative;
