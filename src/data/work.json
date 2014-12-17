@@ -1,5 +1,95 @@
 [
   {
+    "slug": "omers",
+    "title": "OMERS",
+    "subtitle": "Defined Benefit Pension Plan",
+    "type": "Animation",
+    "gridImage": {
+      "src": "http://i.imgur.com/QZEeIAr.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Example image for OMERS"
+    },
+    "description": "The fine folks over at Omers asked us to help them send a message to their members in a fun and stylized animated spot. We had the opportunity to help shape the story from script to final execution.",
+    "hero": {
+      "type": "iframe",
+      "src": "//player.vimeo.com/video/109963403",
+      "height": 345
+    },
+    "credits": [
+      {
+        "name": "BYB - Geoff Donovan, Darren Donovan",
+        "role": "Directed by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Color Design"
+      },
+      {
+        "name": "Darren Donovan / Geoff Donovan",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoffrey Donovan, Martin Smith",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "James Walsh",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Sean Branigan, Chris Land, Gerry Duchemin, Darren Donovan",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "2D FX Animation"
+      },
+      {
+        "name": "Nathan Day, Drew MacEachern",
+        "role": "Compositing"
+      },
+      {
+        "name": "Tattoo Sound and Music",
+        "role": "Sound"
+      },
+      {
+        "name": "Blame Your Brother",
+        "role": "Agency"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "http://i.imgur.com/Miuj1UA.jpg",
+        "full": "http://i.imgur.com/CbLYib4.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/qsUOoPO.jpg",
+        "full": "http://i.imgur.com/RF8tXVX.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/iXxCoYr.jpg",
+        "full": "http://i.imgur.com/9yzd3iz.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/0xtuYvp.jpg",
+        "full": "http://i.imgur.com/j0YeA49.jpg",
+        "gridSize": 1
+      }
+    ]
+  },
+  {
     "slug": "crea",
     "title": "CREA",
     "subtitle": "How Commercial Realtors Help",
@@ -8,7 +98,7 @@
       "src": "http://i.imgur.com/q5qhbo4.jpg",
       "width": 279,
       "height": 279,
-      "alt": "Sample image"
+      "alt": "Example image for Cineplex for CREA"
     },
     "description": "<p>We love working with the talented folks over at Union Creative. So when asked to create an animated spot for Canadian Realtors Association, we were very excited. The final spot fluidly describes \"How Commercial Realtors Help\".</p>",
     "hero": {
@@ -98,7 +188,7 @@
       "src": "http://i.imgur.com/3sGBpkR.jpg",
       "width": 279,
       "height": 279,
-      "alt": "Sample image"
+      "alt": "Example image for Morning Coffee for Cineplex"
     },
     "description": "<p>We recently had the chance to collaborate with the talented folks over at Rune Entertainment on a Cineplex Holiday spot. Have a happy and safe holiday season!</p>",
     "hero": {
@@ -192,7 +282,7 @@
       "src": "http://i.imgur.com/fAcZj7k.jpg",
       "width": 279,
       "height": 279,
-      "alt": "Sample image"
+      "alt": "Example image for Morning Coffee"
     },
     "description": "<p>A little BYB brand spot featuring a bit of our morning routine. We all wish we could have a never ending cup of coffee.</p>",
     "hero": {
@@ -266,7 +356,7 @@
       "src": "http://i.imgur.com/lQZgW1i.jpg",
       "width": 279,
       "height": 279,
-      "alt": "Sample image"
+      "alt": "Example image for The Barber for Gogo's Crazy Bones"
     },
     "description": "<p>We had a ton of fun co-producing an international toy commercial for \"Gogo's Crazy Bones\" with our friends at Data Armada. BYB directed and created the animation while Data Armada shot and directed the live action portions of the spot. Having only less than one month to deliver a 30 and 15 second spot, we quickly put together our talented crew and went to work.</p><p>This post is a BYB directors cut only, featuring the animation, and not the final version of the aired commercial.</p>",
     "hero": {
@@ -360,7 +450,7 @@
       "src": "http://i.imgur.com/xxHcKy6.jpg",
       "width": 279,
       "height": 279,
-      "alt": "Sample image"
+      "alt": "Example image for Water PSA for The Barber"
     },
     "description": "<p>In the spring of 2009, we had the honour of being selected to direct a short for the Teletoon animated TV pilot \"Dunce Bucket\". The ask was to choose a brief comedic VO &mdash; we selected from a list of 10 &mdash; and create a story and visual treatment based on what we heard.</p>",
     "hero": {
@@ -446,7 +536,7 @@
       "src": "http://i.imgur.com/ThbdEpG.jpg",
       "width": 279,
       "height": 279,
-      "alt": "Sample image"
+      "alt": "Example image for NiagaNiagara for Water PSA"
     },
     "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
     "hero": {
@@ -536,7 +626,7 @@
       "src": "http://i.imgur.com/avMDp1U.jpg",
       "width": 279,
       "height": 279,
-      "alt": "Sample image"
+      "alt": "Example image for Attack of the B-Movies Screenprint for Niagara Winery Tour"
     },
     "description": "<p>We helped out our lovely friends over at Narrative PR with a fun little map, illustrating a selection of wineries and vineyards to hit-up while bombing around Niagara-on-the-Lake.</p>",
     "hero": {
@@ -576,7 +666,7 @@
       "src": "http://i.imgur.com/eMkEOTv.jpg",
       "width": 279,
       "height": 280,
-      "alt": "Sample image"
+      "alt": "Example image for TA2 for Attack of the B-Movies Screenprint"
     },
     "description": "<p>We had the pleasure of being asked to participate in a Toronto animation artists' group show called Attack of the B-Movies. The piece we created was a mash-up of a 1983 movie by the name of Spring Break and a 1985 horror movie called The Stuff (two of our favorites as kids). We asked ourselves, What would happen if the iconic Bellyflop Contest in Spring Break was sponsored by The Stuff? In our minds, It would go something like this. Each poster is 18x24, 7 color hand-pulled silkscreen print in an edition of 20.</p>",
     "hero": {
@@ -632,7 +722,7 @@
       "src": "http://i.imgur.com/dl7ctX3.jpg",
       "width": 279,
       "height": 279,
-      "alt": "Sample image"
+      "alt": "Example image for TA2"
     },
     "description": "<p>We were approached by the fine people over at TA2 Sound + Music to create an animated Brand ID. The concept? Exploration of story through sound and shape.</p>",
     "hero": {
