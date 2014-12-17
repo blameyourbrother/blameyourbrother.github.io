@@ -1,5 +1,107 @@
 [
   {
+    "slug": "cls",
+    "title": "CLS",
+    "subtitle": "The Power to Change the Future",
+    "type": "Animation",
+    "gridImage": {
+      "src": "http://i.imgur.com/ozzsE4g.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Example image for CLS"
+    },
+    "description": "We had a wonderful opportunity to write and direct this animated short for the Centre of Longitudinal Studies (CLS), called Child of the New Century. The study follows 19,000 young people born across the UK at the beginning of the new millennium. We were asked to create an engaging and fun short to show why these young people are so special. You can find more here <a href='http://www.cls.ioe.ac.uk/cnc/' target='_blank'>cls.ioe.ac.uk/cnc/</a>.",
+    "hero": {
+      "type": "iframe",
+      "src": "//player.vimeo.com/video/113419697",
+      "height": 345
+    },
+    "credits": [
+      {
+        "name": "BYB – Geoff & Darren Donovan",
+        "role": "Directed by"
+      },
+      {
+        "name": "Drew Frohmann, BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Color Design"
+      },
+      {
+        "name": "Simon Pauette",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan, Darren Donovan",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Marc Bascoungnano, Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "James Walsh, Darren Donovan",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Chris Land, Michelle Tripp, Andre Guindi, Brentton Barkman, Noam Sussman",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "2D FX Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Compositing"
+      },
+      {
+        "name": "TA2 Sound and Music",
+        "role": "Sound"
+      },
+      {
+        "name": "Brent Barkman",
+        "role": "Original Composition"
+      },
+      {
+        "name": "Blame Your Brother",
+        "role": "Agency"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "http://i.imgur.com/LiTygdc.jpg",
+        "full": "http://i.imgur.com/7c1m665.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/ZOwML9a.jpg",
+        "full": "http://i.imgur.com/BurwWzk.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/AFVKJ5m.jpg",
+        "full": "http://i.imgur.com/lCoW4YU.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/YBznHlF.jpg",
+        "full": "http://i.imgur.com/9YnNbYI.jpg",
+        "gridSize": 1
+      }
+    ]
+  },
+  {
     "slug": "omers",
     "title": "OMERS",
     "subtitle": "Defined Benefit Pension Plan",
