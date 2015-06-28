@@ -1,5 +1,106 @@
 [
   {
+    "slug": "dfc-milkle-down-effect",
+    "title": "Dairy Farmers of Canada",
+    "subtitle": "The Milkle-Down Effect",
+    "type": "Animation",
+    "gridImage": {
+      "src": "http://i.imgur.com/HGlQc7u.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for Dairy Farmers of Canada Milkle-Down Effect"
+    },
+    "description": "We're excited to share two deliciously milky spots for The Dairy Farmers of Canada. These charming spots  illustrate the positive effects of how the Canadian dairy sector trickle down to local communities. How very Canadian of us.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/131027422?title=0&byline=0&portrait=0",
+        "height": 345
+      },
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/131027915?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB – Geoff & Darren Donovan",
+        "role": "Directed by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Color Design"
+      },
+      {
+        "name": "Simon Pauette",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "James Walsh, Darren Donovan",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Michelle Tripp, Sean Branigan",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Compositing"
+      },
+      {
+        "name": "Grayson Matthews",
+        "role": "Sound"
+      },
+      {
+        "name": "DDB Canada",
+        "role": "Agency"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "http://i.imgur.com/xlxMxZH.jpg",
+        "full": "http://i.imgur.com/fH2JnqP.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/dJ1l0tY.jpg",
+        "full": "http://i.imgur.com/OJJOAsV.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/uwAdOSZ.jpg",
+        "full": "http://i.imgur.com/fyjsx3B.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/g5MYf7C.jpg",
+        "full": "http://i.imgur.com/7BViv8c.jpg",
+        "gridSize": 1
+      }
+    ]
+  },
+  {
     "slug": "vw-golf-sportswagon",
     "title": "Volkswagen",
     "subtitle": "2015 Golf Sportswagon",
