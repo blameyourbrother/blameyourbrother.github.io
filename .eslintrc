@@ -1,0 +1,9 @@
+{
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "no-underscore-dangle": 0
+  }
+}
