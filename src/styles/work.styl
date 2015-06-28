@@ -160,7 +160,15 @@
       }
     }
 
-    .work-gallery {
+    .work-gallery:first-child {
+      .work-gallery-item.col-md-6 {
+        &:first-child, &:nth-child(2) {
+          margin-top: 0;
+        }
+      }
+    }
+
+    .work-hero + .work-gallery {
       margin: 25px 0 0;
       border-top: 1px solid #c0c2c7;
     }

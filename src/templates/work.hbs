@@ -3,12 +3,14 @@
     <div class="row">
       <div class="col-md-9 col-sm-9 left-col">
         {{#each work.hero}}
-          {{#ifEqual type 'iframe'}}
-          <iframe src="{{ src }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          {{/ifEqual}}
-          {{#ifEqual type 'image'}}
-          <img class="hero-image" src="{{ src }}" alt="{{ alt }}" style="max-width:{{ width }}px">
-          {{/ifEqual}}
+          <div class="work-hero">
+            {{#ifEqual type 'iframe'}}
+            <iframe src="{{ src }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            {{/ifEqual}}
+            {{#ifEqual type 'image'}}
+            <img class="hero-image" src="{{ src }}" alt="{{ alt }}" style="max-width:{{ width }}px">
+            {{/ifEqual}}
+          </div>
         {{/each}}
         {{#if work.gallery}}
         <div class="work-gallery hidden-xs">
