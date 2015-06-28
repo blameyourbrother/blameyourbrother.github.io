@@ -11,11 +11,11 @@
       "alt": "Example image for CLS"
     },
     "description": "We had a wonderful opportunity to write and direct this animated short for the Centre of Longitudinal Studies (CLS), called Child of the New Century. The study follows 19,000 young people born across the UK at the beginning of the new millennium. We were asked to create an engaging and fun short to show why these young people are so special. You can find more here <a href='http://www.cls.ioe.ac.uk/cnc/' target='_blank'>cls.ioe.ac.uk/cnc/</a>.",
-    "hero": {
+    "hero": [{
       "type": "iframe",
       "src": "//player.vimeo.com/video/113419697",
       "height": 345
-    },
+    }],
     "credits": [
       {
         "name": "BYB – Geoff & Darren Donovan",
@@ -113,11 +113,11 @@
       "alt": "Example image for OMERS"
     },
     "description": "The fine folks over at Omers asked us to help them send a message to their members in a fun and stylized animated spot. We had the opportunity to help shape the story from script to final execution.",
-    "hero": {
+    "hero": [{
       "type": "iframe",
       "src": "//player.vimeo.com/video/109963403",
       "height": 345
-    },
+    }],
     "credits": [
       {
         "name": "BYB - Geoff Donovan, Darren Donovan",
@@ -203,11 +203,11 @@
       "alt": "Example image for Cineplex for CREA"
     },
     "description": "<p>We love working with the talented folks over at Union Creative. So when asked to create an animated spot for Canadian Realtors Association, we were very excited. The final spot fluidly describes \"How Commercial Realtors Help\".</p>",
-    "hero": {
+    "hero": [{
       "type": "iframe",
       "src": "//player.vimeo.com/video/76452402",
       "height": 345
-    },
+    }],
     "credits": [
       {
         "name": "BYB - Geoff Donovan, Darren Donovan",
@@ -293,11 +293,11 @@
       "alt": "Example image for Morning Coffee for Cineplex"
     },
     "description": "<p>We recently had the chance to collaborate with the talented folks over at Rune Entertainment on a Cineplex Holiday spot. Have a happy and safe holiday season!</p>",
-    "hero": {
+    "hero": [{
       "type": "iframe",
       "src": "//player.vimeo.com/video/82563176",
       "height": 345
-    },
+    }],
     "credits": [
       {
         "name": "Paul Wollenzien",
@@ -387,11 +387,11 @@
       "alt": "Example image for Morning Coffee"
     },
     "description": "<p>A little BYB brand spot featuring a bit of our morning routine. We all wish we could have a never ending cup of coffee.</p>",
-    "hero": {
+    "hero": [{
       "type": "iframe",
       "src": "//player.vimeo.com/video/90578341",
       "height": 345
-    },
+    }],
     "credits": [
       {
         "name": "BYB",
@@ -461,11 +461,11 @@
       "alt": "Example image for The Barber for Gogo's Crazy Bones"
     },
     "description": "<p>We had a ton of fun co-producing an international toy commercial for \"Gogo's Crazy Bones\" with our friends at Data Armada. BYB directed and created the animation while Data Armada shot and directed the live action portions of the spot. Having only less than one month to deliver a 30 and 15 second spot, we quickly put together our talented crew and went to work.</p><p>This post is a BYB directors cut only, featuring the animation, and not the final version of the aired commercial.</p>",
-    "hero": {
+    "hero": [{
       "type": "iframe",
       "src": "//player.vimeo.com/video/25429738",
       "height": 345
-    },
+    }],
     "credits": [
       {
         "name": "BYB - Geoff Donovan, Darren Donovan",
@@ -555,11 +555,11 @@
       "alt": "Example image for Water PSA for The Barber"
     },
     "description": "<p>In the spring of 2009, we had the honour of being selected to direct a short for the Teletoon animated TV pilot \"Dunce Bucket\". The ask was to choose a brief comedic VO &mdash; we selected from a list of 10 &mdash; and create a story and visual treatment based on what we heard.</p>",
-    "hero": {
+    "hero": [{
       "type": "iframe",
       "src": "//player.vimeo.com/video/22243743",
       "height": 345
-    },
+    }],
     "credits": [
       {
         "name": "Teletoon",
@@ -641,11 +641,11 @@
       "alt": "Example image for NiagaNiagara for Water PSA"
     },
     "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
-    "hero": {
+    "hero": [{
       "type": "iframe",
       "src": "//player.vimeo.com/video/34635186",
       "height": 345
-    },
+    }],
     "credits": [
       {
         "name": "Ministry of Environment",
@@ -731,11 +731,11 @@
       "alt": "Example image for TA2"
     },
     "description": "<p>We were approached by the fine people over at TA2 Sound + Music to create an animated Brand ID. The concept? Exploration of story through sound and shape.</p>",
-    "hero": {
+    "hero": [{
       "type": "iframe",
       "src": "//player.vimeo.com/video/45327888",
       "height": 345
-    },
+    }],
     "credits": [
       {
         "name": "TA2 Sound + Music",
@@ -809,13 +809,13 @@
       "alt": "Example image for TA2 for Attack of the B-Movies Screenprint"
     },
     "description": "<p>We had the pleasure of being asked to participate in a Toronto animation artists' group show called Attack of the B-Movies. The piece we created was a mash-up of a 1983 movie by the name of Spring Break and a 1985 horror movie called The Stuff (two of our favorites as kids). We asked ourselves, What would happen if the iconic Bellyflop Contest in Spring Break was sponsored by The Stuff? In our minds, It would go something like this. Each poster is 18x24, 7 color hand-pulled silkscreen print in an edition of 20.</p>",
-    "hero": {
+    "hero": [{
       "type": "image",
       "src": "/assets/images/work/attack-b-movies.png",
       "width": 614,
       "height": 820,
       "alt": "The 'Attack of the B-Movies' poster by Blame Your Brother."
-    },
+    }],
     "credits": [
       {
         "name": "BYB",
@@ -865,13 +865,13 @@
       "alt": "Example image for Attack of the B-Movies Screenprint for Niagara Winery Tour"
     },
     "description": "<p>We helped out our lovely friends over at Narrative PR with a fun little map, illustrating a selection of wineries and vineyards to hit-up while bombing around Niagara-on-the-Lake.</p>",
-    "hero": {
+    "hero": [{
       "type": "image",
       "src": "/assets/images/work/niagara-winery-tour.jpg",
       "width": 614,
       "height": 787,
       "alt": "An illustrated map of Niagara wineries."
-    },
+    }],
     "credits": [
       {
         "name": "Jackson - Triggs",

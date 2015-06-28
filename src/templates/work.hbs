@@ -2,12 +2,14 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-9 col-sm-9 left-col">
-        {{#ifEqual work.hero.type 'iframe'}}
-        <iframe src="{{ work.hero.src }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        {{/ifEqual}}
-        {{#ifEqual work.hero.type 'image'}}
-        <img class="hero-image" src="{{ work.hero.src }}" alt="{{ work.hero.alt }}" style="max-width:{{ work.hero.width }}px">
-        {{/ifEqual}}
+        {{#each work.hero}}
+          {{#ifEqual type 'iframe'}}
+          <iframe src="{{ src }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          {{/ifEqual}}
+          {{#ifEqual type 'image'}}
+          <img class="hero-image" src="{{ src }}" alt="{{ alt }}" style="max-width:{{ width }}px">
+          {{/ifEqual}}
+        {{/each}}
         {{#if work.gallery}}
         <div class="work-gallery hidden-xs">
           <div class="row">
