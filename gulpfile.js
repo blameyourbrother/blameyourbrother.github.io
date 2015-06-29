@@ -12,9 +12,7 @@ var fs = require('fs');
 var _ = require('lodash');
 var hbsHelpers = require('./lib/hbs-helpers');
 var partialsConfig = [];
-var layouts = {};
-
-vendorFiles = [
+var vendorFiles = [
   './bower_components/slick-carousel/slick/fonts/*',
   './bower_components/slick-carousel/slick/slick.css',
   './bower_components/slick-carousel/slick/slick.min.js',
@@ -37,10 +35,10 @@ gulp.task('dev', function (cb) {
 // can reload the specific files that have changed.
 gulp.task('watch', function (cb) {
   gulp.watch('./src/styles/**/*.styl', ['styles']);
-  gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', './src/layouts/*.hbs'], function (ev) {
+  gulp.watch(['./lib/hbs-helpers.js', './src/partials/*.hbs', './src/layouts/*.hbs'], function () {
     runSequence('buildPartialsConfig', 'html', 'reloadAllHtml');
   });
-  gulp.watch(['./src/templates/**/*.hbs', './src/data/*.json'], function (ev) {
+  gulp.watch(['./src/templates/**/*.hbs', './src/data/*.json'], function () {
     runSequence('html', 'reloadAllHtml');
   });
   gulp.watch('./assets/javascript/**/*.js', function (ev) {
@@ -64,7 +62,7 @@ gulp.task('build', function (cb) {
 
 gulp.task('vendor', function () {
   return gulp.src(vendorFiles, {base: 'bower_components'})
-    .pipe(gulp.dest('./assets/vendor'))
+    .pipe(gulp.dest('./assets/vendor'));
 });
 
 gulp.task('clean', function () {
@@ -104,8 +102,8 @@ gulp.task('workHTML', function () {
     layout: fs.readFileSync(path.join(__dirname, 'src/layouts/default.hbs'), {encoding: 'utf8'})
   };
 
-  var workTasks = workData.map(function (workDatum, index) {
-    var _data = _.cloneDeep(data)
+  var workTasks = workData.map(function (workDatum) {
+    var _data = _.cloneDeep(data);
     _data.work = workDatum;
     return gulp.src('./src/templates/work.hbs')
       .pipe(plumber())
