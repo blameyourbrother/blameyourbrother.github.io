@@ -67,6 +67,18 @@
     margin: 0 0 11px;
   }
 
+  .us-representation {
+    margin-top: 20px;
+
+    & > * {
+      display: block;
+    }
+
+    .us-representation-title {
+      margin-bottom: 11px;
+    }
+  }
+
   @media $media-min-tablet {
     padding-top: 25px;
     border-top: 1px solid #c0c2c7;
@@ -102,6 +114,10 @@
     .footer-item {
       padding-left: 30px;
       padding-right: 30px;
+
+      &:first-child {
+        padding-left: 0;
+      }
     }
   }
 }
