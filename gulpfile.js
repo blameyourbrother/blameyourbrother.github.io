@@ -4,6 +4,7 @@ var rename = require('gulp-rename');
 var stylus = require('gulp-stylus');
 var build = require('./lib/gulp-build');
 var plumber = require('gulp-plumber');
+var open = require('gulp-open');
 var runSequence = require('run-sequence');
 var eventStream = require('event-stream');
 var connect = require('gulp-connect');
@@ -21,12 +22,14 @@ var vendorFiles = [
   './bower_components/jquery/dist/jquery.min.map',
   './bower_components/fastclick/lib/fastclick.js'
 ];
+var PORT = 1337;
 
 gulp.task('dev', function (cb) {
   runSequence(
     'build',
     'watch',
     'server',
+    'open',
     cb
   );
 });
@@ -151,13 +154,16 @@ gulp.task('buildPartialsConfig', function (cb) {
 
 gulp.task('server', connect.server({
   root: [__dirname],
-  port: 1337,
-  livereload: true,
-  open: {
-    file: 'index.html',
-    browser: 'Google Chrome'
-  }
+  port: PORT,
+  livereload: true
 }));
+
+gulp.task('open', function() {
+  return gulp.src(__filename)
+    .pipe(open({
+      uri: 'http://localhost:' + PORT + '/index.html'
+    }));
+});
 
 gulp.task('default', ['build'], function () {
   console.log("Your changes have been compiled!");
