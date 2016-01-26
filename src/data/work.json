@@ -1,5 +1,129 @@
 [
   {
+    "slug": "cineplex-holiday-2015",
+    "title": "Cineplex",
+    "subtitle": "Enjoy the Magic",
+    "type": "Animation",
+    "gridImage": {
+      "src": "http://i.imgur.com/I6xP53j.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for Dairy Farmers of Canada Milkle-Down Effect"
+    },
+    "description": "We had a lot of fun creating a holiday spot for our friends over at Cineplex, which you may see in theatres over the holidays. In 3 short weeks and with the help from a crazy talented crew, I like to think we made some of our own creative magic - such a joy to work on.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/149783076?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB – Geoff & Darren Donovan",
+        "role": "Directed by"
+      },
+      {
+        "name": "Simon Pauette",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Rob Bryson, William Makra",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Rob Bryson, William Makra",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Michele Assarasakorn, Robyn Moir, Eric Gauthier, Matt Allen, Geoff Donovan",
+        "role": "Background Painters"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "James Walsh, Darren Donovan, Gerry Duchemin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director"
+      },
+      {
+        "name": "Michelle Tripp",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": "Michelle Tripp, Sean Brannigan, Gerry Duchemin, Sarah Baril, Andre Guindi",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Compositing"
+      },
+      {
+        "name": "Drew MacEachern",
+        "role": "Post FX"
+      },
+      {
+        "name": "Daniel Roizman",
+        "role": "3D FX"
+      },
+      {
+        "name": "905 Music & Sound",
+        "role": "Music and Audio Post Production"
+      },
+      {
+        "name": "BYB",
+        "role": "Agency"
+      },
+      {
+        "name": "Cineplex Entertainment",
+        "role": "Client"
+      },
+      {
+        "name": "Rob Lazzar",
+        "role": "Story Concept"
+      },
+      {
+        "name": "Rob Lazzar, Gurbani Marwah",
+        "role": "Executive Producers"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "http://i.imgur.com/PLdx7zv.jpg",
+        "full": "http://i.imgur.com/7YVMxOS.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/vTb946W.jpg",
+        "full": "http://i.imgur.com/8TDfCaH.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/pTwOhpG.jpg",
+        "full": "http://i.imgur.com/vpV0wff.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "http://i.imgur.com/Dz3GYVG.jpg",
+        "full": "http://i.imgur.com/rBBbHoV.jpg",
+        "gridSize": 1
+      }
+    ]
+  },
+  {
     "slug": "dfc-milkle-down-effect",
     "title": "Dairy Farmers of Canada",
     "subtitle": "The Milkle-Down Effect",
