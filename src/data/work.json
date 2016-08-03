@@ -1,83 +1,5 @@
 [
   {
-    "slug": "whole-foods-my-365",
-    "title": "Whole Foods",
-    "subtitle": "My 365",
-    "type": "Animation",
-    "gridImage": {
-      "src": "http://i.imgur.com/J9ivK8R.jpg",
-      "width": 279,
-      "height": 280,
-      "alt": "Example image for Whole Foods My 365"
-    },
-    "description": "We're happy to share some work that we directed for Whole Foods' My 365 brand.",
-    "hero": [
-      {
-        "type": "iframe",
-        "src": "//player.vimeo.com/video/171960363?title=0&byline=0&portrait=0",
-        "height": 345
-      }
-    ],
-    "credits": [
-      {
-        "name": "Anchor Point",
-        "role": "Production Company"
-      },
-      {
-        "name": "BYB",
-        "role": "Directed by"
-      },
-      {
-        "name": "Simon Paquette",
-        "role": "Storyboard"
-      },
-      {
-        "name": "Geoff Donovan",
-        "role": "Art Direction"
-      },
-      {
-        "name": "Geoff & Darren Donovan",
-        "role": "Design"
-      },
-      {
-        "name": "Amanda Smith, Darren Donovan",
-        "role": "Posing"
-      },
-      {
-        "name": "Darren Donovan",
-        "role": "Animation Director"
-      },
-      {
-        "name": "Darren Donovan",
-        "role": "Animation Supervisor"
-      },
-      {
-        "name": "Michelle Tripp, Gerry Duchemin, Darren Donovan",
-        "role": "Character Animation"
-      },
-      {
-        "name": "Tom Berger",
-        "role": "Editor"
-      },
-      {
-        "name": "Nathan Day",
-        "role": "Compositing / Post FX"
-      },
-      {
-        "name": "Pico Sound",
-        "role": "Music / Sound Mix / SFX"
-      },
-      {
-        "name": "Wholefoods",
-        "role": "Client"
-      },
-      {
-        "name": "Mike Holm",
-        "role": "Executive Producer"
-      }
-    ]
-  },
-  {
     "slug": "disney-parks-best-vacation-ever",
     "title": "Disney Parks",
     "subtitle": "Best Vacation Ever",
@@ -159,6 +81,84 @@
       },
       {
         "name": "Disney Parks / Huffington Post (U.S)",
+        "role": "Client"
+      },
+      {
+        "name": "Mike Holm",
+        "role": "Executive Producer"
+      }
+    ]
+  },
+  {
+    "slug": "whole-foods-my-365",
+    "title": "Whole Foods",
+    "subtitle": "My 365",
+    "type": "Animation",
+    "gridImage": {
+      "src": "http://i.imgur.com/J9ivK8R.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for Whole Foods My 365"
+    },
+    "description": "We're happy to share some work that we directed for Whole Foods' My 365 brand.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/171960363?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Anchor Point",
+        "role": "Production Company"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Simon Paquette",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Geoff & Darren Donovan",
+        "role": "Design"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": "Michelle Tripp, Gerry Duchemin, Darren Donovan",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Pico Sound",
+        "role": "Music / Sound Mix / SFX"
+      },
+      {
+        "name": "Wholefoods",
         "role": "Client"
       },
       {
