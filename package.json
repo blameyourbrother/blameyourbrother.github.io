@@ -12,7 +12,7 @@
     "url": "https://github.com/blameyourbrother/blameyourbrother.github.io/issues"
   },
   "scripts": {
-    "dev": "gulp dev",
+    "start": "gulp dev",
     "build": "gulp build"
   },
   "devDependencies": {
