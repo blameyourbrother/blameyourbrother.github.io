@@ -1,5 +1,117 @@
 [
   {
+    "slug": "huffington-post-sleep-number",
+    "title": "Huffington Post",
+    "subtitle": "Sleep Number",
+    "type": "Animation",
+    "gridImage": {
+      "src": "http://i.imgur.com/CEyA7Yt.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for Huffington Post Sleep Number"
+    },
+    "description": "The sleep struggle is real! A series of shorts we had the pleasure of directing for Huffington Post / Sleep Number.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/196909928?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Animation Director",
+        "role": "Darren Donovan"
+      },
+      {
+        "name": "Animation Supervisor",
+        "role": "Michelle Tripp"
+      },
+      {
+        "name": "Character Animation",
+        "role": "Michelle Tripp, Gerry Duchemin, Sarah Baril, Darren Donovan, Andre Guindi, Matthew Cemalovic"
+      },
+      {
+        "name": "Editor",
+        "role": "Tom Berger"
+      },
+      {
+        "name": "Compositing / Post FX",
+        "role": "Nathan Day"
+      },
+      {
+        "name": "Music",
+        "role": "Brian Gallant "
+      },
+      {
+        "name": "Sound Mix / SFX",
+        "role": "Sebastien Breton"
+      },
+      {
+        "name": "Client",
+        "role": "Sleep Number / Huffington Post (U.S)"
+      },
+      {
+        "name": "Executive Producer",
+        "role": "Mike Holm"
+      }
+    ]
+  },
+  {
+    "slug": "crea-real-tea",
+    "title": "CREA",
+    "subtitle": "Real-Tea",
+    "type": "Animation",
+    "gridImage": {
+      "src": "http://i.imgur.com/6G7xZgR.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for CREA Real-Tea"
+    },
+    "description": "We had the pleasure of designing tea packages and animating 3 spots for our friends at Union Creative. The agency had a pop up shop in downtown Toronto where the tea blends were handed out to soothe the woes of not using a Realtor.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/189023296?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "BYB",
+        "role": "Design"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatic"
+      },
+      {
+        "name": "Darren Donovan, Michelle Tripp",
+        "role": "Animation"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Composite and Visual FX"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "Sound Design"
+      },
+      {
+        "name": "Union Creative",
+        "role": "Client"
+      }
+    ]
+  },
+  {
     "slug": "disney-parks-best-vacation-ever",
     "title": "Disney Parks",
     "subtitle": "Best Vacation Ever",
@@ -452,91 +564,76 @@
     ]
   },
   {
-    "slug": "wind-movie-charades",
-    "title": "Wind",
-    "subtitle": "Movie Charades",
+    "slug": "morning-coffee",
+    "title": "BYB",
+    "subtitle": "Morning Coffee",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/nijkASy.jpg",
+      "src": "http://i.imgur.com/fAcZj7k.jpg",
       "width": 279,
-      "height": 280,
-      "alt": "Example image for Wind Movie Charades"
+      "height": 279,
+      "alt": "Example image for Morning Coffee"
     },
-    "description": "We're excited to share these fun little spots that we had the pleasure to be a part of for WIND mobile and MTV. These spots originally aired during the 2015 MTV Movie Awards. Thanks to our talented team for making this happen. There are 4 in all! How would phones play charades? Well, now you know.",
-    "hero": [
-      {
-        "type": "iframe",
-        "src": "//player.vimeo.com/video/124470716?title=0&byline=0&portrait=0",
-        "height": 345
-      },
-      {
-        "type": "iframe",
-        "src": "//player.vimeo.com/video/124470170?title=0&byline=0&portrait=0",
-        "height": 345
-      },
-      {
-        "type": "iframe",
-        "src": "//player.vimeo.com/video/124469701?title=0&byline=0&portrait=0",
-        "height": 345
-      },
-      {
-        "type": "iframe",
-        "src": "//player.vimeo.com/video/124468880?title=0&byline=0&portrait=0",
-        "height": 345
-      }
-    ],
+    "description": "<p>A little BYB brand spot featuring a bit of our morning routine. We all wish we could have a never ending cup of coffee.</p>",
+    "hero": [{
+      "type": "iframe",
+      "src": "//player.vimeo.com/video/90578341?title=0&byline=0&portrait=0",
+      "height": 345
+    }],
     "credits": [
       {
-        "name": "BYB – Geoff & Darren Donovan",
+        "name": "BYB",
+        "role": "Client"
+      },
+      {
+        "name": "BYB - Geoff Donovan, Darren Donovan",
         "role": "Directed by"
+      },
+      {
+        "name": "Darren Donovan, Geoff Donovan",
+        "role": "Design"
       },
       {
         "name": "Geoff Donovan",
         "role": "Art Direction"
       },
       {
+        "name": "Darren Donovan, Gerry Duchemin",
+        "role": "Animation"
+      },
+      {
         "name": "Geoff Donovan",
         "role": "Color Design"
       },
       {
-        "name": "Simon Pauette, Chris Land, Darren Donovan",
-        "role": "Storyboard"
+        "name": "Antenna",
+        "role": "AEFX Composite"
       },
       {
-        "name": "Geoff Donovan",
-        "role": "Layout/Design"
+        "name": "Sebastian Breton",
+        "role": "Sound Design + Mix"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "http://i.imgur.com/ThyyQLh.jpg",
+        "full": "http://i.imgur.com/TusFHUB.jpg",
+        "gridSize": 1
       },
       {
-        "name": "Darren Donovan",
-        "role": "Character Design"
+        "grid": "http://i.imgur.com/fO5rsPM.jpg",
+        "full": "http://i.imgur.com/gCjKeab.jpg",
+        "gridSize": 1
       },
       {
-        "name": "James Walsh, Darren Donovan",
-        "role": "Character Posing"
+        "grid": "http://i.imgur.com/iDpIsdw.jpg",
+        "full": "http://i.imgur.com/XusTDER.jpg",
+        "gridSize": 1
       },
       {
-        "name": "Chris Land, Michelle Tripp, Darren Donovan, Sean Branigan",
-        "role": "Character Animation"
-      },
-      {
-        "name": "Michelle Tripp",
-        "role": "Animation Supervisor"
-      },
-      {
-        "name": "Tom Berger",
-        "role": "Editor"
-      },
-      {
-        "name": "Nathan Day",
-        "role": "Compositing"
-      },
-      {
-        "name": "RMW Music",
-        "role": "Sound"
-      },
-      {
-        "name": "McLaren McCann",
-        "role": "Agency"
+        "grid": "http://i.imgur.com/ouJpZxi.jpg",
+        "full": "http://i.imgur.com/tvmu1cs.jpg",
+        "gridSize": 1
       }
     ]
   },
@@ -823,170 +920,76 @@
     ]
   },
   {
-    "slug": "cineplex-holiday",
-    "title": "Cineplex",
-    "subtitle": "Holiday",
+    "slug": "wind-movie-charades",
+    "title": "Wind",
+    "subtitle": "Movie Charades",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/3sGBpkR.jpg",
+      "src": "http://i.imgur.com/nijkASy.jpg",
       "width": 279,
-      "height": 279,
-      "alt": "Example image for Morning Coffee for Cineplex"
+      "height": 280,
+      "alt": "Example image for Wind Movie Charades"
     },
-    "description": "<p>We recently had the chance to collaborate with the talented folks over at Rune Entertainment on a Cineplex Holiday spot. Have a happy and safe holiday season!</p>",
-    "hero": [{
-      "type": "iframe",
-      "src": "//player.vimeo.com/video/82563176?title=0&byline=0&portrait=0",
-      "height": 345
-    }],
-    "credits": [
+    "description": "We're excited to share these fun little spots that we had the pleasure to be a part of for WIND mobile and MTV. These spots originally aired during the 2015 MTV Movie Awards. Thanks to our talented team for making this happen. There are 4 in all! How would phones play charades? Well, now you know.",
+    "hero": [
       {
-        "name": "Paul Wollenzien",
-        "role": "Director / Editor / Sr. Compositor"
-      },
-      {
-        "name": "Nancy Nor",
-        "role": "Producer"
-      },
-      {
-        "name": "Peter Nalli",
-        "role": "Art Director / Story Board Artist / Compositor"
-      },
-      {
-        "name": "Fraeya Pinto",
-        "role": "Sr. Designer"
-      },
-      {
-        "name": "Zane Kozak",
-        "role": "Sr. CG Artist"
-      },
-      {
-        "name": "Jon Lam",
-        "role": "Background Painter"
-      },
-      {
-        "name": "Chris Charlton",
-        "role": "Compositor"
-      },
-      {
-        "name": "Roman Volodin",
-        "role": "Compositor"
-      },
-      {
-        "name": "Darren Donovan",
-        "role": "Character Animation Lead / Sr. FX Animator"
-      },
-      {
-        "name": "Geoffrey Donovan",
-        "role": "Character Colour"
-      },
-      {
-        "name": "Gerry Duchemin",
-        "role": "Sr. Character Animator"
-      },
-      {
-        "name": "Michelle Tripp",
-        "role": "Character Animator"
-      },
-      {
-        "name": "Mark Krupka, Ben Dover, Marla Kishimoto",
-        "role": "Original Music Composition, Sound Design & Final Mix"
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/124470716?title=0&byline=0&portrait=0",
+        "height": 345
       }
     ],
-    "gallery": [
-      {
-        "grid": "http://i.imgur.com/98RBaAh.jpg",
-        "full": "http://i.imgur.com/qMpQIic.jpg",
-        "gridSize": 1
-      },
-      {
-        "grid": "http://i.imgur.com/AqCw8Y2.jpg",
-        "full": "http://i.imgur.com/4V7vgSr.jpg",
-        "gridSize": 1
-      },
-      {
-        "grid": "http://i.imgur.com/G8OVbbY.jpg",
-        "full": "http://i.imgur.com/x5IdoEh.jpg",
-        "gridSize": 1
-      },
-      {
-        "grid": "http://i.imgur.com/qtsI1eE.jpg",
-        "full": "http://i.imgur.com/wYYxYVa.jpg",
-        "gridSize": 1
-      }
-    ]
-  },
-  {
-    "slug": "morning-coffee",
-    "title": "BYB",
-    "subtitle": "Morning Coffee",
-    "type": "Animation",
-    "gridImage": {
-      "src": "http://i.imgur.com/fAcZj7k.jpg",
-      "width": 279,
-      "height": 279,
-      "alt": "Example image for Morning Coffee"
-    },
-    "description": "<p>A little BYB brand spot featuring a bit of our morning routine. We all wish we could have a never ending cup of coffee.</p>",
-    "hero": [{
-      "type": "iframe",
-      "src": "//player.vimeo.com/video/90578341?title=0&byline=0&portrait=0",
-      "height": 345
-    }],
     "credits": [
       {
-        "name": "BYB",
-        "role": "Client"
-      },
-      {
-        "name": "BYB - Geoff Donovan, Darren Donovan",
+        "name": "BYB – Geoff & Darren Donovan",
         "role": "Directed by"
-      },
-      {
-        "name": "Darren Donovan, Geoff Donovan",
-        "role": "Design"
       },
       {
         "name": "Geoff Donovan",
         "role": "Art Direction"
       },
       {
-        "name": "Darren Donovan, Gerry Duchemin",
-        "role": "Animation"
-      },
-      {
         "name": "Geoff Donovan",
         "role": "Color Design"
       },
       {
-        "name": "Antenna",
-        "role": "AEFX Composite"
+        "name": "Simon Pauette, Chris Land, Darren Donovan",
+        "role": "Storyboard"
       },
       {
-        "name": "Sebastian Breton",
-        "role": "Sound Design + Mix"
-      }
-    ],
-    "gallery": [
-      {
-        "grid": "http://i.imgur.com/ThyyQLh.jpg",
-        "full": "http://i.imgur.com/TusFHUB.jpg",
-        "gridSize": 1
+        "name": "Geoff Donovan",
+        "role": "Layout/Design"
       },
       {
-        "grid": "http://i.imgur.com/fO5rsPM.jpg",
-        "full": "http://i.imgur.com/gCjKeab.jpg",
-        "gridSize": 1
+        "name": "Darren Donovan",
+        "role": "Character Design"
       },
       {
-        "grid": "http://i.imgur.com/iDpIsdw.jpg",
-        "full": "http://i.imgur.com/XusTDER.jpg",
-        "gridSize": 1
+        "name": "James Walsh, Darren Donovan",
+        "role": "Character Posing"
       },
       {
-        "grid": "http://i.imgur.com/ouJpZxi.jpg",
-        "full": "http://i.imgur.com/tvmu1cs.jpg",
-        "gridSize": 1
+        "name": "Chris Land, Michelle Tripp, Darren Donovan, Sean Branigan",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Michelle Tripp",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Compositing"
+      },
+      {
+        "name": "RMW Music",
+        "role": "Sound"
+      },
+      {
+        "name": "McLaren McCann",
+        "role": "Agency"
       }
     ]
   },
@@ -1171,174 +1174,6 @@
     ]
   },
   {
-    "slug": "water-psa",
-    "title": "PSA",
-    "subtitle": "Water",
-    "type": "Animation",
-    "gridImage": {
-      "src": "http://i.imgur.com/ThbdEpG.jpg",
-      "width": 279,
-      "height": 279,
-      "alt": "Example image for NiagaNiagara for Water PSA"
-    },
-    "description": "<p>We've always wanted to direct a PSA, and finally had our chance with this. \"Waterfalls, Toilets and Teaspoons\", a water conservation PSA for Ontario. A great message presented in a fun and entertaining way. Why not, right?</p>",
-    "hero": [{
-      "type": "iframe",
-      "src": "//player.vimeo.com/video/34635186?title=0&byline=0&portrait=0",
-      "height": 345
-    }],
-    "credits": [
-      {
-        "name": "Ministry of Environment",
-        "role": "Client"
-      },
-      {
-        "name": "BYB - Geoff Donovan, Darren Donovan",
-        "role": "Directed by"
-      },
-      {
-        "name": "Jason Boyer",
-        "role": "Animation Producer"
-      },
-      {
-        "name": "Darren Donovan",
-        "role": "Character Design"
-      },
-      {
-        "name": "Geoff Donovan",
-        "role": "Art Direction"
-      },
-      {
-        "name": "Paul Watling",
-        "role": "Storyboard"
-      },
-      {
-        "name": "Darren Donovan, James Walsh",
-        "role": "Character Posing"
-      },
-      {
-        "name": "Gerry Duchemin",
-        "role": "Character Animation"
-      },
-      {
-        "name": "Darren Donovan",
-        "role": "FX Animation"
-      },
-      {
-        "name": "Geoff Donovan",
-        "role": "Layout Design"
-      },
-      {
-        "name": "Geoff Donovan",
-        "role": "BG Painting"
-      },
-      {
-        "name": "Wanted! Sound + Picture",
-        "role": "Sound Design + Mix"
-      }
-    ],
-    "gallery": [
-      {
-        "grid": "http://i.imgur.com/u8UdnAj.jpg",
-        "full": "http://i.imgur.com/XWGc4fO.jpg",
-        "gridSize": 1
-      },
-      {
-        "grid": "http://i.imgur.com/dXWd3H2.jpg",
-        "full": "http://i.imgur.com/UL1s11X.jpg",
-        "gridSize": 1
-      },
-      {
-        "grid": "http://i.imgur.com/kEpayIk.jpg",
-        "full": "http://i.imgur.com/1s3hDx4.jpg",
-        "gridSize": 1
-      },
-      {
-        "grid": "http://i.imgur.com/msiFAKs.jpg",
-        "full": "http://i.imgur.com/H43JnU3.jpg",
-        "gridSize": 1
-      }
-    ]
-  },
-  {
-    "slug": "ta2-sound-shape",
-    "title": "TA2",
-    "subtitle": "Brand ID Sound + Shape",
-    "type": "Animation",
-    "gridImage": {
-      "src": "http://i.imgur.com/dl7ctX3.jpg",
-      "width": 279,
-      "height": 279,
-      "alt": "Example image for TA2"
-    },
-    "description": "<p>We were approached by the fine people over at TA2 Sound + Music to create an animated Brand ID. The concept? Exploration of story through sound and shape.</p>",
-    "hero": [{
-      "type": "iframe",
-      "src": "//player.vimeo.com/video/45327888",
-      "height": 345
-    }],
-    "credits": [
-      {
-        "name": "TA2 Sound + Music",
-        "role": "Client"
-      },
-      {
-        "name": "BYB - Geoff Donovan, Darren Donovan",
-        "role": "Directed by"
-      },
-      {
-        "name": "Geoff Donovan",
-        "role": "Art Direction"
-      },
-      {
-        "name": "Darren + Geoff",
-        "role": "Design"
-      },
-      {
-        "name": "Darren + Geoff",
-        "role": "Storyboard"
-      },
-      {
-        "name": "Darren Donovan",
-        "role": "Animation"
-      },
-      {
-        "name": "Geoff Donovan",
-        "role": "Color Design"
-      },
-      {
-        "name": "Jamie Kaiser",
-        "role": "AEFX Composite"
-      },
-      {
-        "name": "TA2 Sound + Music",
-        "role": "Sound Design + Mix"
-      }
-    ],
-    "gallery": [
-      {
-        "grid": "http://i.imgur.com/69ph7Jg.jpg",
-        "full": "http://i.imgur.com/DwA8Ga1.jpg",
-        "gridSize": 1
-      },
-      {
-        "grid": "http://i.imgur.com/IkG7KHW.jpg",
-        "full": "http://i.imgur.com/aZr6pyu.jpg",
-        "gridSize": 1
-      },
-      {
-        "grid": "http://i.imgur.com/CNDbnmD.jpg",
-        "full": "http://i.imgur.com/HUbtRmA.jpg",
-        "gridSize": 1
-      },
-      {
-        "grid": "http://i.imgur.com/KJbj5c6.jpg",
-        "full": "http://i.imgur.com/c7GHNAr.jpg",
-        "gridSize": 1
-      }
-    ]
-  },
-  {
     "slug": "attack-of-the-b-movies",
     "title": "Screenprint",
     "subtitle": "Attack of the B-Movies",
@@ -1392,46 +1227,6 @@
         "full": "http://i.imgur.com/3IQF7ga.jpg",
         "gridSize": 1
       }
-    ]
-  },
-  {
-    "slug": "niagara-winery-tour",
-    "title": "Niagara",
-    "subtitle": "Winery Tour",
-    "type": "Illustration",
-    "gridImage": {
-      "src": "http://i.imgur.com/avMDp1U.jpg",
-      "width": 279,
-      "height": 279,
-      "alt": "Example image for Attack of the B-Movies Screenprint for Niagara Winery Tour"
-    },
-    "description": "<p>We helped out our lovely friends over at Narrative PR with a fun little map, illustrating a selection of wineries and vineyards to hit-up while bombing around Niagara-on-the-Lake.</p>",
-    "hero": [{
-      "type": "image",
-      "src": "/assets/images/work/niagara-winery-tour.jpg",
-      "width": 614,
-      "height": 787,
-      "alt": "An illustrated map of Niagara wineries."
-    }],
-    "credits": [
-      {
-        "name": "Jackson - Triggs",
-        "role": "Client"
-      },
-      {
-        "name": "BYB",
-        "role": "Art Direction"
-      },
-      {
-        "name": "John Doe",
-        "role": "Illustration/Design"
-      },
-      {
-        "name": "Narrative PR",
-        "role": "Agency"
-      }
-    ],
-    "gallery": [
     ]
   }
 ]
