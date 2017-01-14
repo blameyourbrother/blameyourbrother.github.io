@@ -1,0 +1,10 @@
+Regex for converting credits
+
+Pattern:
+([^:]+): (.+)\n
+
+Replacement:
+{
+  "name": "$1",
+  "role": "$2"
+},
