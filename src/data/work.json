@@ -10,7 +10,8 @@
       "height": 280,
       "alt": "Example image for Huffington Post Sleep Number"
     },
-    "description": "The sleep struggle is real! A series of shorts we had the pleasure of directing for Huffington Post / Sleep Number.",
+    "description":
+      "The sleep struggle is real! A series of shorts we had the pleasure of directing for Huffington Post / Sleep Number.",
     "hero": [
       {
         "type": "iframe",
@@ -29,7 +30,8 @@
       },
       {
         "name": "Character Animation",
-        "role": "Michelle Tripp, Gerry Duchemin, Sarah Baril, Darren Donovan, Andre Guindi, Matthew Cemalovic"
+        "role":
+          "Michelle Tripp, Gerry Duchemin, Sarah Baril, Darren Donovan, Andre Guindi, Matthew Cemalovic"
       },
       {
         "name": "Editor",
@@ -68,7 +70,8 @@
       "height": 280,
       "alt": "Example image for CREA Real-Tea"
     },
-    "description": "We had the pleasure of designing tea packages and animating 3 spots for our friends at Union Creative. The agency had a pop up shop in downtown Toronto where the tea blends were handed out to soothe the woes of not using a Realtor.",
+    "description":
+      "We had the pleasure of designing tea packages and animating 3 spots for our friends at Union Creative. The agency had a pop up shop in downtown Toronto where the tea blends were handed out to soothe the woes of not using a Realtor.",
     "hero": [
       {
         "type": "iframe",
@@ -122,7 +125,8 @@
       "height": 280,
       "alt": "Example image for Disney Parks Best Vacation Ever"
     },
-    "description": "We had the amazing opportunity to help Disney Parks / Huffington Post (US) tell a cute story about a family's Best Vacation Ever. A big thanks to the amazing BYB crew.",
+    "description":
+      "We had the amazing opportunity to help Disney Parks / Huffington Post (US) tell a cute story about a family's Best Vacation Ever. A big thanks to the amazing BYB crew.",
     "hero": [
       {
         "type": "iframe",
@@ -212,7 +216,8 @@
       "height": 280,
       "alt": "Example image for Whole Foods My 365"
     },
-    "description": "We're happy to share some work that we directed for Whole Foods' My 365 brand.",
+    "description":
+      "We're happy to share some work that we directed for Whole Foods' My 365 brand.",
     "hero": [
       {
         "type": "iframe",
@@ -290,7 +295,8 @@
       "height": 280,
       "alt": "Example image for Dairy Farmers of Canada Milkle-Down Effect"
     },
-    "description": "We had a lot of fun creating a holiday spot for our friends over at Cineplex, which you may see in theatres over the holidays. In 3 short weeks and with the help from a crazy talented crew, I like to think we made some of our own creative magic - such a joy to work on.",
+    "description":
+      "We had a lot of fun creating a holiday spot for our friends over at Cineplex, which you may see in theatres over the holidays. In 3 short weeks and with the help from a crazy talented crew, I like to think we made some of our own creative magic - such a joy to work on.",
     "hero": [
       {
         "type": "iframe",
@@ -320,7 +326,8 @@
         "role": "Layout/Design"
       },
       {
-        "name": "Michele Assarasakorn, Robyn Moir, Eric Gauthier, Matt Allen, Geoff Donovan",
+        "name":
+          "Michele Assarasakorn, Robyn Moir, Eric Gauthier, Matt Allen, Geoff Donovan",
         "role": "Background Painters"
       },
       {
@@ -340,7 +347,8 @@
         "role": "Animation Supervisor"
       },
       {
-        "name": "Michelle Tripp, Sean Brannigan, Gerry Duchemin, Sarah Baril, Andre Guindi",
+        "name":
+          "Michelle Tripp, Sean Brannigan, Gerry Duchemin, Sarah Baril, Andre Guindi",
         "role": "Character Animation"
       },
       {
@@ -414,7 +422,8 @@
       "height": 280,
       "alt": "Example image for Dairy Farmers of Canada Milkle-Down Effect"
     },
-    "description": "We're excited to share two deliciously milky spots for The Dairy Farmers of Canada. These charming spots  illustrate the positive effects of how the Canadian dairy sector trickle down to local communities. How very Canadian of us.",
+    "description":
+      "We're excited to share two deliciously milky spots for The Dairy Farmers of Canada. These charming spots  illustrate the positive effects of how the Canadian dairy sector trickle down to local communities. How very Canadian of us.",
     "hero": [
       {
         "type": "iframe",
@@ -515,7 +524,8 @@
       "height": 280,
       "alt": "Example image for VW 2015 Golf Sportswagon"
     },
-    "description": "We had a great opportunity to illustrate 5 isometric maps for a current Volkswagen campaign with our friends at Tribal DDB. The illustrations depict 5 regions of Canada, from the west coast to the east coast. A truly fun experience with some wonderfully creative folks. Where’s Sportswagon?",
+    "description":
+      "We had a great opportunity to illustrate 5 isometric maps for a current Volkswagen campaign with our friends at Tribal DDB. The illustrations depict 5 regions of Canada, from the west coast to the east coast. A truly fun experience with some wonderfully creative folks. Where’s Sportswagon?",
     "credits": [
       {
         "name": "Geoff Donovan",
@@ -574,12 +584,15 @@
       "height": 279,
       "alt": "Example image for Morning Coffee"
     },
-    "description": "<p>A little BYB brand spot featuring a bit of our morning routine. We all wish we could have a never ending cup of coffee.</p>",
-    "hero": [{
-      "type": "iframe",
-      "src": "//player.vimeo.com/video/90578341?title=0&byline=0&portrait=0",
-      "height": 345
-    }],
+    "description":
+      "<p>A little BYB brand spot featuring a bit of our morning routine. We all wish we could have a never ending cup of coffee.</p>",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/90578341?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
     "credits": [
       {
         "name": "BYB",
@@ -648,12 +661,15 @@
       "height": 279,
       "alt": "Example image for CLS"
     },
-    "description": "We had a wonderful opportunity to write and direct this animated short for the Centre of Longitudinal Studies (CLS), called Child of the New Century. The study follows 19,000 young people born across the UK at the beginning of the new millennium. We were asked to create an engaging and fun short to show why these young people are so special. You can find more here <a href='http://www.cls.ioe.ac.uk/cnc/' target='_blank'>cls.ioe.ac.uk/cnc/</a>.",
-    "hero": [{
-      "type": "iframe",
-      "src": "//player.vimeo.com/video/113419697?title=0&byline=0&portrait=0",
-      "height": 345
-    }],
+    "description":
+      "We had a wonderful opportunity to write and direct this animated short for the Centre of Longitudinal Studies (CLS), called Child of the New Century. The study follows 19,000 young people born across the UK at the beginning of the new millennium. We were asked to create an engaging and fun short to show why these young people are so special. You can find more here <a href='http://www.cls.ioe.ac.uk/cnc/' target='_blank'>cls.ioe.ac.uk/cnc/</a>.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/113419697?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
     "credits": [
       {
         "name": "BYB – Geoff & Darren Donovan",
@@ -688,7 +704,8 @@
         "role": "Character Posing"
       },
       {
-        "name": "Chris Land, Michelle Tripp, Andre Guindi, Brentton Barkman, Noam Sussman",
+        "name":
+          "Chris Land, Michelle Tripp, Andre Guindi, Brentton Barkman, Noam Sussman",
         "role": "Character Animation"
       },
       {
@@ -750,12 +767,15 @@
       "height": 279,
       "alt": "Example image for OMERS"
     },
-    "description": "The fine folks over at Omers asked us to help them send a message to their members in a fun and stylized animated spot. We had the opportunity to help shape the story from script to final execution.",
-    "hero": [{
-      "type": "iframe",
-      "src": "//player.vimeo.com/video/109963403?title=0&byline=0&portrait=0",
-      "height": 345
-    }],
+    "description":
+      "The fine folks over at Omers asked us to help them send a message to their members in a fun and stylized animated spot. We had the opportunity to help shape the story from script to final execution.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/109963403?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
     "credits": [
       {
         "name": "BYB - Geoff Donovan, Darren Donovan",
@@ -840,12 +860,15 @@
       "height": 279,
       "alt": "Example image for Cineplex for CREA"
     },
-    "description": "<p>We love working with the talented folks over at Union Creative. So when asked to create an animated spot for Canadian Realtors Association, we were very excited. The final spot fluidly describes \"How Commercial Realtors Help\".</p>",
-    "hero": [{
-      "type": "iframe",
-      "src": "//player.vimeo.com/video/76452402?title=0&byline=0&portrait=0",
-      "height": 345
-    }],
+    "description":
+      "<p>We love working with the talented folks over at Union Creative. So when asked to create an animated spot for Canadian Realtors Association, we were very excited. The final spot fluidly describes \"How Commercial Realtors Help\".</p>",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/76452402?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
     "credits": [
       {
         "name": "BYB - Geoff Donovan, Darren Donovan",
@@ -930,7 +953,8 @@
       "height": 280,
       "alt": "Example image for Wind Movie Charades"
     },
-    "description": "We're excited to share these fun little spots that we had the pleasure to be a part of for WIND mobile and MTV. These spots originally aired during the 2015 MTV Movie Awards. Thanks to our talented team for making this happen. There are 4 in all! How would phones play charades? Well, now you know.",
+    "description":
+      "We're excited to share these fun little spots that we had the pleasure to be a part of for WIND mobile and MTV. These spots originally aired during the 2015 MTV Movie Awards. Thanks to our talented team for making this happen. There are 4 in all! How would phones play charades? Well, now you know.",
     "hero": [
       {
         "type": "iframe",
@@ -1004,12 +1028,15 @@
       "height": 279,
       "alt": "Example image for The Barber for Gogo's Crazy Bones"
     },
-    "description": "<p>We had a ton of fun co-producing an international toy commercial for \"Gogo's Crazy Bones\" with our friends at Data Armada. BYB directed and created the animation while Data Armada shot and directed the live action portions of the spot. Having only less than one month to deliver a 30 and 15 second spot, we quickly put together our talented crew and went to work.</p><p>This post is a BYB directors cut only, featuring the animation, and not the final version of the aired commercial.</p>",
-    "hero": [{
-      "type": "iframe",
-      "src": "//player.vimeo.com/video/25429738?title=0&byline=0&portrait=0",
-      "height": 345
-    }],
+    "description":
+      "<p>We had a ton of fun co-producing an international toy commercial for \"Gogo's Crazy Bones\" with our friends at Data Armada. BYB directed and created the animation while Data Armada shot and directed the live action portions of the spot. Having only less than one month to deliver a 30 and 15 second spot, we quickly put together our talented crew and went to work.</p><p>This post is a BYB directors cut only, featuring the animation, and not the final version of the aired commercial.</p>",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/25429738?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
     "credits": [
       {
         "name": "BYB - Geoff Donovan, Darren Donovan",
@@ -1098,12 +1125,15 @@
       "height": 279,
       "alt": "Example image for Water PSA for The Barber"
     },
-    "description": "<p>In the spring of 2009, we had the honour of being selected to direct a short for the Teletoon animated TV pilot \"Dunce Bucket\". The ask was to choose a brief comedic VO &mdash; we selected from a list of 10 &mdash; and create a story and visual treatment based on what we heard.</p>",
-    "hero": [{
-      "type": "iframe",
-      "src": "//player.vimeo.com/video/22243743?title=0&byline=0&portrait=0",
-      "height": 345
-    }],
+    "description":
+      "<p>In the spring of 2009, we had the honour of being selected to direct a short for the Teletoon animated TV pilot \"Dunce Bucket\". The ask was to choose a brief comedic VO &mdash; we selected from a list of 10 &mdash; and create a story and visual treatment based on what we heard.</p>",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/22243743?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
     "credits": [
       {
         "name": "Teletoon",
