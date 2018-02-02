@@ -1,5 +1,573 @@
 [
   {
+    "slug": "tph-condom-psa",
+    "title": "Toronto Public Health",
+    "subtitle": "Condom PSA (Coming Soon)",
+    "type": "Animation",
+    "gridImage": {
+      "src": "https://i.imgur.com/dBosjXt.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for Toronto Public Health's Condom PSA"
+    },
+    "teaser": true,
+    "description":
+      "What happens to condoms in a bowl before they are about to be chosen? We’re not really sure, but we imagine it’s something like this.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/248026113?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Toronto Public Health",
+        "role": "Client"
+      },
+      {
+        "name": "The & Partnership",
+        "role": "Agency"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Matt Cemelovich",
+        "role": "Production Design"
+      },
+      {
+        "name": "Perin McLean",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Matt Cemelovich",
+        "role": "Character Design"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin, Jeff Size",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Animation",
+        "role":
+          "Jeff Size, Michelle Tripp, Darren Donovan, Sarah Baril, Sean Branigan, Tim Martin, Sean Newysmith"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Skoojah",
+        "role": "Typography"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Jason Clark, Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Pico Sound, Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "yt-kids-rebrand-teasers-2017",
+    "title": "YouTube Kids",
+    "subtitle": "Rebrand Teasers 2017",
+    "type": "Animation",
+    "gridImage": {
+      "src": "https://i.imgur.com/g2sT9Zv.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for YouTube Kids Rebrand Teasers 2017"
+    },
+    "description":
+      "Stoked to work on some cute YouTube Kids rebrand teasers! These little spots introduce the new YouTube Kids app and its new character driven world!! Fun!!",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/248026113?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "YouTube Kids",
+        "role": "Client"
+      },
+      {
+        "name": "Hook",
+        "role": "Agency"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Hook / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Dipsh Minstry",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Colour Design"
+      },
+      {
+        "name": "Rob Bryson",
+        "role": "Rough Layout Design"
+      },
+      {
+        "name": "November Rush",
+        "role": "Clean Layout Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Background Painter"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Jeff Size, Michelle Tripp, Darren Donovan, Sarah Baril",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Pico Sound, Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "koodo-choose-happy",
+    "title": "Koodo",
+    "subtitle": "Choose Happy",
+    "type": "Animation",
+    "gridImage": {
+      "src": "https://i.imgur.com/FE3iffp.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for Koodo's Choose Happiness"
+    },
+    "description":
+      "Some weird and fun loops for Koodo’s social channels. We had way too much fun with this stuff!!",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/252774347?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Koodo",
+        "role": "Client"
+      },
+      {
+        "name": "Camp Jefferson",
+        "role": "Agency"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Camp Jefferson / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Noam Sussman",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Noam Sussman",
+        "role": "Character Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Colour Design"
+      },
+      {
+        "name": "Noam Sussman, Darren Donovan",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Matt Cemelovich, Michelle Tripp, Darren Donovan, Sarah Baril",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "temptations-cat-loops",
+    "title": "Temptations",
+    "subtitle": "Cat Loops",
+    "type": "Animation",
+    "gridImage": {
+      "src": "https://i.imgur.com/erD5QTu.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for Temptation's Cat Loops"
+    },
+    "description": "A series of loops for Temptations Cat Treats.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/252775746?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Huffington Post",
+        "role": "Client"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Anchor Point",
+        "role": "Production Company"
+      },
+      {
+        "name": "Mike Holm",
+        "role": "Executive Producer"
+      },
+      {
+        "name": "Hook / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Amanda Martin, Geoff Donovan",
+        "role": "Layout / Character Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Background Painter"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name":
+          "Jeff Size, Michelle Tripp, Darren Donovan, Sarah Baril, Matt Cemelovich",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "disney-dream-big-princess",
+    "title": "Disney",
+    "subtitle": "Dream Big Princess",
+    "type": "Animation",
+    "gridImage": {
+      "src": "https://i.imgur.com/kWum68B.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for Disney's Dream Big Princess"
+    },
+    "description":
+      "We were happy to be involved in The Dream Big, Princess campaign that encourages kids everywhere to dream big by high-lighting inspiring moments from Disney Princess stories. These shorts showcase animated typography of the inspirational quotes and qualities like Merida&rsquo;s bravery and Tiana&rsquo;s perseverance.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/237816459?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Disney",
+        "role": "Client"
+      },
+      {
+        "name": "Camp Jefferson",
+        "role": "Agency"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Kyu-Bum Lee, Darren Donovan, Andre Guindi, Chris Land",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Amanda Martin, Geoff Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Design"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name":
+          "Jeff Size, Michelle Tripp, Darren Donovan, Sarah Baril, Mike Hogue",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Skoojah",
+        "role": "Typography"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "espn-nbas-best-defenders",
+    "title": "ESPN",
+    "subtitle": "NBA'S Best Defenders",
+    "type": "Animation",
+    "gridImage": {
+      "src": "https://i.imgur.com/ZQsDYSj.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for NBA's Best Defenders"
+    },
+    "description":
+      "We made a series of loops for our friends at ESPN, featuring &ldquo;The Best Defenders&rdquo; in the NBA.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/252770687?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "ESPN",
+        "role": "Client"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "ESPN / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Amanda Martin, Geoff Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Colour Design"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name":
+          "Gerry Duchemin, Adam Temple, Jeff Size, Michelle Tripp, Darren Donovan, Sarah Baril",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "lcbo-the-canada-bottle",
+    "title": "LCBO",
+    "subtitle": "The Canada Bottle",
+    "type": "Animation",
+    "gridImage": {
+      "src": "https://i.imgur.com/1oI8j8g.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for LCBO — The Canada Bottle"
+    },
+    "description": "",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/252557136?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "LCBO",
+        "role": "Client"
+      },
+      {
+        "name": "Benmsimon Byrne",
+        "role": "Agency"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction / Illustration"
+      },
+      {
+        "name": "Dipesh Mistry, Gerry Duchemin",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Amanda Martin, Darren Donovan",
+        "role": "Character Design / Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Matt Cemelovich, Michelle Tripp, Darren Donovan",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
     "slug": "huffington-post-sleep-number",
     "title": "Huffington Post",
     "subtitle": "Sleep Number",
@@ -21,41 +589,41 @@
     ],
     "credits": [
       {
-        "name": "Animation Director",
-        "role": "Darren Donovan"
+        "name": "Darren Donovan",
+        "role": "Animation Director"
       },
       {
-        "name": "Animation Supervisor",
-        "role": "Michelle Tripp"
+        "name": "Michelle Tripp",
+        "role": "Animation Supervisor"
       },
       {
-        "name": "Character Animation",
-        "role":
-          "Michelle Tripp, Gerry Duchemin, Sarah Baril, Darren Donovan, Andre Guindi, Matthew Cemalovic"
+        "name":
+          "Michelle Tripp, Gerry Duchemin, Sarah Baril, Darren Donovan, Andre Guindi, Matthew Cemalovic",
+        "role": "Character Animation"
       },
       {
-        "name": "Editor",
-        "role": "Tom Berger"
+        "name": "Tom Berger",
+        "role": "Editor"
       },
       {
-        "name": "Compositing / Post FX",
-        "role": "Nathan Day"
+        "name": "Nathan Day",
+        "role": "Compositing / Post FX"
       },
       {
-        "name": "Music",
-        "role": "Brian Gallant "
+        "name": "Brian Gallant ",
+        "role": "Music"
       },
       {
-        "name": "Sound Mix / SFX",
-        "role": "Sebastien Breton"
+        "name": "Sebastien Breton",
+        "role": "Sound Mix / SFX"
       },
       {
-        "name": "Client",
-        "role": "Sleep Number / Huffington Post (U.S)"
+        "name": "Sleep Number / Huffington Post (U.S)",
+        "role": "Client"
       },
       {
-        "name": "Executive Producer",
-        "role": "Mike Holm"
+        "name": "Mike Holm",
+        "role": "Executive Producer"
       }
     ]
   },
