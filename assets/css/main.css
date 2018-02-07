@@ -3948,9 +3948,9 @@ body{overflow-y:scroll}
 /* line 91 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
 #home .work-cta .work-info h2,#home .work-cta .work-info h3{display:block}
 /* line 95 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
-#home .work-cta .work-info h2{padding:0;color:#fff;font-size:24px;line-height:28px}
+#home .work-cta .work-info h2{padding:0 10px;color:#fff;font-size:24px;line-height:28px}
 /* line 102 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
-#home .work-cta .work-info h3{margin:0 30px;color:#d2d247;font-size:15px;line-height:24px;text-transform:uppercase}
+#home .work-cta .work-info h3{margin:0 25px;color:#d2d247;font-size:15px;line-height:24px;text-transform:uppercase}
 /* line 110 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
 #home .work-cta .work-info .work-type{color:#fff;font-size:11px;line-height:24px;text-transform:uppercase;font-style:italic;}
 /* line 117 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
