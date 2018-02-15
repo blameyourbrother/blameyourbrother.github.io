@@ -10,7 +10,7 @@
         <a class="work-cta" {{#unless teaser}}href="work/{{slug}}.html"{{/unless}} style="max-width:{{gridImage.width}}px;">
           <div class="work-info">
             <h2>{{title}}</h2>
-            <h3>{{subtitle}}</h3>
+            <h3>{{subtitle}}{{#if teaser}} (Coming Soon){{/if}}</h3>
             <div class="work-type hidden-xs">{{type}}</div>
           </div>
         </a>
