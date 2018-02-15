@@ -10,13 +10,13 @@
       "height": 279,
       "alt": "Example image for Toronto Public Health's Condom PSA"
     },
-    "teaser": true,
+    "teaser": false,
     "description":
       "What happens to condoms in a bowl before they are about to be chosen? We’re not really sure, but we imagine it’s something like this.",
     "hero": [
       {
         "type": "iframe",
-        "src": "//player.vimeo.com/video/248026113?title=0&byline=0&portrait=0",
+        "src": "//player.vimeo.com/video/253315017?title=0&byline=0&portrait=0",
         "height": 345
       }
     ],
