@@ -5,7 +5,7 @@
     "subtitle": "Condom PSA",
     "type": "Animation",
     "gridImage": {
-      "src": "https://i.imgur.com/dBosjXt.png",
+      "src": "//i.imgur.com/dBosjXt.png",
       "width": 278,
       "height": 279,
       "alt": "Example image for Toronto Public Health's Condom PSA"
@@ -90,7 +90,7 @@
     "subtitle": "Rebrand Teasers 2017",
     "type": "Animation",
     "gridImage": {
-      "src": "https://i.imgur.com/g2sT9Zv.png",
+      "src": "//i.imgur.com/g2sT9Zv.png",
       "width": 278,
       "height": 279,
       "alt": "Example image for YouTube Kids Rebrand Teasers 2017"
@@ -181,7 +181,7 @@
     "subtitle": "Choose Happy",
     "type": "Animation",
     "gridImage": {
-      "src": "https://i.imgur.com/FE3iffp.png",
+      "src": "//i.imgur.com/FE3iffp.png",
       "width": 278,
       "height": 279,
       "alt": "Example image for Koodo's Choose Happiness"
@@ -264,7 +264,7 @@
     "subtitle": "Cat Loops",
     "type": "Animation",
     "gridImage": {
-      "src": "https://i.imgur.com/erD5QTu.png",
+      "src": "//i.imgur.com/erD5QTu.png",
       "width": 278,
       "height": 279,
       "alt": "Example image for Temptation's Cat Loops"
@@ -343,7 +343,7 @@
     "subtitle": "Dream Big Princess",
     "type": "Animation",
     "gridImage": {
-      "src": "https://i.imgur.com/kWum68B.png",
+      "src": "//i.imgur.com/kWum68B.png",
       "width": 278,
       "height": 279,
       "alt": "Example image for Disney's Dream Big Princess"
@@ -427,7 +427,7 @@
     "subtitle": "NBA'S Best Defenders",
     "type": "Animation",
     "gridImage": {
-      "src": "https://i.imgur.com/ZQsDYSj.png",
+      "src": "//i.imgur.com/ZQsDYSj.png",
       "width": 278,
       "height": 279,
       "alt": "Example image for NBA's Best Defenders"
@@ -503,7 +503,7 @@
     "subtitle": "The Canada Bottle",
     "type": "Animation",
     "gridImage": {
-      "src": "https://i.imgur.com/1oI8j8g.png",
+      "src": "//i.imgur.com/1oI8j8g.png",
       "width": 278,
       "height": 279,
       "alt": "Example image for LCBO — The Canada Bottle"
@@ -573,7 +573,7 @@
     "subtitle": "Sleep Number",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/CEyA7Yt.jpg",
+      "src": "//i.imgur.com/CEyA7Yt.jpg",
       "width": 279,
       "height": 280,
       "alt": "Example image for Huffington Post Sleep Number"
@@ -633,7 +633,7 @@
     "subtitle": "Real-Tea",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/6G7xZgR.jpg",
+      "src": "//i.imgur.com/6G7xZgR.jpg",
       "width": 279,
       "height": 280,
       "alt": "Example image for CREA Real-Tea"
@@ -688,7 +688,7 @@
     "subtitle": "Best Vacation Ever",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/zxBBOur.jpg",
+      "src": "//i.imgur.com/zxBBOur.jpg",
       "width": 279,
       "height": 280,
       "alt": "Example image for Disney Parks Best Vacation Ever"
@@ -779,7 +779,7 @@
     "subtitle": "My 365",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/J9ivK8R.jpg",
+      "src": "//i.imgur.com/J9ivK8R.jpg",
       "width": 279,
       "height": 280,
       "alt": "Example image for Whole Foods My 365"
@@ -858,7 +858,7 @@
     "subtitle": "Enjoy the Magic",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/I6xP53j.jpg",
+      "src": "//i.imgur.com/I6xP53j.jpg",
       "width": 279,
       "height": 280,
       "alt": "Example image for Dairy Farmers of Canada Milkle-Down Effect"
@@ -958,23 +958,23 @@
     ],
     "gallery": [
       {
-        "grid": "http://i.imgur.com/PLdx7zv.jpg",
-        "full": "http://i.imgur.com/7YVMxOS.jpg",
+        "grid": "//i.imgur.com/PLdx7zv.jpg",
+        "full": "//i.imgur.com/7YVMxOS.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/vTb946W.jpg",
-        "full": "http://i.imgur.com/8TDfCaH.jpg",
+        "grid": "//i.imgur.com/vTb946W.jpg",
+        "full": "//i.imgur.com/8TDfCaH.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/pTwOhpG.jpg",
-        "full": "http://i.imgur.com/vpV0wff.jpg",
+        "grid": "//i.imgur.com/pTwOhpG.jpg",
+        "full": "//i.imgur.com/vpV0wff.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/Dz3GYVG.jpg",
-        "full": "http://i.imgur.com/rBBbHoV.jpg",
+        "grid": "//i.imgur.com/Dz3GYVG.jpg",
+        "full": "//i.imgur.com/rBBbHoV.jpg",
         "gridSize": 1
       }
     ]
@@ -985,7 +985,7 @@
     "subtitle": "The Milkle-Down Effect",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/HGlQc7u.jpg",
+      "src": "//i.imgur.com/HGlQc7u.jpg",
       "width": 279,
       "height": 280,
       "alt": "Example image for Dairy Farmers of Canada Milkle-Down Effect"
@@ -1060,23 +1060,23 @@
     ],
     "gallery": [
       {
-        "grid": "http://i.imgur.com/xlxMxZH.jpg",
-        "full": "http://i.imgur.com/fH2JnqP.jpg",
+        "grid": "//i.imgur.com/xlxMxZH.jpg",
+        "full": "//i.imgur.com/fH2JnqP.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/dJ1l0tY.jpg",
-        "full": "http://i.imgur.com/OJJOAsV.jpg",
+        "grid": "//i.imgur.com/dJ1l0tY.jpg",
+        "full": "//i.imgur.com/OJJOAsV.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/uwAdOSZ.jpg",
-        "full": "http://i.imgur.com/fyjsx3B.jpg",
+        "grid": "//i.imgur.com/uwAdOSZ.jpg",
+        "full": "//i.imgur.com/fyjsx3B.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/g5MYf7C.jpg",
-        "full": "http://i.imgur.com/7BViv8c.jpg",
+        "grid": "//i.imgur.com/g5MYf7C.jpg",
+        "full": "//i.imgur.com/7BViv8c.jpg",
         "gridSize": 1
       }
     ]
@@ -1087,7 +1087,7 @@
     "subtitle": "2015 Golf Sportswagon",
     "type": "Illustration",
     "gridImage": {
-      "src": "http://i.imgur.com/zDDibkc.jpg",
+      "src": "//i.imgur.com/zDDibkc.jpg",
       "width": 279,
       "height": 280,
       "alt": "Example image for VW 2015 Golf Sportswagon"
@@ -1110,33 +1110,33 @@
     ],
     "gallery": [
       {
-        "grid": "http://i.imgur.com/S0wqNpf.jpg",
-        "full": "http://i.imgur.com/gxODa7s.png",
+        "grid": "//i.imgur.com/S0wqNpf.jpg",
+        "full": "//i.imgur.com/gxODa7s.png",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/HO6LbdT.jpg",
-        "full": "http://i.imgur.com/Jkv4RbR.png",
+        "grid": "//i.imgur.com/HO6LbdT.jpg",
+        "full": "//i.imgur.com/Jkv4RbR.png",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/1ESHbrl.jpg",
-        "full": "http://i.imgur.com/EcLhUNZ.png",
+        "grid": "//i.imgur.com/1ESHbrl.jpg",
+        "full": "//i.imgur.com/EcLhUNZ.png",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/LhcGuMB.jpg",
-        "full": "http://i.imgur.com/ks4x6hm.png",
+        "grid": "//i.imgur.com/LhcGuMB.jpg",
+        "full": "//i.imgur.com/ks4x6hm.png",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/f2L7Ypc.jpg",
-        "full": "http://i.imgur.com/56ChH8O.png",
+        "grid": "//i.imgur.com/f2L7Ypc.jpg",
+        "full": "//i.imgur.com/56ChH8O.png",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/TOIncAD.jpg",
-        "full": "http://i.imgur.com/VJ5VxMM.jpg",
+        "grid": "//i.imgur.com/TOIncAD.jpg",
+        "full": "//i.imgur.com/VJ5VxMM.jpg",
         "gridSize": 1
       }
     ]
@@ -1147,7 +1147,7 @@
     "subtitle": "Morning Coffee",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/fAcZj7k.jpg",
+      "src": "//i.imgur.com/fAcZj7k.jpg",
       "width": 279,
       "height": 279,
       "alt": "Example image for Morning Coffee"
@@ -1197,23 +1197,23 @@
     ],
     "gallery": [
       {
-        "grid": "http://i.imgur.com/ThyyQLh.jpg",
-        "full": "http://i.imgur.com/TusFHUB.jpg",
+        "grid": "//i.imgur.com/ThyyQLh.jpg",
+        "full": "//i.imgur.com/TusFHUB.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/fO5rsPM.jpg",
-        "full": "http://i.imgur.com/gCjKeab.jpg",
+        "grid": "//i.imgur.com/fO5rsPM.jpg",
+        "full": "//i.imgur.com/gCjKeab.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/iDpIsdw.jpg",
-        "full": "http://i.imgur.com/XusTDER.jpg",
+        "grid": "//i.imgur.com/iDpIsdw.jpg",
+        "full": "//i.imgur.com/XusTDER.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/ouJpZxi.jpg",
-        "full": "http://i.imgur.com/tvmu1cs.jpg",
+        "grid": "//i.imgur.com/ouJpZxi.jpg",
+        "full": "//i.imgur.com/tvmu1cs.jpg",
         "gridSize": 1
       }
     ]
@@ -1224,13 +1224,13 @@
     "subtitle": "The Power to Change the Future",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/ozzsE4g.jpg",
+      "src": "//i.imgur.com/ozzsE4g.jpg",
       "width": 279,
       "height": 279,
       "alt": "Example image for CLS"
     },
     "description":
-      "We had a wonderful opportunity to write and direct this animated short for the Centre of Longitudinal Studies (CLS), called Child of the New Century. The study follows 19,000 young people born across the UK at the beginning of the new millennium. We were asked to create an engaging and fun short to show why these young people are so special. You can find more here <a href='http://www.cls.ioe.ac.uk/cnc/' target='_blank'>cls.ioe.ac.uk/cnc/</a>.",
+      "We had a wonderful opportunity to write and direct this animated short for the Centre of Longitudinal Studies (CLS), called Child of the New Century. The study follows 19,000 young people born across the UK at the beginning of the new millennium. We were asked to create an engaging and fun short to show why these young people are so special. You can find more here <a href='https://www.cls.ioe.ac.uk/cnc/' target='_blank'>cls.ioe.ac.uk/cnc/</a>.",
     "hero": [
       {
         "type": "iframe",
@@ -1303,23 +1303,23 @@
     ],
     "gallery": [
       {
-        "grid": "http://i.imgur.com/LiTygdc.jpg",
-        "full": "http://i.imgur.com/7c1m665.jpg",
+        "grid": "//i.imgur.com/LiTygdc.jpg",
+        "full": "//i.imgur.com/7c1m665.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/ZOwML9a.jpg",
-        "full": "http://i.imgur.com/BurwWzk.jpg",
+        "grid": "//i.imgur.com/ZOwML9a.jpg",
+        "full": "//i.imgur.com/BurwWzk.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/AFVKJ5m.jpg",
-        "full": "http://i.imgur.com/lCoW4YU.jpg",
+        "grid": "//i.imgur.com/AFVKJ5m.jpg",
+        "full": "//i.imgur.com/lCoW4YU.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/YBznHlF.jpg",
-        "full": "http://i.imgur.com/9YnNbYI.jpg",
+        "grid": "//i.imgur.com/YBznHlF.jpg",
+        "full": "//i.imgur.com/9YnNbYI.jpg",
         "gridSize": 1
       }
     ]
@@ -1330,7 +1330,7 @@
     "subtitle": "Defined Benefit Pension Plan",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/QZEeIAr.jpg",
+      "src": "//i.imgur.com/QZEeIAr.jpg",
       "width": 279,
       "height": 279,
       "alt": "Example image for OMERS"
@@ -1396,23 +1396,23 @@
     ],
     "gallery": [
       {
-        "grid": "http://i.imgur.com/Miuj1UA.jpg",
-        "full": "http://i.imgur.com/CbLYib4.jpg",
+        "grid": "//i.imgur.com/Miuj1UA.jpg",
+        "full": "//i.imgur.com/CbLYib4.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/qsUOoPO.jpg",
-        "full": "http://i.imgur.com/RF8tXVX.jpg",
+        "grid": "//i.imgur.com/qsUOoPO.jpg",
+        "full": "//i.imgur.com/RF8tXVX.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/iXxCoYr.jpg",
-        "full": "http://i.imgur.com/9yzd3iz.jpg",
+        "grid": "//i.imgur.com/iXxCoYr.jpg",
+        "full": "//i.imgur.com/9yzd3iz.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/0xtuYvp.jpg",
-        "full": "http://i.imgur.com/j0YeA49.jpg",
+        "grid": "//i.imgur.com/0xtuYvp.jpg",
+        "full": "//i.imgur.com/j0YeA49.jpg",
         "gridSize": 1
       }
     ]
@@ -1423,7 +1423,7 @@
     "subtitle": "How Commercial Realtors Help",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/q5qhbo4.jpg",
+      "src": "//i.imgur.com/q5qhbo4.jpg",
       "width": 279,
       "height": 279,
       "alt": "Example image for Cineplex for CREA"
@@ -1489,23 +1489,23 @@
     ],
     "gallery": [
       {
-        "grid": "http://i.imgur.com/XIAliKa.jpg",
-        "full": "http://i.imgur.com/2un5U37.jpg",
+        "grid": "//i.imgur.com/XIAliKa.jpg",
+        "full": "//i.imgur.com/2un5U37.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/h47U1wL.jpg",
-        "full": "http://i.imgur.com/HlIf5hk.jpg",
+        "grid": "//i.imgur.com/h47U1wL.jpg",
+        "full": "//i.imgur.com/HlIf5hk.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/g4eug9f.jpg",
-        "full": "http://i.imgur.com/6YeJ3qb.jpg",
+        "grid": "//i.imgur.com/g4eug9f.jpg",
+        "full": "//i.imgur.com/6YeJ3qb.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/1iJxu5D.jpg",
-        "full": "http://i.imgur.com/XMtbSfe.jpg",
+        "grid": "//i.imgur.com/1iJxu5D.jpg",
+        "full": "//i.imgur.com/XMtbSfe.jpg",
         "gridSize": 1
       }
     ]
@@ -1516,7 +1516,7 @@
     "subtitle": "Movie Charades",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/nijkASy.jpg",
+      "src": "//i.imgur.com/nijkASy.jpg",
       "width": 279,
       "height": 280,
       "alt": "Example image for Wind Movie Charades"
@@ -1591,7 +1591,7 @@
     "subtitle": "Animated TV Spot",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/lQZgW1i.jpg",
+      "src": "//i.imgur.com/lQZgW1i.jpg",
       "width": 279,
       "height": 279,
       "alt": "Example image for The Barber for Gogo's Crazy Bones"
@@ -1661,23 +1661,23 @@
     ],
     "gallery": [
       {
-        "grid": "http://i.imgur.com/sladeMF.jpg",
-        "full": "http://i.imgur.com/zUir8Ih.jpg",
+        "grid": "//i.imgur.com/sladeMF.jpg",
+        "full": "//i.imgur.com/zUir8Ih.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/GBMrya4.jpg",
-        "full": "http://i.imgur.com/28PvWTl.jpg",
+        "grid": "//i.imgur.com/GBMrya4.jpg",
+        "full": "//i.imgur.com/28PvWTl.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/OvsAbYW.jpg",
-        "full": "http://i.imgur.com/L3totDz.jpg",
+        "grid": "//i.imgur.com/OvsAbYW.jpg",
+        "full": "//i.imgur.com/L3totDz.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/m96vEFH.jpg",
-        "full": "http://i.imgur.com/QAKMElr.jpg",
+        "grid": "//i.imgur.com/m96vEFH.jpg",
+        "full": "//i.imgur.com/QAKMElr.jpg",
         "gridSize": 1
       }
     ]
@@ -1688,7 +1688,7 @@
     "subtitle": "Animated Short",
     "type": "Animation",
     "gridImage": {
-      "src": "http://i.imgur.com/xxHcKy6.jpg",
+      "src": "//i.imgur.com/xxHcKy6.jpg",
       "width": 279,
       "height": 279,
       "alt": "Example image for Water PSA for The Barber"
@@ -1750,23 +1750,23 @@
     ],
     "gallery": [
       {
-        "grid": "http://i.imgur.com/82YDUkV.jpg",
-        "full": "http://i.imgur.com/VrDK7Xx.jpg",
+        "grid": "//i.imgur.com/82YDUkV.jpg",
+        "full": "//i.imgur.com/VrDK7Xx.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/uhQQ615.jpg",
-        "full": "http://i.imgur.com/733evVq.jpg",
+        "grid": "//i.imgur.com/uhQQ615.jpg",
+        "full": "//i.imgur.com/733evVq.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/niZjYrJ.jpg",
-        "full": "http://i.imgur.com/vmyFxcX.jpg",
+        "grid": "//i.imgur.com/niZjYrJ.jpg",
+        "full": "//i.imgur.com/vmyFxcX.jpg",
         "gridSize": 1
       },
       {
-        "grid": "http://i.imgur.com/hwMDtdD.jpg",
-        "full": "http://i.imgur.com/eOXSUje.jpg",
+        "grid": "//i.imgur.com/hwMDtdD.jpg",
+        "full": "//i.imgur.com/eOXSUje.jpg",
         "gridSize": 1
       }
     ]
