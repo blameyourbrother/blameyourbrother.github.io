@@ -11,6 +11,101 @@
     "teaser": true
   },
   {
+    "slug": "ped-brain-tumor-foundation",
+    "title": "Pediatric Brain Tumor Foundation",
+    "subtitle": "The Holidays Will Always Find You",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/qbFuvcB.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for Pediatric Brain Tumor Foundation's anumated short called 'The Holidays Will Always Find You'"
+    },
+    "teaser": false,
+    "description": "We had the pleasure of creating Onboarding videos for the YouTube Kids App. Before a child watches content on YouTube Kids, the Onboarding video explains that if the parent signs in, they would have more controls over what their child watches. Parents can control the amount of videos or hand-pick your own. Cool!",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/307742769?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Anchor Point",
+        "role": "Production Company"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Mike Holm BYB",
+        "role": "Executive Producer"
+      },
+      {
+        "name": "Hook / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Dipesh Mistry",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Sonia Santorelli",
+        "role": "Producer"
+      },
+      {
+        "name": "Gustaf Öhrnell Hjalmars",
+        "role": "Design"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin, Steve Lambe, Doug Macklin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Jeff Size, Darren Donovan, Matt Cemalovic",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Oliver Sin",
+        "role": "Motion Design"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan, Nathan Day",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "Sound"
+      },
+      {
+        "name": "YouTube Kids",
+        "role": "Client"
+      },
+      {
+        "name": "Hook",
+        "role": "Agency"
+      }
+    ]
+  },
+  {
     "slug": "tph-condom-psa",
     "title": "Toronto Public Health",
     "subtitle": "Condom PSA",
