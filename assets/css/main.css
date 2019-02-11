@@ -3954,10 +3954,14 @@ body{overflow-y:scroll}
 /* line 110 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
 #home .work-cta .work-info .work-type{color:#fff;font-size:11px;line-height:24px;text-transform:uppercase;font-style:italic;}
 /* line 117 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
-#home .work-cta .work-info .work-type:before,#home .work-cta .work-info .work-type:after{content:'-';display:inline;padding:0 5px;font-style:italic}}
-/* line 128 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
+#home .work-cta .work-info .work-type:before,#home .work-cta .work-info .work-type:after{content:'-';display:inline;padding:0 5px;font-style:italic}
+/* line 124 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
 
-/* line 128 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/work.styl */
+/* line 125 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
+#home .work-cta .work-info .work-type:empty:before,#home .work-cta .work-info .work-type:empty:after{display:none}}
+/* line 134 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
+
+/* line 134 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/work.styl */
 
 /* line 1 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/work.styl */
 

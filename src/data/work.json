@@ -1,5 +1,16 @@
 [
   {
+    "slug": "zz-top-documentary",
+    "title": "ZZ Top Documentary",
+    "gridImage": {
+      "src": "//i.imgur.com/op1ACfu.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for an upcoming ZZ Top documentary"
+    },
+    "teaser": true
+  },
+  {
     "slug": "tph-condom-psa",
     "title": "Toronto Public Health",
     "subtitle": "Condom PSA",

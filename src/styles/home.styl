@@ -120,6 +120,12 @@
             padding: 0 5px;
             font-style: italic;
           }
+
+          &:empty {
+            &:before, &:after {
+              display: none;
+            }
+          }
         }
       }
     }
