@@ -3930,7 +3930,7 @@ body{overflow-y:scroll}
 /* line 45 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
 #home .work-item{position:relative;margin-top:30px;margin-bottom:0;}
 /* line 50 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
-#home .work-item:nth-child(4),#home .work-item:nth-child(7){clear:left}
+#home .work-item:nth-child(3n + 4){clear:left}
 /* line 54 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
 #home .work-item:last-child{margin-bottom:30px}
 /* line 58 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/home.styl */
