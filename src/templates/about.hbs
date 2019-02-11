@@ -2,44 +2,13 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-9 col-sm-9 left-col">
-        <img class="hero-image" src="{{ about.heroImage.src }}" alt="{{ about.heroImage.alt }}" style="max-width:{{ about.heroImage.width }}px">
+        <img class="hero-image" src="{{ about.heroImage.src }}" alt="{{ about.heroImage.alt }}"
+          style="max-width:{{ about.heroImage.width }}px">
       </div>
       <div class="col-md-3 col-sm-3 right-col">
         <h2>{{ about.title }}</h2>
         <div class="description">
           {{{ about.description }}}
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 line-break"></div>
-    </div>
-    <div class="row">
-      <div class="col-md-9 col-sm-9 left-col">
-        <div class="row">
-          <div class="col-xs-12 visible-xs">
-            <h2>{{ about.team.title }}</h2>
-          </div>
-          <div class="team-members">
-          {{#each about.team.members}}
-            <div class="col-md-6 col-sm-6 team-member">
-              <img class="team-member-photo" src="{{ image.src }}" style="max-width: {{ image.width }}px;" alt="{{ image.alt }}">
-              <div class="team-member-info {{#unless title}}no-title{{/unless}}" style="max-width: {{ image.width }}px;">
-                <h3 class="team-member-name">{{ name }}</h3>
-                <p class="team-member-role">{{ role }}</p>
-                {{#if title}}
-                <p class="team-member-title hidden-xs">{{ title }}</p>
-                {{/if}}
-              </div>
-            </div>
-          {{/each}}
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-3 right-col hidden-xs">
-        <h2>{{ about.team.title }}</h2>
-        <div class="description">
-          {{{ about.team.description }}}
         </div>
       </div>
     </div>
