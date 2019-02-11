@@ -22,11 +22,110 @@
       "alt": "Example image for Pediatric Brain Tumor Foundation's anumated short called 'The Holidays Will Always Find You'"
     },
     "teaser": false,
-    "description": "We had the pleasure of creating Onboarding videos for the YouTube Kids App. Before a child watches content on YouTube Kids, the Onboarding video explains that if the parent signs in, they would have more controls over what their child watches. Parents can control the amount of videos or hand-pick your own. Cool!",
+    "description": "We are honoured to share a pro bono animated short that the BYB team created for the Pediatric Brain Tumor Foundation. Thank you so very much to the BYB crew for donating their time and talent to such a beautiful message. This speaks to the brave children undergoing cancer treatment, to reassure them that the holiday spirit will find them.",
     "hero": [
       {
         "type": "iframe",
         "src": "//player.vimeo.com/video/307742769?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Pediatric Brain Tumor Foundation",
+        "role": "Client"
+      },
+      {
+        "name": "RPA",
+        "role": "Agency"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Mike Holm BYB",
+        "role": "Executive Producer"
+      },
+      {
+        "name": "Blayne Burnside, Chris Rousakos",
+        "role": "Storyboards"
+      },
+      {
+        "name": "Tom Berger, Miles Davren",
+        "role": "Leica Edit"
+      },
+      {
+        "name": "Aaron Hong",
+        "role": "Style Frame / Design"
+      },
+      {
+        "name": "Amanda Martin",
+        "role": "Character Design"
+      },
+      {
+        "name": "Rob Bryson",
+        "role": "Layout"
+      },
+      {
+        "name": "Mathew Jacob",
+        "role": "Prop Design"
+      },
+      {
+        "name": "Martin Smith, Robyn Tacchino, Parker Bryant, Grace Yoo, Sujin Kim, Matt Allen, Aaron Hong, Eric Gauthier, Antonio Caggiano, Geoff Donovan",
+        "role": "BG Paint"
+      },
+      {
+        "name": "Amanda Martin, Steve Lambe, Lee ann Dufour, Haley Szereszewski, James Walsh",
+        "role": "Posing"
+      },
+      {
+        "name": "Doug Macklin, Brooke Stephenson, Jeff Size, Brenton Barkman",
+        "role": "Posing Clean Up"
+      },
+      {
+        "name": "Sean Nasmith, Sarah Baril, Matt Cemalovic, Nicola Hartley, Tim Martin, Nicole Kozak, Jeff Size, Antonio Caggiano, Darren Donovan",
+        "role": "Animation"
+      },
+      {
+        "name": "Skoojah",
+        "role": "Typography"
+      },
+      {
+        "name": "Nathans Day",
+        "role": "Colour Edit"
+      },
+      {
+        "name": "Sheldon Lisoy",
+        "role": "Compositing / VFX"
+      },
+      {
+        "name": "Brian Gallant",
+        "role": "Music"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "Sound / Mix"
+      }
+    ]
+  },
+  {
+    "slug": "youtube-kids-onboarding",
+    "title": "YouTube Kids",
+    "subtitle": "Onboarding",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/3d6VMl3.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for the YouTube Kids Onboarding videos"
+    },
+    "teaser": false,
+    "description": "We had the pleasure of creating Onboarding videos for the YouTube Kids App. Before a child watches content on YouTube Kids, the Onboarding video explains that if the parent signs in, they would have more controls over what their child watches. Parents can control the amount of videos or hand-pick your own. Cool!",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/311979452?title=0&byline=0&portrait=0",
         "height": 345
       }
     ],
@@ -102,6 +201,97 @@
       {
         "name": "Hook",
         "role": "Agency"
+      }
+    ]
+  },
+  {
+    "slug": "youtube-kids-2018",
+    "title": "YouTube Kids",
+    "subtitle": "2018",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/cb27wSt.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for the YouTube Kids 2018 work"
+    },
+    "teaser": false,
+    "description": "Over the course of 2018 we had a lot of fun creating bumpers, teasers, gifs and splash animation for the YouTube Kids App!",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/311961661?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Anchor Point",
+        "role": "Production Company"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Hook / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Dipesh Mistry, Blaine Burnside",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Rob Bryson, November Rush, Tim Deacon",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Geoff Donovan, Matt Allen",
+        "role": "Background Painter"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin, Steve Lambe, Doug Macklin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Jeff Size, Michelle Tripp, Darren Donovan, Sarah Baril, Sean Nesmith",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Tom Berger, Miles Davren",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan, Nathan Day",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      },
+      {
+        "name": "YouTube Kids",
+        "role": "Client"
+      },
+      {
+        "name": "Hook",
+        "role": "Agency"
+      },
+      {
+        "name": "Mike Holm",
+        "role": "Executive Producer"
       }
     ]
   },
