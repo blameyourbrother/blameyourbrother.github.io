@@ -2,13 +2,36 @@
   {
     "slug": "zz-top-documentary",
     "title": "ZZ Top Documentary",
+    "subtitle": "Coming Soon",
     "gridImage": {
       "src": "//i.imgur.com/op1ACfu.jpg",
       "width": 278,
       "height": 279,
       "alt": "Example image for an upcoming ZZ Top documentary"
     },
-    "teaser": true
+    "teaser": false,
+    "gallery": [
+      {
+        "grid": "//i.imgur.com/mMbaBOZ.jpg",
+        "full": "//i.imgur.com/mMbaBOZ.jpg",
+        "gridSize": 2
+      },
+      {
+        "grid": "//i.imgur.com/lAKlgBH.jpg",
+        "full": "//i.imgur.com/lAKlgBH.jpg",
+        "gridSize": 2
+      },
+      {
+        "grid": "//i.imgur.com/HJuvrQN.jpg",
+        "full": "//i.imgur.com/HJuvrQN.jpg",
+        "gridSize": 2
+      },
+      {
+        "grid": "//i.imgur.com/Ht7aosS.jpg",
+        "full": "//i.imgur.com/Ht7aosS.jpg",
+        "gridSize": 2
+      }
+    ]
   },
   {
     "slug": "ped-brain-tumor-foundation",
