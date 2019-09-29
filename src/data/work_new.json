@@ -1,0 +1,1970 @@
+[
+  {
+    "slug": "zz-top-documentary",
+    "title": "ZZ Top Documentary",
+    "subtitle": "Coming Soon",
+    "gridImage": {
+      "src": "//i.imgur.com/op1ACfu.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for an upcoming ZZ Top documentary"
+    },
+    "teaser": false,
+    "gallery": [
+      {
+        "grid": "//i.imgur.com/mMbaBOZ.jpg",
+        "full": "//i.imgur.com/mMbaBOZ.jpg",
+        "gridSize": 2
+      },
+      {
+        "grid": "//i.imgur.com/lAKlgBH.jpg",
+        "full": "//i.imgur.com/lAKlgBH.jpg",
+        "gridSize": 2
+      },
+      {
+        "grid": "//i.imgur.com/HJuvrQN.jpg",
+        "full": "//i.imgur.com/HJuvrQN.jpg",
+        "gridSize": 2
+      },
+      {
+        "grid": "//i.imgur.com/Ht7aosS.jpg",
+        "full": "//i.imgur.com/Ht7aosS.jpg",
+        "gridSize": 2
+      }
+    ]
+  },
+  {
+    "slug": "ped-brain-tumor-foundation",
+    "title": "Pediatric Brain Tumor Foundation",
+    "subtitle": "The Holidays Will Always Find You",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/qbFuvcB.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for Pediatric Brain Tumor Foundation's anumated short called 'The Holidays Will Always Find You'"
+    },
+    "teaser": false,
+    "description": "We are honoured to share a pro bono animated short that the BYB team created for the Pediatric Brain Tumor Foundation. Thank you so very much to the BYB crew for donating their time and talent to such a beautiful message. This speaks to the brave children undergoing cancer treatment, to reassure them that the holiday spirit will find them.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/307742769?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Pediatric Brain Tumor Foundation",
+        "role": "Client"
+      },
+      {
+        "name": "RPA",
+        "role": "Agency"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Mike Holm BYB",
+        "role": "Executive Producer"
+      },
+      {
+        "name": "Blayne Burnside, Chris Rousakos",
+        "role": "Storyboards"
+      },
+      {
+        "name": "Tom Berger, Miles Davren",
+        "role": "Leica Edit"
+      },
+      {
+        "name": "Aaron Hong",
+        "role": "Style Frame / Design"
+      },
+      {
+        "name": "Amanda Martin",
+        "role": "Character Design"
+      },
+      {
+        "name": "Rob Bryson",
+        "role": "Layout"
+      },
+      {
+        "name": "Mathew Jacob",
+        "role": "Prop Design"
+      },
+      {
+        "name": "Martin Smith, Robyn Tacchino, Parker Bryant, Grace Yoo, Sujin Kim, Matt Allen, Aaron Hong, Eric Gauthier, Antonio Caggiano, Geoff Donovan",
+        "role": "BG Paint"
+      },
+      {
+        "name": "Amanda Martin, Steve Lambe, Lee ann Dufour, Haley Szereszewski, James Walsh",
+        "role": "Posing"
+      },
+      {
+        "name": "Doug Macklin, Brooke Stephenson, Jeff Size, Brenton Barkman",
+        "role": "Posing Clean Up"
+      },
+      {
+        "name": "Sean Nasmith, Sarah Baril, Matt Cemalovic, Nicola Hartley, Tim Martin, Nicole Kozak, Jeff Size, Antonio Caggiano, Darren Donovan",
+        "role": "Animation"
+      },
+      {
+        "name": "Skoojah",
+        "role": "Typography"
+      },
+      {
+        "name": "Nathans Day",
+        "role": "Colour Edit"
+      },
+      {
+        "name": "Sheldon Lisoy",
+        "role": "Compositing / VFX"
+      },
+      {
+        "name": "Brian Gallant",
+        "role": "Music"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "Sound / Mix"
+      }
+    ]
+  },
+  {
+    "slug": "youtube-kids-onboarding",
+    "title": "YouTube Kids",
+    "subtitle": "Onboarding",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/3d6VMl3.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for the YouTube Kids Onboarding videos"
+    },
+    "teaser": false,
+    "description": "We had the pleasure of creating Onboarding videos for the YouTube Kids App. Before a child watches content on YouTube Kids, the Onboarding video explains that if the parent signs in, they would have more controls over what their child watches. Parents can control the amount of videos or hand-pick your own. Cool!",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/311979452?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Anchor Point",
+        "role": "Production Company"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Mike Holm BYB",
+        "role": "Executive Producer"
+      },
+      {
+        "name": "Hook / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Dipesh Mistry",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Sonia Santorelli",
+        "role": "Producer"
+      },
+      {
+        "name": "Gustaf Öhrnell Hjalmars",
+        "role": "Design"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin, Steve Lambe, Doug Macklin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Jeff Size, Darren Donovan, Matt Cemalovic",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Oliver Sin",
+        "role": "Motion Design"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan, Nathan Day",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "Sound"
+      },
+      {
+        "name": "YouTube Kids",
+        "role": "Client"
+      },
+      {
+        "name": "Hook",
+        "role": "Agency"
+      }
+    ]
+  },
+  {
+    "slug": "youtube-kids-2018",
+    "title": "YouTube Kids",
+    "subtitle": "2018",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/cb27wSt.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for the YouTube Kids 2018 work"
+    },
+    "teaser": false,
+    "description": "Over the course of 2018 we had a lot of fun creating bumpers, teasers, gifs and splash animation for the YouTube Kids App!",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/311961661?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Anchor Point",
+        "role": "Production Company"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Hook / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Dipesh Mistry, Blaine Burnside",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Rob Bryson, November Rush, Tim Deacon",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Geoff Donovan, Matt Allen",
+        "role": "Background Painter"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin, Steve Lambe, Doug Macklin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Jeff Size, Michelle Tripp, Darren Donovan, Sarah Baril, Sean Nesmith",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Tom Berger, Miles Davren",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan, Nathan Day",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      },
+      {
+        "name": "YouTube Kids",
+        "role": "Client"
+      },
+      {
+        "name": "Hook",
+        "role": "Agency"
+      },
+      {
+        "name": "Mike Holm",
+        "role": "Executive Producer"
+      }
+    ]
+  },
+  {
+    "slug": "tph-condom-psa",
+    "title": "Toronto Public Health",
+    "subtitle": "Condom PSA",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/cUhZLh2.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for Toronto Public Health's Condom PSA"
+    },
+    "teaser": false,
+    "description": "ADCC Gold Award Winner! What happens to condoms in a bowl before they are about to be chosen? We’re not really sure, but we imagine it’s something like this.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/253315017?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Toronto Public Health",
+        "role": "Client"
+      },
+      {
+        "name": "The & Partnership",
+        "role": "Agency"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Matt Cemelovich",
+        "role": "Production Design"
+      },
+      {
+        "name": "Perin McLean",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Matt Cemelovich",
+        "role": "Character Design"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin, Jeff Size",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Animation",
+        "role": "Jeff Size, Michelle Tripp, Darren Donovan, Sarah Baril, Sean Branigan, Tim Martin, Sean Newysmith"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Skoojah",
+        "role": "Typography"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Jason Clark, Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Pico Sound, Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "yt-kids-rebrand-teasers-2017",
+    "title": "YouTube Kids",
+    "subtitle": "Rebrand Teasers 2017",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/g2sT9Zv.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for YouTube Kids Rebrand Teasers 2017"
+    },
+    "description": "Stoked to work on some cute YouTube Kids rebrand teasers! These little spots introduce the new YouTube Kids app and its new character driven world!! Fun!!",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/248026113?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "YouTube Kids",
+        "role": "Client"
+      },
+      {
+        "name": "Hook",
+        "role": "Agency"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Hook / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Dipsh Minstry",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Colour Design"
+      },
+      {
+        "name": "Rob Bryson",
+        "role": "Rough Layout Design"
+      },
+      {
+        "name": "November Rush",
+        "role": "Clean Layout Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Background Painter"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Jeff Size, Michelle Tripp, Darren Donovan, Sarah Baril",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Pico Sound, Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "koodo-choose-happy",
+    "title": "Koodo",
+    "subtitle": "Choose Happy",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/FE3iffp.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for Koodo's Choose Happiness"
+    },
+    "description": "Some weird and fun loops for Koodo’s social channels. We had way too much fun with this stuff!!",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/252774347?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Koodo",
+        "role": "Client"
+      },
+      {
+        "name": "Camp Jefferson",
+        "role": "Agency"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Camp Jefferson / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Noam Sussman",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Noam Sussman",
+        "role": "Character Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Colour Design"
+      },
+      {
+        "name": "Noam Sussman, Darren Donovan",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Matt Cemelovich, Michelle Tripp, Darren Donovan, Sarah Baril",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "cls",
+    "title": "CLS",
+    "subtitle": "The Power to Change the Future",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/ozzsE4g.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Example image for CLS"
+    },
+    "description": "We had a wonderful opportunity to write and direct this animated short for the Centre of Longitudinal Studies (CLS), called Child of the New Century. The study follows 19,000 young people born across the UK at the beginning of the new millennium. We were asked to create an engaging and fun short to show why these young people are so special. You can find more here <a href='https://www.cls.ioe.ac.uk/cnc/' target='_blank'>cls.ioe.ac.uk/cnc/</a>.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/113419697?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB – Geoff & Darren Donovan",
+        "role": "Directed by"
+      },
+      {
+        "name": "Drew Frohmann, BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Color Design"
+      },
+      {
+        "name": "Simon Pauette",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan, Darren Donovan",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Marc Bascoungnano, Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "James Walsh, Darren Donovan",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Chris Land, Michelle Tripp, Andre Guindi, Brentton Barkman, Noam Sussman",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "2D FX Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Compositing"
+      },
+      {
+        "name": "TA2 Sound and Music",
+        "role": "Sound"
+      },
+      {
+        "name": "Brent Barkman",
+        "role": "Original Composition"
+      },
+      {
+        "name": "Blame Your Brother",
+        "role": "Agency"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "//i.imgur.com/LiTygdc.jpg",
+        "full": "//i.imgur.com/7c1m665.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/ZOwML9a.jpg",
+        "full": "//i.imgur.com/BurwWzk.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/AFVKJ5m.jpg",
+        "full": "//i.imgur.com/lCoW4YU.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/YBznHlF.jpg",
+        "full": "//i.imgur.com/9YnNbYI.jpg",
+        "gridSize": 1
+      }
+    ]
+  },
+  {
+    "slug": "huffington-post-sleep-number",
+    "title": "Huffington Post",
+    "subtitle": "Sleep Number",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/CEyA7Yt.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for Huffington Post Sleep Number"
+    },
+    "description": "The sleep struggle is real! A series of shorts we had the pleasure of directing for Huffington Post / Sleep Number.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/196909928?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director"
+      },
+      {
+        "name": "Michelle Tripp",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": "Michelle Tripp, Gerry Duchemin, Sarah Baril, Darren Donovan, Andre Guindi, Matthew Cemalovic",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Brian Gallant ",
+        "role": "Music"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "Sound Mix / SFX"
+      },
+      {
+        "name": "Sleep Number / Huffington Post (U.S)",
+        "role": "Client"
+      },
+      {
+        "name": "Mike Holm",
+        "role": "Executive Producer"
+      }
+    ]
+  },
+  {
+    "slug": "espn-nbas-best-defenders",
+    "title": "ESPN",
+    "subtitle": "NBA'S Best Defenders",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/ZQsDYSj.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for NBA's Best Defenders"
+    },
+    "description": "We made a series of loops for our friends at ESPN, featuring &ldquo;The Best Defenders&rdquo; in the NBA.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/252770687?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "ESPN",
+        "role": "Client"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "ESPN / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Amanda Martin, Geoff Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Colour Design"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Gerry Duchemin, Adam Temple, Jeff Size, Michelle Tripp, Darren Donovan, Sarah Baril",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "disney-parks-best-vacation-ever",
+    "title": "Disney Parks",
+    "subtitle": "Best Vacation Ever",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/zxBBOur.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for Disney Parks Best Vacation Ever"
+    },
+    "description": "We had the amazing opportunity to help Disney Parks / Huffington Post (US) tell a cute story about a family's Best Vacation Ever. A big thanks to the amazing BYB crew.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/174681636?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Anchor Point",
+        "role": "Production Company"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Kyu-bum Lee",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Geoff & Darren Donovan",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Background Painters"
+      },
+      {
+        "name": "Darren Donovan & Geoff Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Amanda Martin, Darren Donovan",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director"
+      },
+      {
+        "name": "Michelle Tripp",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": "Michelle Tripp, Gerry Duchemin, Sarah Baril, Darren Donovan",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Brad DiJulio",
+        "role": "Music"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "Sound Mix / SFX"
+      },
+      {
+        "name": "Disney Parks / Huffington Post (U.S)",
+        "role": "Client"
+      },
+      {
+        "name": "Mike Holm",
+        "role": "Executive Producer"
+      }
+    ]
+  },
+  {
+    "slug": "temptations-cat-loops",
+    "title": "Temptations",
+    "subtitle": "Cat Loops",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/erD5QTu.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for Temptation's Cat Loops"
+    },
+    "description": "A series of loops for Temptations Cat Treats.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/252775746?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Huffington Post",
+        "role": "Client"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Anchor Point",
+        "role": "Production Company"
+      },
+      {
+        "name": "Mike Holm",
+        "role": "Executive Producer"
+      },
+      {
+        "name": "Hook / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Amanda Martin, Geoff Donovan",
+        "role": "Layout / Character Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Background Painter"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Jeff Size, Michelle Tripp, Darren Donovan, Sarah Baril, Matt Cemelovich",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "whole-foods-my-365",
+    "title": "Whole Foods",
+    "subtitle": "My 365",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/J9ivK8R.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for Whole Foods My 365"
+    },
+    "description": "We're happy to share some work that we directed for Whole Foods' My 365 brand.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/171960363?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Anchor Point",
+        "role": "Production Company"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Simon Paquette",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Geoff & Darren Donovan",
+        "role": "Design"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": "Michelle Tripp, Gerry Duchemin, Darren Donovan",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Pico Sound",
+        "role": "Music / Sound Mix / SFX"
+      },
+      {
+        "name": "Wholefoods",
+        "role": "Client"
+      },
+      {
+        "name": "Mike Holm",
+        "role": "Executive Producer"
+      }
+    ]
+  },
+  {
+    "slug": "disney-dream-big-princess",
+    "title": "Disney",
+    "subtitle": "Dream Big Princess",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/kWum68B.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for Disney's Dream Big Princess"
+    },
+    "description": "We were happy to be involved in The Dream Big, Princess campaign that encourages kids everywhere to dream big by high-lighting inspiring moments from Disney Princess stories. These shorts showcase animated typography of the inspirational quotes and qualities like Merida&rsquo;s bravery and Tiana&rsquo;s perseverance.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/237816459?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Disney",
+        "role": "Client"
+      },
+      {
+        "name": "Camp Jefferson",
+        "role": "Agency"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Kyu-Bum Lee, Darren Donovan, Andre Guindi, Chris Land",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Amanda Martin, Geoff Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Design"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Jeff Size, Michelle Tripp, Darren Donovan, Sarah Baril, Mike Hogue",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Skoojah",
+        "role": "Typography"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "crea-real-tea",
+    "title": "CREA",
+    "subtitle": "Real-Tea",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/6G7xZgR.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for CREA Real-Tea"
+    },
+    "description": "We had the pleasure of designing tea packages and animating 3 spots for our friends at Union Creative. The agency had a pop up shop in downtown Toronto where the tea blends were handed out to soothe the woes of not using a Realtor.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/189023296?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "BYB",
+        "role": "Design"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatic"
+      },
+      {
+        "name": "Darren Donovan, Michelle Tripp",
+        "role": "Animation"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Composite and Visual FX"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "Sound Design"
+      },
+      {
+        "name": "Union Creative",
+        "role": "Client"
+      }
+    ]
+  },
+  {
+    "slug": "cineplex-holiday-2015",
+    "title": "Cineplex",
+    "subtitle": "Enjoy the Magic",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/I6xP53j.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for Dairy Farmers of Canada Milkle-Down Effect"
+    },
+    "description": "We had a lot of fun creating a holiday spot for our friends over at Cineplex, which you may see in theatres over the holidays. In 3 short weeks and with the help from a crazy talented crew, I like to think we made some of our own creative magic - such a joy to work on.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/149783076?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB – Geoff & Darren Donovan",
+        "role": "Directed by"
+      },
+      {
+        "name": "Simon Pauette",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Rob Bryson, William Makra",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Rob Bryson, William Makra",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Michele Assarasakorn, Robyn Moir, Eric Gauthier, Matt Allen, Geoff Donovan",
+        "role": "Background Painters"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "James Walsh, Darren Donovan, Gerry Duchemin",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director"
+      },
+      {
+        "name": "Michelle Tripp",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": "Michelle Tripp, Sean Brannigan, Gerry Duchemin, Sarah Baril, Andre Guindi",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Compositing"
+      },
+      {
+        "name": "Drew MacEachern",
+        "role": "Post FX"
+      },
+      {
+        "name": "Daniel Roizman",
+        "role": "3D FX"
+      },
+      {
+        "name": "905 Music & Sound",
+        "role": "Music and Audio Post Production"
+      },
+      {
+        "name": "BYB",
+        "role": "Agency"
+      },
+      {
+        "name": "Cineplex Entertainment",
+        "role": "Client"
+      },
+      {
+        "name": "Rob Lazzar",
+        "role": "Story Concept"
+      },
+      {
+        "name": "Rob Lazzar, Gurbani Marwah",
+        "role": "Executive Producers"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "//i.imgur.com/PLdx7zv.jpg",
+        "full": "//i.imgur.com/7YVMxOS.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/vTb946W.jpg",
+        "full": "//i.imgur.com/8TDfCaH.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/pTwOhpG.jpg",
+        "full": "//i.imgur.com/vpV0wff.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/Dz3GYVG.jpg",
+        "full": "//i.imgur.com/rBBbHoV.jpg",
+        "gridSize": 1
+      }
+    ]
+  },
+  {
+    "slug": "dfc-milkle-down-effect",
+    "title": "Dairy Farmers of Canada",
+    "subtitle": "The Milkle-Down Effect",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/HGlQc7u.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for Dairy Farmers of Canada Milkle-Down Effect"
+    },
+    "description": "We're excited to share two deliciously milky spots for The Dairy Farmers of Canada. These charming spots  illustrate the positive effects of how the Canadian dairy sector trickle down to local communities. How very Canadian of us.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/131027422?title=0&byline=0&portrait=0",
+        "height": 345
+      },
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/131027915?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB – Geoff & Darren Donovan",
+        "role": "Directed by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Color Design"
+      },
+      {
+        "name": "Simon Pauette",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "James Walsh, Darren Donovan",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Michelle Tripp, Sean Branigan",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Compositing"
+      },
+      {
+        "name": "Grayson Matthews",
+        "role": "Sound"
+      },
+      {
+        "name": "DDB Canada",
+        "role": "Agency"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "//i.imgur.com/xlxMxZH.jpg",
+        "full": "//i.imgur.com/fH2JnqP.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/dJ1l0tY.jpg",
+        "full": "//i.imgur.com/OJJOAsV.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/uwAdOSZ.jpg",
+        "full": "//i.imgur.com/fyjsx3B.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/g5MYf7C.jpg",
+        "full": "//i.imgur.com/7BViv8c.jpg",
+        "gridSize": 1
+      }
+    ]
+  },
+  {
+    "slug": "morning-coffee",
+    "title": "BYB",
+    "subtitle": "Morning Coffee",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/fAcZj7k.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Example image for Morning Coffee"
+    },
+    "description": "<p>A little BYB brand spot featuring a bit of our morning routine. We all wish we could have a never ending cup of coffee.</p>",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/90578341?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB",
+        "role": "Client"
+      },
+      {
+        "name": "BYB - Geoff Donovan, Darren Donovan",
+        "role": "Directed by"
+      },
+      {
+        "name": "Darren Donovan, Geoff Donovan",
+        "role": "Design"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Darren Donovan, Gerry Duchemin",
+        "role": "Animation"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Color Design"
+      },
+      {
+        "name": "Antenna",
+        "role": "AEFX Composite"
+      },
+      {
+        "name": "Sebastian Breton",
+        "role": "Sound Design + Mix"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "//i.imgur.com/ThyyQLh.jpg",
+        "full": "//i.imgur.com/TusFHUB.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/fO5rsPM.jpg",
+        "full": "//i.imgur.com/gCjKeab.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/iDpIsdw.jpg",
+        "full": "//i.imgur.com/XusTDER.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/ouJpZxi.jpg",
+        "full": "//i.imgur.com/tvmu1cs.jpg",
+        "gridSize": 1
+      }
+    ]
+  },
+  {
+    "slug": "lcbo-the-canada-bottle",
+    "title": "LCBO",
+    "subtitle": "The Canada Bottle",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/1oI8j8g.png",
+      "width": 278,
+      "height": 279,
+      "alt": "Example image for LCBO — The Canada Bottle"
+    },
+    "description": "",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/252557136?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "LCBO",
+        "role": "Client"
+      },
+      {
+        "name": "Benmsimon Byrne",
+        "role": "Agency"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction / Illustration"
+      },
+      {
+        "name": "Dipesh Mistry, Gerry Duchemin",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Amanda Martin, Darren Donovan",
+        "role": "Character Design / Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Matt Cemelovich, Michelle Tripp, Darren Donovan",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      }
+    ]
+  },
+  {
+    "slug": "vw-golf-sportswagon",
+    "title": "Volkswagen",
+    "subtitle": "2015 Golf Sportswagon",
+    "type": "Illustration",
+    "gridImage": {
+      "src": "//i.imgur.com/zDDibkc.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for VW 2015 Golf Sportswagon"
+    },
+    "description": "We had a great opportunity to illustrate 5 isometric maps for a current Volkswagen campaign with our friends at Tribal DDB. The illustrations depict 5 regions of Canada, from the west coast to the east coast. A truly fun experience with some wonderfully creative folks. Where’s Sportswagon?",
+    "credits": [
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "James Tuer, Stephen Headley, Darren Donovan, Geoff Donovan",
+        "role": "Illustrators"
+      },
+      {
+        "name": "Tribal DDB",
+        "role": "Agency"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "//i.imgur.com/S0wqNpf.jpg",
+        "full": "//i.imgur.com/gxODa7s.png",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/HO6LbdT.jpg",
+        "full": "//i.imgur.com/Jkv4RbR.png",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/1ESHbrl.jpg",
+        "full": "//i.imgur.com/EcLhUNZ.png",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/LhcGuMB.jpg",
+        "full": "//i.imgur.com/ks4x6hm.png",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/f2L7Ypc.jpg",
+        "full": "//i.imgur.com/56ChH8O.png",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/TOIncAD.jpg",
+        "full": "//i.imgur.com/VJ5VxMM.jpg",
+        "gridSize": 1
+      }
+    ]
+  },
+  {
+    "slug": "omers",
+    "title": "OMERS",
+    "subtitle": "Defined Benefit Pension Plan",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/QZEeIAr.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Example image for OMERS"
+    },
+    "description": "The fine folks over at Omers asked us to help them send a message to their members in a fun and stylized animated spot. We had the opportunity to help shape the story from script to final execution.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/109963403?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB - Geoff Donovan, Darren Donovan",
+        "role": "Directed by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Color Design"
+      },
+      {
+        "name": "Darren Donovan / Geoff Donovan",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoffrey Donovan, Martin Smith",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "James Walsh",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Sean Branigan, Chris Land, Gerry Duchemin, Darren Donovan",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "2D FX Animation"
+      },
+      {
+        "name": "Nathan Day, Drew MacEachern",
+        "role": "Compositing"
+      },
+      {
+        "name": "Tattoo Sound and Music",
+        "role": "Sound"
+      },
+      {
+        "name": "Blame Your Brother",
+        "role": "Agency"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "//i.imgur.com/Miuj1UA.jpg",
+        "full": "//i.imgur.com/CbLYib4.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/qsUOoPO.jpg",
+        "full": "//i.imgur.com/RF8tXVX.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/iXxCoYr.jpg",
+        "full": "//i.imgur.com/9yzd3iz.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/0xtuYvp.jpg",
+        "full": "//i.imgur.com/j0YeA49.jpg",
+        "gridSize": 1
+      }
+    ]
+  },
+  {
+    "slug": "crea",
+    "title": "CREA",
+    "subtitle": "How Commercial Realtors Help",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/q5qhbo4.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Example image for Cineplex for CREA"
+    },
+    "description": "<p>We love working with the talented folks over at Union Creative. So when asked to create an animated spot for Canadian Realtors Association, we were very excited. The final spot fluidly describes \"How Commercial Realtors Help\".</p>",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/76452402?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB - Geoff Donovan, Darren Donovan",
+        "role": "Directed by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Color Design"
+      },
+      {
+        "name": "Chad Hicks",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Jamie Mason",
+        "role": "Concept Layouts"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "James Walsh",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Michelle Trip, Chris Land, Jim Bryson, Mateusz Garbulinski",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "2D FX Animation"
+      },
+      {
+        "name": "Rune Entertainment",
+        "role": "Compositing/3D Animation"
+      },
+      {
+        "name": "RMW Music",
+        "role": "Sound Design + Mix"
+      },
+      {
+        "name": "UNION Creative",
+        "role": "Agency"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "//i.imgur.com/XIAliKa.jpg",
+        "full": "//i.imgur.com/2un5U37.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/h47U1wL.jpg",
+        "full": "//i.imgur.com/HlIf5hk.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/g4eug9f.jpg",
+        "full": "//i.imgur.com/6YeJ3qb.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/1iJxu5D.jpg",
+        "full": "//i.imgur.com/XMtbSfe.jpg",
+        "gridSize": 1
+      }
+    ]
+  },
+  {
+    "slug": "wind-movie-charades",
+    "title": "Wind",
+    "subtitle": "Movie Charades",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/nijkASy.jpg",
+      "width": 279,
+      "height": 280,
+      "alt": "Example image for Wind Movie Charades"
+    },
+    "description": "We're excited to share these fun little spots that we had the pleasure to be a part of for WIND mobile and MTV. These spots originally aired during the 2015 MTV Movie Awards. Thanks to our talented team for making this happen. There are 4 in all! How would phones play charades? Well, now you know.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/124470716?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB – Geoff & Darren Donovan",
+        "role": "Directed by"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Color Design"
+      },
+      {
+        "name": "Simon Pauette, Chris Land, Darren Donovan",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "James Walsh, Darren Donovan",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Chris Land, Michelle Tripp, Darren Donovan, Sean Branigan",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Michelle Tripp",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Nathan Day",
+        "role": "Compositing"
+      },
+      {
+        "name": "RMW Music",
+        "role": "Sound"
+      },
+      {
+        "name": "McLaren McCann",
+        "role": "Agency"
+      }
+    ]
+  },
+  {
+    "slug": "barber",
+    "title": "The Barber",
+    "subtitle": "Animated Short",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/xxHcKy6.jpg",
+      "width": 279,
+      "height": 279,
+      "alt": "Example image for Water PSA for The Barber"
+    },
+    "description": "<p>In the spring of 2009, we had the honour of being selected to direct a short for the Teletoon animated TV pilot \"Dunce Bucket\". The ask was to choose a brief comedic VO &mdash; we selected from a list of 10 &mdash; and create a story and visual treatment based on what we heard.</p>",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/22243743?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Teletoon",
+        "role": "Client"
+      },
+      {
+        "name": "BYB - Geoff Donovan, Darren Donovan",
+        "role": "Directed by"
+      },
+      {
+        "name": "Darren Donovan + Amy Tepperman",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction / Background Design"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Colin Kelday",
+        "role": "Music"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "Sound Design + Mix"
+      },
+      {
+        "name": "Miles Davren",
+        "role": "Picture Edit"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Leica Editor"
+      },
+      {
+        "name": "KBSP",
+        "role": "Agency"
+      }
+    ],
+    "gallery": [
+      {
+        "grid": "//i.imgur.com/82YDUkV.jpg",
+        "full": "//i.imgur.com/VrDK7Xx.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/uhQQ615.jpg",
+        "full": "//i.imgur.com/733evVq.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/niZjYrJ.jpg",
+        "full": "//i.imgur.com/vmyFxcX.jpg",
+        "gridSize": 1
+      },
+      {
+        "grid": "//i.imgur.com/hwMDtdD.jpg",
+        "full": "//i.imgur.com/eOXSUje.jpg",
+        "gridSize": 1
+      }
+    ]
+  }
+]

@@ -134,7 +134,7 @@ gulp.task("workHTML", function() {
 
 gulp.task("newWorkHTML", function() {
   var data = JSON.parse(fs.readFileSync("./src/data/data.json"));
-  var workData = JSON.parse(fs.readFileSync("./src/data/work.json"));
+  var workData = JSON.parse(fs.readFileSync("./src/data/work_new.json"));
   var options = {
     helpers: hbsHelpers,
     partials: partialsConfig,
