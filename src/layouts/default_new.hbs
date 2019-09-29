@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:site_name" content="Blame Your Brother Creative Workshop">
+	{{#ifEqual __context.templateName 'index_new'}}
+	<title>Blame Your Brother</title>
+	<meta property="og:title" content="Blame Your Brother">
+	{{else}}
+	{{#ifEqual __context.templateName 'work_new'}}
+	<title>Blame Your Brother: {{ work.title }}</title>
+	<meta property="og:title" content="Blame Your Brother: {{ work.title }}">
+	{{else}}
+	<title>Blame Your Brother: {{metaForPage __context.templateName 'windowTitle'}}</title>
+	<meta property="og:title" content="Blame Your Brother: {{metaForPage __context.templateName 'windowTitle'}}">
+	{{/ifEqual}}
+	{{/ifEqual}}
+	<link rel="stylesheet" href="/assets/css/main.css" type="text/css" charset="utf-8">
+	{{#ifEqual __context.templateName 'work_new'}}
+	<link rel="stylesheet" href="/assets/vendor/slick-carousel/slick/slick.css" type="text/css" media="screen"
+		charset="utf-8">
+	<meta property="og:url" content="//blameyourbrother.github.io/work/{{work.slug}}.html">
+	<link rel="canonical" href="//blameyourbrother.github.io/work/{{work.slug}}.html">
+	{{else}}
+	<meta property="og:url" content="//blameyourbrother.github.io/{{__context.templateName}}.html">
+	<link rel="canonical" href="//blameyourbrother.github.io/{{__context.templateName}}.html">
+	{{/ifEqual}}
+	<link rel="shortcut icon" href="/favicon.ico?2">
+</head>
+
+<body class="{{ __context.templateName }}">
+	<div id="site-col">
+		{{> header_new}}
+		<main>
+			{{> body}}
+		</main>
+		{{> footer_new}}
+	</div>
+
+	<script type="text/javascript" charset="utf-8" src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="/assets/vendor/fastclick/lib/fastclick.js"></script>
+	<script type="text/javascript" charset="utf-8" src="/assets/javascript/common.js"></script>
+	{{#ifEqual __context.templateName 'work'}}
+	<script type="text/javascript" charset="utf-8" src="/assets/vendor/slick-carousel/slick/slick.min.js"></script>
+	<script type="text/javascript" charset="utf-8" src="/assets/javascript/work.js"></script>
+	{{/ifEqual}}
+</body>
+
+</html>

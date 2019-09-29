@@ -30,12 +30,9 @@ gulp.task("dev", function(cb) {
 
 gulp.task("watch", function(cb) {
   gulp.watch("./src/styles/**/*.styl", ["styles"]);
-  gulp.watch(
-    ["./lib/hbs-helpers.js", "./src/partials/*.hbs", "./src/layouts/*.hbs"],
-    function() {
-      runSequence("buildPartialsConfig", "html", "reloadAllHtml");
-    }
-  );
+  gulp.watch(["./lib/hbs-helpers.js", "./src/partials/*.hbs", "./src/layouts/*.hbs"], function() {
+    runSequence("buildPartialsConfig", "html", "reloadAllHtml");
+  });
   gulp.watch(["./src/templates/**/*.hbs", "./src/data/*.json"], function() {
     runSequence("html", "reloadAllHtml");
   });
@@ -50,18 +47,11 @@ gulp.task("watch", function(cb) {
 // TODO: Use gulp-changed or gulp-newer in the tasks themselves to only
 // process files that need to be processed.
 gulp.task("build", function(cb) {
-  runSequence(
-    "clean",
-    ["styles", "buildPartialsConfig"],
-    ["html", "vendor"],
-    cb
-  );
+  runSequence("clean", ["styles", "buildPartialsConfig"], ["html", "vendor"], cb);
 });
 
 gulp.task("vendor", function() {
-  return gulp
-    .src(vendorFiles, { base: "bower_components" })
-    .pipe(gulp.dest("./assets/vendor"));
+  return gulp.src(vendorFiles, { base: "bower_components" }).pipe(gulp.dest("./assets/vendor"));
 });
 
 gulp.task("clean", function() {
@@ -78,10 +68,7 @@ gulp.task("styles", function() {
     .pipe(plumber())
     .pipe(
       stylus({
-        paths: [
-          path.resolve(__dirname, "bower_components"),
-          path.resolve(__dirname, "node_modules")
-        ],
+        paths: [path.resolve(__dirname, "bower_components"), path.resolve(__dirname, "node_modules")],
         set: ["compress", "linenos"]
       })
     )
@@ -94,7 +81,7 @@ gulp.task("reloadAllHtml", function() {
 });
 
 gulp.task("html", function(cb) {
-  runSequence(["workHTML", "otherHTML"], cb);
+  runSequence(["workHTML", "otherHTML", "newWorkHTML", "newOtherHTML"], cb);
 });
 
 gulp.task("workHTML", function() {
@@ -127,6 +114,36 @@ gulp.task("workHTML", function() {
   return eventStream.merge.apply(null, workTasks);
 });
 
+gulp.task("newWorkHTML", function() {
+  var data = JSON.parse(fs.readFileSync("./src/data/data.json"));
+  var workData = JSON.parse(fs.readFileSync("./src/data/work.json"));
+  var options = {
+    helpers: hbsHelpers,
+    partials: partialsConfig,
+    layout: fs.readFileSync(path.join(__dirname, "src/layouts/default_new.hbs"), {
+      encoding: "utf8"
+    })
+  };
+
+  var workTasks = workData.map(function(workDatum) {
+    var _data = _.cloneDeep(data);
+    _data.work = workDatum;
+    return gulp
+      .src("./src/templates/new/work_new.hbs")
+      .pipe(plumber())
+      .pipe(build(_data, options))
+      .pipe(
+        rename({
+          basename: workDatum.slug,
+          extname: ".html"
+        })
+      )
+      .pipe(gulp.dest("./work/new/"));
+  });
+
+  return eventStream.merge.apply(null, workTasks);
+});
+
 gulp.task("otherHTML", function() {
   var data = JSON.parse(fs.readFileSync("./src/data/data.json"));
   var workData = JSON.parse(fs.readFileSync("./src/data/work.json"));
@@ -140,7 +157,31 @@ gulp.task("otherHTML", function() {
   };
 
   return gulp
-    .src(["./src/templates/**/*.hbs", "!./src/templates/work.hbs"])
+    .src(["./src/templates/*.hbs", "!./src/templates/work.hbs"])
+    .pipe(plumber())
+    .pipe(build(data, options))
+    .pipe(
+      rename({
+        extname: ".html"
+      })
+    )
+    .pipe(gulp.dest("./"));
+});
+
+gulp.task("newOtherHTML", function() {
+  var data = JSON.parse(fs.readFileSync("./src/data/data.json"));
+  var workData = JSON.parse(fs.readFileSync("./src/data/work.json"));
+  data.work = workData;
+  var options = {
+    helpers: hbsHelpers,
+    partials: partialsConfig,
+    layout: fs.readFileSync(path.join(__dirname, "src/layouts/default_new.hbs"), {
+      encoding: "utf8"
+    })
+  };
+
+  return gulp
+    .src(["./src/templates/new/*.hbs", "!./src/templates/new/work_new.hbs"])
     .pipe(plumber())
     .pipe(build(data, options))
     .pipe(
@@ -185,7 +226,5 @@ gulp.task("open", function() {
 gulp.task("default", ["build"], function() {
   console.log("Your changes have been compiled!");
   console.log("You can now run `git commit` to commit your changes.");
-  console.log(
-    "After commiting, run `git push` to deploy your changes to the Web."
-  );
+  console.log("After commiting, run `git push` to deploy your changes to the Web.");
 });

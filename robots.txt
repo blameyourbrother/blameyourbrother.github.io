@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /index_new.html
+Disallow: /about_new.html
+Disallow: /contact_new.html
+Disallow: /work/new/
