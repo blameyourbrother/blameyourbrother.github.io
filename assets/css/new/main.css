@@ -3852,22 +3852,24 @@ body{overflow-y:scroll}
 /* line 72 : /Users/chrismendis/src/blameyourbrother.github.io/bower_components/bootstrap-stylus/stylus/mixins.styl */
 #footer:after{clear:both}
 /* line 87 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
-#footer .footer-item{float:left;height:40px;padding-right:15px;padding-left:15px;border-right:1px solid #c2c4c9;}
-/* line 94 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
+#footer li:last-child{margin-right:0}
+/* line 91 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
+#footer .footer-item{float:right;height:40px;padding-right:15px;padding-left:15px;border-right:1px solid #c2c4c9;}
+/* line 98 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
 #footer .footer-item:last-child{padding-right:0;border-right:none}
-/* line 100 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
+/* line 104 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
 #footer .contact-info,#footer .address{margin:0;padding-top:5px}
-/* line 105 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
+/* line 109 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
 #footer .social-links{padding:8px 30px 10px 0;border-top:none}}@media (min-width:992px){
-/* line 111 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
+/* line 115 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
 #footer{padding:30px 0 25px}
-/* line 114 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
-#footer .footer-item{padding-left:30px;padding-right:30px;}
 /* line 118 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
+#footer .footer-item{padding-left:30px;padding-right:30px;}
+/* line 122 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
 #footer .footer-item:first-child{padding-left:0}}
-/* line 124 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
+/* line 128 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/footer.styl */
 
-/* line 124 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/about.styl */
+/* line 128 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/about.styl */
 
 /* line 1 : /Users/chrismendis/src/blameyourbrother.github.io/src/styles/new/about.styl */
 
