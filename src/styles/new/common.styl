@@ -1,0 +1,190 @@
+html {
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body {
+  font-family: 'Futura', sans-serif;
+}
+
+#site-col {
+  width: 100%;
+
+  > main {
+    img {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  @media $media-min-tablet {
+    width: 90%;
+    margin: 0 auto;
+
+    > main {
+      img {
+        display: inline;
+        margin: 0;
+      }
+    }
+  }
+
+  @media $media-min-desktop {
+    width: 900px;
+  }
+
+}
+
+.line-break {
+  height: 1px;
+
+  &:before {
+    content: "";
+    display: block;
+    height: 1px;
+    border-top: 1px solid #c0c2c7;
+  }
+
+  @media $media-min-tablet {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+
+    &:before {
+      margin: 0 15px;
+    }
+  }
+}
+
+.right-col {
+  .description {
+    font-family: 'Gotham Book', sans-serif;
+    letter-spacing: 0.025em;
+
+    p {
+      margin: 0 0 20px;
+    }
+  }
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Futura';
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.left-col {
+  iframe {
+    width: 100%;
+    height: 250px;
+  }
+
+  h2 {
+    margin: 17px 0 0;
+    font-weight: 700;
+  }
+}
+
+.right-col {
+  h2 {
+    padding: 0 0 10px;
+    font-weight: 700;
+    border-bottom: 1px solid #c0c2c7;
+  }
+}
+
+.description {
+  padding: 15px 0 6px;
+  font-size: 12px;
+  line-height: 20px;
+
+  &:empty {
+    display: none;
+  }
+}
+
+.right-col {
+  margin-top: 13px;
+}
+
+@media $media-min-tablet {
+  .container-fluid {
+    padding: 30px 0;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  h3 {
+    margin: 0;
+    font-family: 'Futura';
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  .description {
+    padding: 15px 0 0;
+
+    &:empty {
+      display: block;
+    }
+  }
+
+  .left-col {
+    iframe {
+      height: 345px;
+    }
+  }
+
+  .right-col {
+    h2 {
+      padding: 0 0 15px;
+    }
+  }
+}
+
+@media $media-min-tablet {
+  .left-col {
+    max-width: 629px;
+  }
+
+  .right-col {
+    max-width: 267px;
+    margin-top: 0;
+  }
+}
+
+@media $media-min-desktop {
+  body {
+    overflow-y: scroll;
+  }
+
+  .left-col {
+    width: 629px;
+    padding-right: 0;
+  }
+
+  .right-col {
+    float: right;
+    max-width: none;
+    width: 282px;
+    padding-left: 0;
+
+    p {
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+}

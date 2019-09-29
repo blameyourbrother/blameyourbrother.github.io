@@ -1,0 +1,177 @@
+#header {
+
+  margin-bottom: 20px;
+  text-align: center;
+
+  &.open {
+    ul {
+      height: 226px;
+    }
+
+    h2 {
+      border-top: 1px solid #d9d9d9;
+    }
+  }
+
+  .logo {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  h1 {
+    width: 111px;
+    height: 110px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-indent: -1000px;
+    background-image: url('/assets/images/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 15px 0 11px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+    border-bottom: 1px solid #d9d9d9;
+  }
+
+  ul {
+    height: 0;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    transition: height 0.5s;
+  }
+
+  li {
+    padding: 0;
+    margin: 10px 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+
+    &:last-child {
+      padding: 0 0 20px;
+    }
+
+    a {
+      display:inline-block;
+      padding: 5px 0;
+      color: #010d21;
+      text-decoration: none;
+    }
+  }
+
+  @media $media-min-tablet {
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #c0c2c7;
+    text-align: left;
+
+    &.open {
+      ul {
+        height: auto;
+      }
+    }
+
+    .logo {
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    h1 {
+      width: 111px;
+      height: 110px;
+      margin: 0;
+      background-image: url('/assets/images/logo.png');
+    }
+
+    ul {
+      height: auto;
+      text-align: right;
+      transition: none;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0;
+      padding: 0 18px 0 0;
+      line-height: 100px;
+      font-family: 'Futura'
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.13em;
+
+      &:last-child {
+        padding: 0;
+      }
+
+      a {
+        color: #010d21;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  @media $media-min-desktop {
+    padding: 30px 0;
+
+    li {
+      padding: 0 30px 0 0;
+    }
+  }
+}
+
+.contact {
+  #header {
+    .contact {
+      a {
+        color: #d2d247;
+      }
+    }
+  }
+}
+
+.index {
+  #header {
+    .work {
+      a {
+        color: #d2d247;
+      }
+    }
+  }
+}
+
+.about {
+  #header {
+    .about {
+      a {
+        color: #d2d247;
+      }
+    }
+  }
+}
+
+.reel {
+  #header {
+    .reel {
+      a {
+        color: #d2d247;
+      }
+    }
+  }
+}

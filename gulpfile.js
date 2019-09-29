@@ -29,7 +29,7 @@ gulp.task("dev", function(cb) {
 });
 
 gulp.task("watch", function(cb) {
-  gulp.watch("./src/styles/**/*.styl", ["styles"]);
+  gulp.watch("./src/styles/**/*.styl", ["allStyles"]);
   gulp.watch(["./lib/hbs-helpers.js", "./src/partials/*.hbs", "./src/layouts/*.hbs"], function() {
     runSequence("buildPartialsConfig", "html", "reloadAllHtml");
   });
@@ -47,7 +47,7 @@ gulp.task("watch", function(cb) {
 // TODO: Use gulp-changed or gulp-newer in the tasks themselves to only
 // process files that need to be processed.
 gulp.task("build", function(cb) {
-  runSequence("clean", ["styles", "buildPartialsConfig"], ["html", "vendor"], cb);
+  runSequence("clean", ["allStyles", "buildPartialsConfig"], ["html", "vendor"], cb);
 });
 
 gulp.task("vendor", function() {
@@ -56,10 +56,14 @@ gulp.task("vendor", function() {
 
 gulp.task("clean", function() {
   return gulp
-    .src(["./assets/css", "./*.html", "./work/*.html", "./assets/vendor"], {
+    .src(["./assets/css", "./*.html", "./work/**/*.html", "./assets/vendor"], {
       read: false
     })
     .pipe(clean());
+});
+
+gulp.task("allStyles", function(cb) {
+  runSequence(["styles", "newStyles"], cb);
 });
 
 gulp.task("styles", function() {
@@ -73,6 +77,20 @@ gulp.task("styles", function() {
       })
     )
     .pipe(gulp.dest("./assets/css"))
+    .pipe(connect.reload());
+});
+
+gulp.task("newStyles", function() {
+  return gulp
+    .src("./src/styles/new/main.styl")
+    .pipe(plumber())
+    .pipe(
+      stylus({
+        paths: [path.resolve(__dirname, "bower_components"), path.resolve(__dirname, "node_modules")],
+        set: ["compress", "linenos"]
+      })
+    )
+    .pipe(gulp.dest("./assets/css/new"))
     .pipe(connect.reload());
 });
 
