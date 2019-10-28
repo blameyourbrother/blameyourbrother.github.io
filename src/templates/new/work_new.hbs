@@ -5,7 +5,10 @@
 				{{#each work.hero}}
 				<div class="work-hero">
 					{{#ifEqual type 'iframe'}}
-					<iframe src="{{ src }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<div class="work-hero__responsive-wrapper">
+						<iframe class="work-hero__video" src="{{ src }}" frameborder="0" webkitallowfullscreen mozallowfullscreen
+							allowfullscreen></iframe>
+					</div>
 					{{/ifEqual}}
 					{{#ifEqual type 'image'}}
 					<img class="hero-image" src="{{ src }}" alt="{{ alt }}" style="max-width:{{ width }}px">
@@ -30,19 +33,19 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<h1>{{ work.subtitle }}</h1>
-				<div class="description">{{{ work.description }}}</div>
+				<h1 class="work-details__subtitle">{{ work.subtitle }}</h1>
+				<div class="work-details__description">{{{ work.description }}}</div>
 			</div>
 		</div>
 		{{#if work.credits}}
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<h2>Credits</h2>
-				<ul>
+				<h2 class="work-details__credits-title">Credits</h2>
+				<ul class="work-details__credits-list">
 					{{#each work.credits}}
-					<li>
-						<h3>{{ role }}</h3>
-						<p>{{ name }}</p>
+					<li class="work-details__credit{{#ifEqual role "Directed by"}} work-details__credit--standout{{/ifEqual}}">
+						<h3 class="work-details__credit-role-type">{{ role }}</h3>
+						<p class="work-details__credit-role-name">{{ name }}</p>
 					</li>
 					{{/each}}
 				</ul>
