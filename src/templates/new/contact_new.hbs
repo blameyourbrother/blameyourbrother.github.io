@@ -1,15 +1,33 @@
 <div id="contact">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-9 col-sm-9 left-col">
-				<a href="{{ contact.googlemap }}" target="byb_map"><img class="hero-image" src="{{ contact.heroImage.src }}"
-						alt="{{ contact.heroImage.alt }}" style="max-width:{{ contact.heroImage.width }}px"></a>
+			<div class="col-md-12 col-sm-12">
+				<img class="hero-image" src="{{ contact_new.heroImage.src }}" alt="{{ contact_new.heroImage.alt }}"/>
 			</div>
-			<div class="col-md-3 col-sm-3 right-col">
-				<h2>{{ contact.title }}</h2>
-				<div class="description">
-					{{{ contact.description }}}
+		</div>
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<h2 class="contact__area">Toronto</h2>
+				<div class="contact__address">
+					<a href="mailto:geoff@blameyourbrother.com">geoff@blameyourbrother.com</a><br/>
+					647.405.4489<br/>
+					96 Spadina Ave.<br/>
+					Toronto, ON
 				</div>
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-12">
+				<h2 class="contact__area">US Representation</h2>
+				<div class="contact__address">
+					Anchor Point | Mike Holm
+					<a href="mailto:mike@anchorpointanimation.com">mike@anchorpointanimation.com</a><br/>
+					206.588.5941<br/>
+					Executive Producer
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h1 class="contact__title">Let's Work Together.</h1>
 			</div>
 		</div>
 	</div>
