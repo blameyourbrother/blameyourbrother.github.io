@@ -15,20 +15,6 @@
 					{{/ifEqual}}
 				</div>
 				{{/each}}
-				{{#if work.gallery}}
-				<div class="work-gallery hidden-xs">
-					<div class="row">
-						{{#each work.gallery}}
-						<div
-							class="work-gallery-item {{#ifEqual gridSize 1}}col-md-6 col-sm-6{{/ifEqual}}{{#ifEqual gridSize 2}}col-md-12{{/ifEqual}}">
-							<a href="#{{@index}}" data-gallery-index="{{@index}}" class="gallery-cta">
-								<img src="{{grid}}">
-							</a>
-						</div>
-						{{/each}}
-					</div>
-				</div>
-				{{/if}}
 			</div>
 		</div>
 		<div class="row">
@@ -37,10 +23,27 @@
 				<div class="work-details__description">{{{ work.description }}}</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				{{#if work.gallery}}
+				<div class="work-gallery">
+					<div class="row">
+						{{#each work.gallery}}
+						<div
+							class="work-gallery-item {{#ifEqual gridSize 1}}col-md-6 col-sm-6{{/ifEqual}}{{#ifEqual gridSize 2}}col-md-12{{/ifEqual}}">
+							<div class="gallery-cta">
+								<img src="{{grid}}">
+							</div>
+						</div>
+						{{/each}}
+					</div>
+				</div>
+				{{/if}}
+			</div>
+		</div>
 		{{#if work.credits}}
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<h2 class="work-details__credits-title">Credits</h2>
 				<ul class="work-details__credits-list">
 					{{#each work.credits}}
 					<li class="work-details__credit{{#ifEqual role "Directed by"}} work-details__credit--standout{{/ifEqual}}">

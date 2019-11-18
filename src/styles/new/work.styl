@@ -25,6 +25,14 @@
     }
   }
 
+  .work-gallery-item {
+    margin-top: 30px;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
   @media $media-min-tablet {
     .back-to-work {
       display: block;
@@ -72,10 +80,6 @@
       img {
         max-width: 100%;
       }
-    }
-
-    .work-gallery-item {
-      margin-top: 30px;
     }
 
     .work-slideshow-backdrop {
@@ -198,9 +202,10 @@
 }
 
 .work-details__credit {
+  margin-bottom: 10px;
   font-family: 'Gotham Book', sans-serif;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 20px;
 
   &.work-details__credit--standout {
     margin: 1em 0;
@@ -208,10 +213,10 @@
 }
 
 .work-details__credit-role-type, .work-details__credit-role-name {
-  display: inline-block;
+  display: inline;
   font-family: 'Gotham Book', sans-serif;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .work-details__credit-role-type {
