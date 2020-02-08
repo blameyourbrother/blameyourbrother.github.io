@@ -1,5 +1,93 @@
 [
   {
+    "slug": "byb-reel-2020",
+    "title": "BYB Reel",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/uBSZN0z.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Image from Blame Your Brother's 2020 reel"
+    },
+    "teaser": false,
+    "description": "We've been incredibly fortunate to work with a group of talented artists / friends over the past few years. As a result, I'm proud to share a compilation of the hard work and dedication.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/367825737?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Cymande",
+        "role": "Music"
+      }
+    ]
+  },
+  {
+    "slug": "zombie-hand",
+    "title": "Zombie Hand",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/C8i0Oix.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Image from Blame Your Brother's 2019 Halloween Animated Short"
+    },
+    "teaser": false,
+    "description": "Happy Halloween!! A little short made with love and death.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/369906670?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Dipesh Mistry",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Director"
+      },
+      {
+        "name": "Matt Cemelovich, Rob Bryson",
+        "role": "Layout / Design"
+      },
+      {
+        "name": "Matt Cemelovich",
+        "role": "Background Paint"
+      },
+      {
+        "name": "Michelle Tripp, Gerry Duchemin, Darren Donovan",
+        "role": "Animation"
+      },
+      {
+        "name": "Phil Scarano",
+        "role": "Compositor"
+      },
+      {
+        "name": "Brian Gallant",
+        "role": "Music"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "SFX/Final Mix"
+      },
+      {
+        "name": "BYB",
+        "role": "Client"
+      }
+    ]
+  },
+  {
     "slug": "zz-top-documentary",
     "title": "ZZ Top Documentary",
     "subtitle": "Coming Soon",
@@ -42,7 +130,7 @@
       "src": "//i.imgur.com/qbFuvcB.jpg",
       "width": 278,
       "height": 279,
-      "alt": "Example image for Pediatric Brain Tumor Foundation's anumated short called 'The Holidays Will Always Find You'"
+      "alt": "Example image for Pediatric Brain Tumor Foundation's animated short called 'The Holidays Will Always Find You'"
     },
     "teaser": false,
     "description": "We are honoured to share a pro bono animated short that the BYB team created for the Pediatric Brain Tumor Foundation. Thank you so very much to the BYB crew for donating their time and talent to such a beautiful message. This speaks to the brave children undergoing cancer treatment, to reassure them that the holiday spirit will find them.",
