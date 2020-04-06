@@ -112,6 +112,97 @@
     ]
   },
   {
+    "slug": "youtube-kids-spring-2019",
+    "title": "YouTube Kids",
+    "subtitle": "Spring 2019",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/LkbeFTP.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Image from Blame Your Brother's Spring 2019 bumpers for YouTube Kids"
+    },
+    "teaser": false,
+    "description": "We had a blast making some short and sweet bumpers for YTK this spring. Lot's of fun characters to work with.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/350795177?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Anchor Point",
+        "role": "Production Company"
+      },
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Hook / BYB",
+        "role": "Written by"
+      },
+      {
+        "name": "Katie Shanahan",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Art Direction"
+      },
+      {
+        "name": "Rob Bryson, November Rush",
+        "role": "Layout/Design"
+      },
+      {
+        "name": "Geoff Donovan, Matt Allen",
+        "role": "Background Painter"
+      },
+      {
+        "name": "Darren Donovan, Amanda Martin, James Walsh",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Jeff Size, Michelle Tripp, Darren Donovan, Tim Martin, Sean Nesmith, Nicole Kozak",
+        "role": "Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "FX Animation"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatics Edit"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Compositing / Post FX"
+      },
+      {
+        "name": "Sebastien Breton, Brian Gallant",
+        "role": "Music / Sound"
+      },
+      {
+        "name": "YouTube Kids",
+        "role": "Client"
+      },
+      {
+        "name": "Hook",
+        "role": "Agency"
+      },
+      {
+        "name": "Mike Holm",
+        "role": "Executive Producer"
+      }
+    ]
+  },
+  {
     "slug": "zombie-hand",
     "title": "Zombie Hand",
     "type": "Animation",
