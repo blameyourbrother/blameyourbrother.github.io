@@ -1,5 +1,91 @@
 [
   {
+    "slug": "courage-to-question-obaid-chinoy",
+    "title": "Google",
+    "subtitle": "Sharmeen Obaid-Chinoy",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/9Da3Mvp.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Image from Blame Your Brother's Courage to Question Animation for Google, with illustrations by Sharmeen Obaid-Chinoy"
+    },
+    "teaser": false,
+    "description": "An animated short in our series that celebrates women’s rights defenders with our friends at Google / Google Lens. Sharmeen Obaid-Chinoy is known for her work in films that highlight the inequality and justice for women all over the world.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/402338054?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB",
+        "role": "Direction "
+      },
+      {
+        "name": "Emilie Muszczak",
+        "role": "Design"
+      },
+      {
+        "name": "Allen Laseter",
+        "role": "Storyboard "
+      },
+      {
+        "name": "Gerry Duchemin, Darren Donovan",
+        "role": "Animation"
+      },
+      {
+        "name": "Hiram Gifford, Phil Scarano",
+        "role": "Comp"
+      }
+    ]
+  },
+  {
+    "slug": "courage-to-question-nino-de-rivera",
+    "title": "Google",
+    "subtitle": "Saskia Nino de Rivera",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/46TUdLF.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Image from Blame Your Brother's Courage to Question Animation for Google, with illustrations by Saskia Nino de Rivera"
+    },
+    "teaser": false,
+    "description": "An animated short in our series that celebrates women’s rights defenders with our friends at Google / Google Lens. Saskia Nino de Rivera is the President of the non-profit organization Reinserta, which she founded when she was 24 years old. She fights to create safe spaces for incarcerated women who live with their children and for a safer Mexico through its penitentiary system.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/400047424?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB",
+        "role": "Direction "
+      },
+      {
+        "name": "Christy Lundy",
+        "role": "Design"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Storyboard "
+      },
+      {
+        "name": "Sarah Baril, Sean Brannigan, Brentton Barkman, Nicole Kozak, Darren Donovan",
+        "role": "Animation"
+      },
+      {
+        "name": "Phil Scarano",
+        "role": "Comp"
+      }
+    ]
+  },
+  {
     "slug": "byb-reel-2020",
     "title": "BYB Reel",
     "type": "Animation",
@@ -91,6 +177,7 @@
     "slug": "zz-top-documentary",
     "title": "ZZ Top Documentary",
     "subtitle": "Coming Soon",
+    "type": "Animated Sequences",
     "gridImage": {
       "src": "//i.imgur.com/op1ACfu.jpg",
       "width": 278,
