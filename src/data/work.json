@@ -176,35 +176,98 @@
   {
     "slug": "zz-top-documentary",
     "title": "ZZ Top Documentary",
-    "subtitle": "Coming Soon",
     "type": "Animated Sequences",
     "gridImage": {
       "src": "//i.imgur.com/op1ACfu.jpg",
       "width": 278,
       "height": 279,
-      "alt": "Example image for an upcoming ZZ Top documentary"
+      "alt": "Example image from Blame Your Brother's animated sequences for Banger Films' ZZ Top documentary"
     },
     "teaser": false,
-    "gallery": [
+    "description": "So stoked to be asked by Banger Films to direct the animated sequences of their new rock documentary for the legendary ZZ Top! There ended up being 2 minutes of hand drawn animation to tell the story of ZZ Top's producer, Bill Ham. The documentary was full of insight and beautiful cinematography.",
+    "hero": [
       {
-        "grid": "//i.imgur.com/mMbaBOZ.jpg",
-        "full": "//i.imgur.com/mMbaBOZ.jpg",
-        "gridSize": 2
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/359377569?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Banger Films",
+        "role": "Production Company"
       },
       {
-        "grid": "//i.imgur.com/lAKlgBH.jpg",
-        "full": "//i.imgur.com/lAKlgBH.jpg",
-        "gridSize": 2
+        "name": "BYB ",
+        "role": "Directed by"
       },
       {
-        "grid": "//i.imgur.com/HJuvrQN.jpg",
-        "full": "//i.imgur.com/HJuvrQN.jpg",
-        "gridSize": 2
+        "name": "Sonia Santarelli",
+        "role": "BYB Producer "
       },
       {
-        "grid": "//i.imgur.com/Ht7aosS.jpg",
-        "full": "//i.imgur.com/Ht7aosS.jpg",
-        "gridSize": 2
+        "name": "Perin McLean, Chris Rousakos, Marko Bajic",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Creative / Art Direction"
+      },
+      {
+        "name": "Rob Bryson",
+        "role": "Layout Design"
+      },
+      {
+        "name": "Aaron Hong",
+        "role": "Production / Location Design"
+      },
+      {
+        "name": "Aaron Hong, Amanda Martin",
+        "role": "Vis Dev"
+      },
+      {
+        "name": "Miranda Sivilay, Parker Bryant, Eric Gauthier, Grace Yoo, Geoff Donovan",
+        "role": "Background Painters"
+      },
+      {
+        "name": "Amanda Martin, Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Amanda Martin, James Walsh, Darnell Dicette",
+        "role": "Character Posing"
+      },
+      {
+        "name": "Jeff Size, Doug Macklin",
+        "role": "Character Posing Cleanup"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director / Supervisor"
+      },
+      {
+        "name": "Richard Plata, Sean Nasmith, Michelle Tripp, Sean Brannigan, Matt Cemalovic, Tim Martin, Miranda Quesnel, Chris Land, Jeff Size, Sarah Baril, Andre Guindi, Mike Hogue",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Mike Hogue",
+        "role": "FX Animation Assist"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Animatic Edit"
+      },
+      {
+        "name": "Sheldon Lisoy",
+        "role": "Visual FX / Compositing"
+      },
+      {
+        "name": "Miles Davren",
+        "role": "Trailer Edit"
+      },
+      {
+        "name": "Sebastien Breton",
+        "role": "Trailer SFX"
       }
     ]
   },
