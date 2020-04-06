@@ -1,5 +1,31 @@
 [
   {
+    "slug": "byb-reel-2020",
+    "title": "BYB Reel",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/uBSZN0z.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Image from Blame Your Brother's 2020 reel"
+    },
+    "teaser": false,
+    "description": "We've been incredibly fortunate to work with a group of talented artists / friends over the past few years. As a result, I'm proud to share a compilation of the hard work and dedication.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/367825737?title=0&byline=0&portrait=0",
+        "height": 345
+      }
+    ],
+    "credits": [
+      {
+        "name": "Cymande",
+        "role": "Music"
+      }
+    ]
+  },
+  {
     "slug": "courage-to-question-obaid-chinoy",
     "title": "Google",
     "subtitle": "Sharmeen Obaid-Chinoy",
@@ -82,32 +108,6 @@
       {
         "name": "Phil Scarano",
         "role": "Comp"
-      }
-    ]
-  },
-  {
-    "slug": "byb-reel-2020",
-    "title": "BYB Reel",
-    "type": "Animation",
-    "gridImage": {
-      "src": "//i.imgur.com/uBSZN0z.jpg",
-      "width": 278,
-      "height": 279,
-      "alt": "Image from Blame Your Brother's 2020 reel"
-    },
-    "teaser": false,
-    "description": "We've been incredibly fortunate to work with a group of talented artists / friends over the past few years. As a result, I'm proud to share a compilation of the hard work and dedication.",
-    "hero": [
-      {
-        "type": "iframe",
-        "src": "//player.vimeo.com/video/367825737?title=0&byline=0&portrait=0",
-        "height": 345
-      }
-    ],
-    "credits": [
-      {
-        "name": "Cymande",
-        "role": "Music"
       }
     ]
   },
