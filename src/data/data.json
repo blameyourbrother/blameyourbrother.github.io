@@ -4,27 +4,18 @@
       "windowTitle": "Contact Us"
     },
     "heroImage": {
-      "src": "/assets/images/map.jpg",
-      "width": 612,
-      "height": 361,
+      "src": "https://imgur.com/KrdVXfO.png",
       "alt": "Find yourself the way to Blame Your Brother."
-    },
-    "title": "Let's Chat",
-    "description": "<p>We like to be where inspiration is readily available. It's why we've set up shop in the heart of Toronto's vibrant design district. It helps us stay connected to the creative community that's around every corner.</p><p>And with that in mind, we're always excited to meet new and like-minded individuals. So if you're close by, drop in for a coffee and a chat. It'll be cool.</p>",
-    "googlemap": "https://www.google.com/maps/place/96+Spadina+Ave/@43.646364,-79.395491,17z/data=!4m2!3m1!1s0x882b34dbc23fe02d:0xf5de5bbdbe4fa21"
+    }
   },
   "about": {
     "meta": {
       "windowTitle": "About Us"
     },
     "heroImage": {
-      "src": "https://i.imgur.com/0g6llPH.jpg",
-      "width": 613,
-      "height": 345,
+      "src": "https://i.imgur.com/RcO0TGp.jpg",
       "alt": "A view of the office of Blame Your Brother."
-    },
-    "title": "Our Story",
-    "description": "<p>Blame Your Brother is an award winning creative studio specializing in design and animation. We are a creative-fuelled crew who strive to to create visually compelling stories. We see each project as an opportunity to push ourselves, experiment and make new friends.</p>"
+    }
   },
   "contact_new": {
     "meta": {
