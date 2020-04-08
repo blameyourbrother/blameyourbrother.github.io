@@ -1,114 +1,59 @@
 <div class="work-details">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-9 col-sm-9 left-col">
-        {{#each work.hero}}
-        <div class="work-hero">
-          {{#ifEqual type 'iframe'}}
-          <iframe src="{{ src }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-          {{/ifEqual}}
-          {{#ifEqual type 'image'}}
-          <img class="hero-image" src="{{ src }}" alt="{{ alt }}" style="max-width:{{ width }}px">
-          {{/ifEqual}}
-        </div>
-        {{/each}}
-        {{#if work.gallery}}
-        <div class="work-gallery hidden-xs">
-          <div class="row">
-            {{#each work.gallery}}
-            <div
-              class="work-gallery-item {{#ifEqual gridSize 1}}col-md-6 col-sm-6{{/ifEqual}}{{#ifEqual gridSize 2}}col-md-12{{/ifEqual}}">
-              <a href="#{{@index}}" data-gallery-index="{{@index}}" class="gallery-cta">
-                <img src="{{grid}}">
-              </a>
-            </div>
-            {{/each}}
-          </div>
-        </div>
-        {{/if}}
-      </div>
-      <div class="col-md-3 col-sm-3 right-col">
-        <a href="/" class="back-to-work">Back to Work!</a>
-        <h2>{{ work.title }}</h2>
-        <h3>{{ work.subtitle }}</h3>
-        <div class="work-sharing visible-xs">
-          <ul class="work-share">
-            <li class="work-email">
-              <a href="mailto:?subject={{encodeURLParam 'Check out this cool stuff from Blame Your Brother'}}&body={{encodeWorkPage work.slug}}"
-                target="_blank">Share via email</a>
-            </li>
-            <li class="work-twitter">
-              <a href="https://twitter.com/intent/tweet/?url={{encodeWorkPage work.slug}}&via=BlameYourBro&text={{encodeURLParam 'Check out this cool stuff!'}}"
-                target="_blank">Share via Twitter</a>
-            </li>
-            <li class="work-facebook">
-              <a href="https://www.facebook.com/sharer.php?u={{encodeWorkPage work.slug}}" target="_blank">Share via
-                Facebook</a>
-            </li>
-          </ul>
-        </div>
-        <div class="description">{{{ work.description }}}</div>
-        <div class="work-sharing hidden-xs">
-          <h4>Sharing is Nice</h4>
-          <ul class="work-share">
-            <li class="work-email">
-              <a href="mailto:?subject={{encodeURLParam 'Check out this cool stuff from Blame Your Brother'}}&body={{encodeWorkPage work.slug}}"
-                target="_blank">Share via email</a>
-            </li>
-            <li class="work-twitter">
-              <a href="https://twitter.com/intent/tweet/?url={{encodeWorkPage work.slug}}&via=BlameYourBro&text={{encodeURLParam 'Check out this cool stuff!'}}"
-                target="_blank">Share via Twitter</a>
-            </li>
-            <li class="work-facebook">
-              <a href="https://www.facebook.com/sharer.php?u={{encodeWorkPage work.slug}}" target="_blank">Share via
-                Facebook</a>
-            </li>
-          </ul>
-        </div>
-        {{#if work.credits}}
-        <div class="work-credits hidden-xs">
-          <span class="work-credits-toggle"></span>
-          <h4>Credits</h4>
-          <ul>
-            {{#each work.credits}}
-            <li>
-              <h5>{{ role }}</h5>
-              <p>{{ name }}</p>
-            </li>
-            {{/each}}
-          </ul>
-        </div>
-        {{/if}}
-      </div>
-    </div>
-  </div>
-
-  <div class="work-slideshow-backdrop container-fluid">
-    <div class="work-slideshow row">
-      {{#each work.gallery}}
-      <div class="work-slide col-xs-12">
-        <img src="{{ full }}">
-      </div>
-      {{/each}}
-    </div>
-  </div>
-
-  <div class="container-fluid visible-xs">
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="work-credits">
-          <span class="work-credits-toggle"></span>
-          <h4>Credits</h4>
-          <ul>
-            {{#each work.credits}}
-            <li>
-              <h5>{{ role }}</h5>
-              <p>{{ name }}</p>
-            </li>
-            {{/each}}
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				{{#each work.hero}}
+				<div class="work-hero">
+					{{#ifEqual type 'iframe'}}
+					<div class="work-hero__responsive-wrapper">
+						<iframe class="work-hero__video" src="{{ src }}" frameborder="0" webkitallowfullscreen mozallowfullscreen
+							allowfullscreen></iframe>
+					</div>
+					{{/ifEqual}}
+					{{#ifEqual type 'image'}}
+					<img class="hero-image" src="{{ src }}" alt="{{ alt }}" style="max-width:{{ width }}px">
+					{{/ifEqual}}
+				</div>
+				{{/each}}
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h1 class="work-details__subtitle">{{ work.subtitle }}</h1>
+				<div class="work-details__description">{{{ work.description }}}</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				{{#if work.gallery}}
+				<div class="work-gallery">
+					<div class="row">
+						{{#each work.gallery}}
+						<div
+							class="work-gallery-item {{#ifEqual gridSize 1}}col-md-6 col-sm-6{{/ifEqual}}{{#ifEqual gridSize 2}}col-md-12{{/ifEqual}}">
+							<div class="gallery-cta">
+								<img src="{{grid}}">
+							</div>
+						</div>
+						{{/each}}
+					</div>
+				</div>
+				{{/if}}
+			</div>
+		</div>
+		{{#if work.credits}}
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<ul class="work-details__credits-list">
+					{{#each work.credits}}
+					<li class="work-details__credit{{#ifEqual role "Directed by"}} work-details__credit--standout{{/ifEqual}}">
+						<h3 class="work-details__credit-role-type">{{ role }}</h3>
+						<p class="work-details__credit-role-name">{{ name }}</p>
+					</li>
+					{{/each}}
+				</ul>
+			</div>
+		</div>
+		{{/if}}
+	</div>
 </div>

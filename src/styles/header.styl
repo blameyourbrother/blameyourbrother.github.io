@@ -20,6 +20,13 @@
     border-bottom: 1px solid #d9d9d9;
   }
 
+  .logo__home-link {
+    display: block;
+    width: 111px;
+    height: 110px;
+    margin: 0 auto;
+  }
+
   h1 {
     width: 111px;
     height: 110px;
@@ -89,11 +96,17 @@
       border-bottom: none;
     }
 
-    h1 {
-      width: 111px;
-      height: 110px;
+    .logo__home-link {
+      width: 117px;
+      height: 117px;
       margin: 0;
-      background-image: url('/assets/images/logo.png');
+    }
+
+    h1 {
+      width: 117px;
+      height: 117px;
+      margin: 0;
+      background-image: url('/assets/images/logo@2x.png');
     }
 
     ul {
@@ -103,12 +116,15 @@
     }
 
     li {
-      display: inline-block;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 117px;
       margin: 0;
       padding: 0 18px 0 0;
-      line-height: 100px;
       font-family: 'Futura'
       font-size: 14px;
+      line-height: 1em;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.13em;
