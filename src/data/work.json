@@ -1,6 +1,104 @@
 [
   {
-    "slug": "byb-reel-2020",
+    "slug": "colgate-man-who-lost-his-smile",
+    "title": "Colgate",
+    "subtitle": "The Man Who Lost His Smile",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/4sZO8vp.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Image from Blame Your Brother's The Man Who Lost His Smile Animation for Colgate"
+    },
+    "teaser": false,
+    "description": "A short film that we created for Colgate US about spreading love and kindness.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/480453912?title=0&byline=0&portrait=0"
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Chad Hicks",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "BYB",
+        "role": "Creative / Art Direction"
+      },
+      {
+        "name": "Rob Bryson",
+        "role": "Layout Design"
+      },
+      {
+        "name": "Aaron Hong",
+        "role": "Production Design"
+      },
+      {
+        "name": "Aaron Hong, Parker Bryant, Eric Gauthier, Grace Yoo, Michele Assarasakorn, Martin Smith, Tracy Munch, Sujin Kim, Geoff Donovan",
+        "role": "Background Painters"
+      },
+      {
+        "name": "Sylvan Deboissey",
+        "role": "Character Dev"
+      },
+      {
+        "name": "Amanda Martin, Darren Donovan",
+        "role": "Character Design"
+      },
+      {
+        "name": "Amanda Martin, Ruggiero Abbruzzese, Haley Rose, Darren Donovan.",
+        "role": "Rough Posing"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Posing Cleanup"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "Animation Director"
+      },
+      {
+        "name": "Gerry Duchemin, Katherine Pryor, Sarah Baril, Alejandro Reyes, Nicole Kozak, Sean Branigan, Darren Donovan.",
+        "role": "Rough Animation"
+      },
+      {
+        "name": "Nicole Kozak, Darren Donovan, Brentton Barkman, Michelle Tripp",
+        "role": "Cleanup Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "2DFX Animation"
+      },
+      {
+        "name": "Sheldon Lisoy",
+        "role": "Visual FX / Compositing"
+      },
+      {
+        "name": "Phil Scarano",
+        "role": "Colour Edit / Titles"
+      },
+      {
+        "name": "Raychel Weiner",
+        "role": "Scratch VO"
+      },
+      {
+        "name": "Postier Studio Inc.",
+        "role": "Sound Design / Music"
+      }
+    ]
+  },
+  {
+    "slug": "byb-reel-2019",
     "title": "BYB Reel",
     "type": "Animation",
     "gridImage": {
