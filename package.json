@@ -31,6 +31,6 @@
     "run-sequence": "0.3.7",
     "stylus": "0.42.3",
     "through2": "0.4.2",
-    "underscore": "1.6.0"
+    "underscore": "1.12.1"
   }
 }
