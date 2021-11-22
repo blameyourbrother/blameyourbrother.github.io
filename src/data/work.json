@@ -1,5 +1,263 @@
 [
   {
+    "slug": "lunchmates-bordimer",
+    "title": "Lunchmates",
+    "subtitle": "Bordimer",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/h79vU44.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Image from Blame Your Brother's Bordimer Animation for Lunchmates"
+    },
+    "teaser": false,
+    "description": "Introducing Bordimer! The bordest little monster that ever lived. With a talented BYB crew and the creative folks at FUSE Create, we took on the challenge to bring the story of Bordimer to life using found footage from the interwebs and traditional 2d animation.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/548032892?title=0&byline=0&portrait=0"
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Blayne Burnside, Cam Hood",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Stephen Headley, Rob Bryson",
+        "role": "Concept Design"
+      },
+      {
+        "name": "Rob Bryson",
+        "role": "Layout Design"
+      },
+      {
+        "name": "Stephen Headley",
+        "role": "Background Paint"
+      },
+      {
+        "name": "Amanda Martin, Darren Donovan",
+        "role": "Character design"
+      },
+      {
+        "name": "Amanda Martin, Ruggiero Abbruzzese",
+        "role": "Rough Posing"
+      },
+      {
+        "name": "Nicole Kozak, Mike Hogue",
+        "role": "Cleanup"
+      },
+      {
+        "name": "Doug Macklin",
+        "role": "Posing Cleans"
+      },
+      {
+        "name": "Darren Donovan ",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": "Katherine Pryor, Gerry Duchemin, Sarah Baril, Michelle Tripp, Matt Cemalovic, Cai Beschorner, João Carrilho",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Darren Donovan",
+        "role": "2DFX Animation / Supervisor"
+      },
+      {
+        "name": "Mike Hogue, Nicole Kozak",
+        "role": "2DFX Assistants"
+      },
+      {
+        "name": "Sheldon Lisoy",
+        "role": "Visual FX / Compositing"
+      },
+      {
+        "name": "Phil Scarano",
+        "role": "Colour Edit/Titles"
+      },
+      {
+        "name": "TA2 Sound + Picture",
+        "role": "Sound Design / Music"
+      },
+      {
+        "name": "FUSE Create",
+        "role": "Agency"
+      },
+      {
+        "name": "Andrew Shulze",
+        "role": "Agency Producer"
+      }
+    ]
+  },
+  {
+    "slug": "lego-one-blue-brick",
+    "title": "Lego",
+    "subtitle": "One Blue Brick",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/E8ibst6.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Image from Blame Your Brother's One Blue Brick Animation for Lego"
+    },
+    "teaser": false,
+    "description": "Just one blue brick holds imagination and creative power.",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/572721282?title=0&byline=0&portrait=0"
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Sonia Santarelli",
+        "role": "Producer"
+      },
+      {
+        "name": "Naeim Khavari",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Ben Reynolds",
+        "role": "Illustration"
+      },
+      {
+        "name": "Geoff Donovan",
+        "role": "Layout Design"
+      },
+      {
+        "name": "Darren Donovan, Mathew Jacob",
+        "role": "Design Cleans"
+      },
+      {
+        "name": "Someone's Cousin",
+        "role": "3D Animation"
+      },
+      {
+        "name": "Darren Donovan ",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": "Katherine Pryor, Gerry Duchemin,  Matt Cemalovic, Darren Donovan",
+        "role": "Animation"
+      },
+      {
+        "name": "Sheldon Lisoy",
+        "role": "Visual FX / Compositing"
+      },
+      {
+        "name": "Phil Scarano",
+        "role": "Colour Edit/Titles"
+      },
+      {
+        "name": "Postier Studios - Sebastien Breton, Brian Gallant",
+        "role": "Sound Design / Music"
+      }
+    ]
+  },
+  {
+    "slug": "minnesota-lottery-jared-allen",
+    "title": "Minnesota Lottery",
+    "subtitle": "Jared Allen",
+    "type": "Animation",
+    "gridImage": {
+      "src": "//i.imgur.com/eSYfIAj.jpg",
+      "width": 278,
+      "height": 279,
+      "alt": "Image from Blame Your Brother's Jared Allen Animation for the Minnesota Lottery"
+    },
+    "teaser": false,
+    "description": "Get pumped! It's game time. We're stoked to share a series of spots we created with Minnesota Vikings Jared Allen!",
+    "hero": [
+      {
+        "type": "iframe",
+        "src": "//player.vimeo.com/video/601320972?title=0&byline=0&portrait=0"
+      }
+    ],
+    "credits": [
+      {
+        "name": "BYB",
+        "role": "Directed by"
+      },
+      {
+        "name": "Naeim Khavari",
+        "role": "Storyboard"
+      },
+      {
+        "name": "Tom Berger",
+        "role": "Editor"
+      },
+      {
+        "name": "Rob Bryson, Geoff Donovan",
+        "role": "Layout Design"
+      },
+      {
+        "name": "Mathew Jacob",
+        "role": "Prop Design"
+      },
+      {
+        "name": "Aaron Hong, Grace Yoo, Geoff Donovan",
+        "role": "Background Paint"
+      },
+      {
+        "name": "Amanda Martin, Darren Donovan",
+        "role": "Character design"
+      },
+      {
+        "name": "Amanda Martin, Haley Rose, Ruggiero Abbruzzese, Doug Macklin",
+        "role": "Character Posing/Clean"
+      },
+      {
+        "name": "Darren Donovan ",
+        "role": "Animation Supervisor"
+      },
+      {
+        "name": " Rony Torres ,Gerry Duchemin, Alejandro Sequra, Alejandro Reyes, Cai Beschorner, Darren Donovan, Nicole Kozak, Victor Bolo",
+        "role": "Character Animation"
+      },
+      {
+        "name": "Nicole Kozack, Christian Villecanas, Brentton Barkman, Mike Hogue,  João Carrilho",
+        "role": "Clean Up Animation"
+      },
+      {
+        "name": "Sheldon Lisoy",
+        "role": "Visual FX / Compositing"
+      },
+      {
+        "name": "Phil Scarano",
+        "role": "Colour Edit/Title Animation"
+      },
+      {
+        "name": "Postier Studios - Sebastien Breton, Brian Gallant",
+        "role": "Sound Design / Music"
+      },
+      {
+        "name": "Periscope",
+        "role": "Agency"
+      },
+      {
+        "name": "John Pesavent",
+        "role": "Agency Producer"
+      }
+    ]
+  },
+  {
     "slug": "colgate-man-who-lost-his-smile",
     "title": "Colgate",
     "subtitle": "The Man Who Lost His Smile",
@@ -98,14 +356,14 @@
     ]
   },
   {
-    "slug": "byb-reel-2019",
+    "slug": "byb-reel",
     "title": "BYB Reel",
     "type": "Animation",
     "gridImage": {
-      "src": "//i.imgur.com/uBSZN0z.jpg",
+      "src": "//i.imgur.com/CD2385o.jpg",
       "width": 278,
       "height": 279,
-      "alt": "Image from Blame Your Brother's 2020 reel"
+      "alt": "Image from Blame Your Brother's reel"
     },
     "teaser": false,
     "description": "We've been incredibly fortunate to work with a group of talented artists / friends over the past few years. As a result, I'm proud to share a compilation of the hard work and dedication.",
