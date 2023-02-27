@@ -19,7 +19,7 @@
   "devDependencies": {
     "bower": "^1.8.14",
     "event-stream": "3.1.7",
-    "gulp": "3.6.2",
+    "gulp": "3.9.1",
     "gulp-build": "0.5.3",
     "gulp-clean": "0.2.4",
     "gulp-connect": "1.0.10",
